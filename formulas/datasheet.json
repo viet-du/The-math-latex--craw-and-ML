@@ -1,0 +1,2366 @@
+[
+  {
+    "formula": "x^{1} = x",
+    "label": null,
+    "description": null,
+    "latex": "x^{1} = x"
+  },
+  {
+    "formula": "x^{0} = 1",
+    "label": null,
+    "description": null,
+    "latex": "x^{0} = 1"
+  },
+  {
+    "formula": "x^{-1} = 1/x",
+    "label": null,
+    "description": null,
+    "latex": "x^{-1} = 1/x"
+  },
+  {
+    "formula": "x^{m}x^{n} = x^{m+n}",
+    "label": null,
+    "description": null,
+    "latex": "x^{m}x^{n} = x^{m+n}"
+  },
+  {
+    "formula": "x^{m}/x^{n} = x^{m-n}",
+    "label": null,
+    "description": null,
+    "latex": "x^{m}/x^{n} = x^{m-n}"
+  },
+  {
+    "formula": "(x^{m})^{n} = x^{mn}",
+    "label": null,
+    "description": null,
+    "latex": "(x^{m})^{n} = x^{mn}"
+  },
+  {
+    "formula": "(xy)^{n} = x^{n}y^{n}",
+    "label": null,
+    "description": null,
+    "latex": "(xy)^{n} = x^{n}y^{n}"
+  },
+  {
+    "formula": "(x/y)^{n} = x^{n}/y^{n}",
+    "label": null,
+    "description": null,
+    "latex": "(x/y)^{n} = x^{n}/y^{n}"
+  },
+  {
+    "formula": "x^{-n} = 1/x^{n}",
+    "label": null,
+    "description": null,
+    "latex": "x^{-n} = 1/x^{n}"
+  },
+  {
+    "formula": "x^{1} = x",
+    "label": null,
+    "description": null,
+    "latex": "x^{1} = x"
+  },
+  {
+    "formula": "x^{0} = 1",
+    "label": null,
+    "description": null,
+    "latex": "x^{0} = 1"
+  },
+  {
+    "formula": "x^{-1} = 1/x",
+    "label": null,
+    "description": null,
+    "latex": "x^{-1} = 1/x"
+  },
+  {
+    "formula": "x^{1} = x",
+    "label": null,
+    "description": null,
+    "latex": "x^{1} = x"
+  },
+  {
+    "formula": "6^{1}=6",
+    "label": null,
+    "description": null,
+    "latex": "6^{1}=6"
+  },
+  {
+    "formula": "x^{0} = 1",
+    "label": null,
+    "description": null,
+    "latex": "x^{0} = 1"
+  },
+  {
+    "formula": "7^{0}=1",
+    "label": null,
+    "description": null,
+    "latex": "7^{0}=1"
+  },
+  {
+    "formula": "x^{-1} = 1/x",
+    "label": null,
+    "description": null,
+    "latex": "x^{-1} = 1/x"
+  },
+  {
+    "formula": "4^{-1}=\\frac{1}{4}",
+    "label": null,
+    "description": null,
+    "latex": "4^{-1}=\\frac{1}{4}"
+  },
+  {
+    "formula": "x^{m}x^{n} = xm+n",
+    "label": null,
+    "description": null,
+    "latex": "x^{m}x^{n} = xm+n"
+  },
+  {
+    "formula": "x^{2}x^{3}=x^{2+3}=x^{5}",
+    "label": null,
+    "description": null,
+    "latex": "x^{2}x^{3}=x^{2+3}=x^{5}"
+  },
+  {
+    "formula": "\\frac{x^{m}}{x^{n}} = xm-n",
+    "label": null,
+    "description": null,
+    "latex": "\\frac{x^{m}}{x^{n}} = xm-n"
+  },
+  {
+    "formula": "x^{6}/x^{2} = x^{6}-2 = x^{4}",
+    "label": null,
+    "description": null,
+    "latex": "x^{6}/x^{2} = x^{6}-2 = x^{4}"
+  },
+  {
+    "formula": "(x^{m})^{n} = xmn",
+    "label": null,
+    "description": null,
+    "latex": "(x^{m})^{n} = xmn"
+  },
+  {
+    "formula": "(x^{2})3 = x^{2}\\times 3 = x^{6}",
+    "label": null,
+    "description": null,
+    "latex": "(x^{2})3 = x^{2}\\times 3 = x^{6}"
+  },
+  {
+    "formula": "(xy)^{n} = xnyn",
+    "label": null,
+    "description": null,
+    "latex": "(xy)^{n} = xnyn"
+  },
+  {
+    "formula": "(xy)3 = x^{3}y^{3}",
+    "label": null,
+    "description": null,
+    "latex": "(xy)3 = x^{3}y^{3}"
+  },
+  {
+    "formula": "(\\frac{x}{y})^{n} = xn/yn",
+    "label": null,
+    "description": null,
+    "latex": "(\\frac{x}{y})^{n} = xn/yn"
+  },
+  {
+    "formula": "(x/y)2 = x^{2} / y^{2}",
+    "label": null,
+    "description": null,
+    "latex": "(x/y)2 = x^{2} / y^{2}"
+  },
+  {
+    "formula": "x^{-n} = 1/xn",
+    "label": null,
+    "description": null,
+    "latex": "x^{-n} = 1/xn"
+  },
+  {
+    "formula": "x-3 = 1/x^{3}",
+    "label": null,
+    "description": null,
+    "latex": "x-3 = 1/x^{3}"
+  },
+  {
+    "formula": "x^{m/n} = n\\sqrt{}xm = (n\\sqrt{}x )m",
+    "label": null,
+    "description": null,
+    "latex": "x^{m/n} = n\\sqrt{}xm = (n\\sqrt{}x )m"
+  },
+  {
+    "formula": "x\\\\frac{2}{3} = 3\\sqrt{}x^{2} = (3\\sqrt{}x )2",
+    "label": null,
+    "description": null,
+    "latex": "x\\\\frac{2}{3} = 3\\sqrt{}x^{2} = (3\\sqrt{}x )2"
+  },
+  {
+    "formula": "In this example: 8^{2} = 8 \\times 8 = 64",
+    "label": null,
+    "description": null,
+    "latex": "In this example: 8^{2} = 8 \\times 8 = 64"
+  },
+  {
+    "formula": "The first three laws above (x^{1} = x, x^{0} = 1 and x^{-1} = 1/x) are just part of the natural sequence of exponents. Have a look at this:",
+    "label": null,
+    "description": null,
+    "latex": "The first three laws above (x^{1} = x, x^{0} = 1 and x^{-1} = 1/x) are just part of the natural sequence of exponents. Have a look at this:"
+  },
+  {
+    "formula": "With x^{m}x^{n}, how many times do we end up multiplying \"x\"? Answer: first \"m\" times, then by another \"n\" times, for a total of \"m+n\" times.",
+    "label": null,
+    "description": null,
+    "latex": "With x^{m}x^{n}, how many times do we end up multiplying \"x\"? Answer: first \"m\" times, then by another \"n\" times, for a total of \"m+n\" times."
+  },
+  {
+    "formula": "(Remember that x/x = 1, so every time you see an x \"above the line\" and one \"below the line\" you can cancel them out.)",
+    "label": null,
+    "description": null,
+    "latex": "(Remember that x/x = 1, so every time you see an x \"above the line\" and one \"below the line\" you can cancel them out.)"
+  },
+  {
+    "formula": "This law can also show you why x^{0}=1 :",
+    "label": null,
+    "description": null,
+    "latex": "This law can also show you why x^{0}=1 :"
+  },
+  {
+    "formula": "x^{1/n} = The n-th Root of x",
+    "label": null,
+    "description": null,
+    "latex": "x^{1/n} = The n-th Root of x"
+  },
+  {
+    "formula": "And so a fractional exponent like 4^{\\\\frac{3}{2}} is really saying to do a cube (3) and a square root (\\\\frac{1}{2}), in any order, like this:",
+    "label": null,
+    "description": null,
+    "latex": "And so a fractional exponent like 4^{\\\\frac{3}{2}} is really saying to do a cube (3) and a square root (\\\\frac{1}{2}), in any order, like this:"
+  },
+  {
+    "formula": "Just remember from fractions that m/n = m \\times (1/n):",
+    "label": null,
+    "description": null,
+    "latex": "Just remember from fractions that m/n = m \\times (1/n):"
+  },
+  {
+    "formula": "The order does not matter, so it also works for m/n = (1/n) \\times m:",
+    "label": null,
+    "description": null,
+    "latex": "The order does not matter, so it also works for m/n = (1/n) \\times m:"
+  },
+  {
+    "formula": "A fractional exponent like 1/n means to take the nth root: x^{(1n)} = n\\sqrt{}x",
+    "label": null,
+    "description": null,
+    "latex": "A fractional exponent like 1/n means to take the nth root: x^{(1n)} = n\\sqrt{}x"
+  },
+  {
+    "formula": "Let us try that again, but with an exponent of one-quarter (\\\\frac{1}{4}):",
+    "label": null,
+    "description": null,
+    "latex": "Let us try that again, but with an exponent of one-quarter (\\\\frac{1}{4}):"
+  },
+  {
+    "formula": "x^{1/n} = The n-th Root of x",
+    "label": null,
+    "description": null,
+    "latex": "x^{1/n} = The n-th Root of x"
+  },
+  {
+    "formula": "What about a fractional exponent like 4^{\\\\frac{3}{2}} ?",
+    "label": null,
+    "description": null,
+    "latex": "What about a fractional exponent like 4^{\\\\frac{3}{2}} ?"
+  },
+  {
+    "formula": "That is really saying to do a cube (3) and a square root (\\\\frac{1}{2}), in any order.",
+    "label": null,
+    "description": null,
+    "latex": "That is really saying to do a cube (3) and a square root (\\\\frac{1}{2}), in any order."
+  },
+  {
+    "formula": "a fraction (1/n) part",
+    "label": null,
+    "description": null,
+    "latex": "a fraction (1/n) part"
+  },
+  {
+    "formula": "So, because m/n = m \\times (1/n) we can do this:",
+    "label": null,
+    "description": null,
+    "latex": "So, because m/n = m \\times (1/n) we can do this:"
+  },
+  {
+    "formula": "x^{m/n} = x^{(m \\times 1/n)} = (x^{m})^{1/n} = n\\sqrt{}x^{m}",
+    "label": null,
+    "description": null,
+    "latex": "x^{m/n} = x^{(m \\times 1/n)} = (x^{m})^{1/n} = n\\sqrt{}x^{m}"
+  },
+  {
+    "formula": "The order does not matter, so it also works for m/n = (1/n) \\times m:",
+    "label": null,
+    "description": null,
+    "latex": "The order does not matter, so it also works for m/n = (1/n) \\times m:"
+  },
+  {
+    "formula": "x^{m/n} = x^{(1/n \\times m)} = (x^{1/n})^{m} = (n\\sqrt{}x )^{m}",
+    "label": null,
+    "description": null,
+    "latex": "x^{m/n} = x^{(1/n \\times m)} = (x^{1/n})^{m} = (n\\sqrt{}x )^{m}"
+  },
+  {
+    "formula": "Start with m=1 and n=1, then slowly increase n so that you can see \\\\frac{1}{2}, \\\\frac{1}{3} and \\\\frac{1}{4}",
+    "label": null,
+    "description": null,
+    "latex": "Start with m=1 and n=1, then slowly increase n so that you can see \\\\frac{1}{2}, \\\\frac{1}{3} and \\\\frac{1}{4}"
+  },
+  {
+    "formula": "Then try m=2 and slide n up and down to see fractions like \\\\frac{2}{3} and so on",
+    "label": null,
+    "description": null,
+    "latex": "Then try m=2 and slide n up and down to see fractions like \\\\frac{2}{3} and so on"
+  },
+  {
+    "formula": "a^{2} + b^{2} = c^{2}",
+    "label": null,
+    "description": null,
+    "latex": "a^{2} + b^{2} = c^{2}"
+  },
+  {
+    "formula": "Example: \\sqrt{}-4 = 2i, where i is the unit imaginary number.",
+    "label": null,
+    "description": null,
+    "latex": "Example: \\sqrt{}-4 = 2i, where i is the unit imaginary number."
+  },
+  {
+    "formula": "n\\sqrt{}ab = n\\sqrt{}a \\times n\\sqrt{}b",
+    "label": null,
+    "description": null,
+    "latex": "n\\sqrt{}ab = n\\sqrt{}a \\times n\\sqrt{}b"
+  },
+  {
+    "formula": "n\\sqrt{}a/b = n\\sqrt{}a / n\\sqrt{}b",
+    "label": null,
+    "description": null,
+    "latex": "n\\sqrt{}a/b = n\\sqrt{}a / n\\sqrt{}b"
+  },
+  {
+    "formula": "n\\sqrt{}a^{n} + b^{n} \\ne a + b",
+    "label": null,
+    "description": null,
+    "latex": "n\\sqrt{}a^{n} + b^{n} \\ne a + b"
+  },
+  {
+    "formula": "An exponent on one side of \"=\" can be turned into a root on the other side of \"=\":",
+    "label": null,
+    "description": null,
+    "latex": "An exponent on one side of \"=\" can be turned into a root on the other side of \"=\":"
+  },
+  {
+    "formula": "If a^{n} = b then a = n\\sqrt{}b",
+    "label": null,
+    "description": null,
+    "latex": "If a^{n} = b then a = n\\sqrt{}b"
+  },
+  {
+    "formula": "n\\sqrt{}a^{m} = (n\\sqrt{}a )^{m}",
+    "label": null,
+    "description": null,
+    "latex": "n\\sqrt{}a^{m} = (n\\sqrt{}a )^{m}"
+  },
+  {
+    "formula": "n\\sqrt{}a^{m} = a^{mn}",
+    "label": null,
+    "description": null,
+    "latex": "n\\sqrt{}a^{m} = a^{mn}"
+  },
+  {
+    "formula": "This works because the nth root is the same as an exponent of (1/n)",
+    "label": null,
+    "description": null,
+    "latex": "This works because the nth root is the same as an exponent of (1/n)"
+  },
+  {
+    "formula": "n\\sqrt{}a = a^{1n}",
+    "label": null,
+    "description": null,
+    "latex": "n\\sqrt{}a = a^{1n}"
+  },
+  {
+    "formula": "i^{2 }= -1",
+    "label": null,
+    "description": null,
+    "latex": "i^{2 }= -1"
+  },
+  {
+    "formula": "z = a + bi",
+    "label": null,
+    "description": null,
+    "latex": "z = a + bi"
+  },
+  {
+    "formula": "i is the unit imaginary number = \\sqrt{}-1",
+    "label": null,
+    "description": null,
+    "latex": "i is the unit imaginary number = \\sqrt{}-1"
+  },
+  {
+    "formula": "Re(z) = a",
+    "label": null,
+    "description": null,
+    "latex": "Re(z) = a"
+  },
+  {
+    "formula": "Im(z) = b",
+    "label": null,
+    "description": null,
+    "latex": "Im(z) = b"
+  },
+  {
+    "formula": "z^{\\\\cdot } = a - bi",
+    "label": null,
+    "description": null,
+    "latex": "z^{\\\\cdot } = a - bi"
+  },
+  {
+    "formula": "|z| = \\sqrt{}(a^{2} + b^{2})",
+    "label": null,
+    "description": null,
+    "latex": "|z| = \\sqrt{}(a^{2} + b^{2})"
+  },
+  {
+    "formula": "Arg(z) = tan^{-1}(b/a)",
+    "label": null,
+    "description": null,
+    "latex": "Arg(z) = tan^{-1}(b/a)"
+  },
+  {
+    "formula": "(a+bi) + (c+di) = (a+c) + (b+d)i",
+    "label": null,
+    "description": null,
+    "latex": "(a+bi) + (c+di) = (a+c) + (b+d)i"
+  },
+  {
+    "formula": "(a+bi)(c+di) = (ac-bd) + (ad+bc)i",
+    "label": null,
+    "description": null,
+    "latex": "(a+bi)(c+di) = (ac-bd) + (ad+bc)i"
+  },
+  {
+    "formula": "Just for fun, let's use the method to calculate i^{2}",
+    "label": null,
+    "description": null,
+    "latex": "Just for fun, let's use the method to calculate i^{2}"
+  },
+  {
+    "formula": "And that agrees nicely with the definition that i^{2 }= -1",
+    "label": null,
+    "description": null,
+    "latex": "And that agrees nicely with the definition that i^{2 }= -1"
+  },
+  {
+    "formula": "(4 - 5i)(4 + 5i) = 16 + 20i - 20i - 25i^{2}",
+    "label": null,
+    "description": null,
+    "latex": "(4 - 5i)(4 + 5i) = 16 + 20i - 20i - 25i^{2}"
+  },
+  {
+    "formula": "(4 - 5i)(4 + 5i) = 16 - 25i^{2}",
+    "label": null,
+    "description": null,
+    "latex": "(4 - 5i)(4 + 5i) = 16 - 25i^{2}"
+  },
+  {
+    "formula": "Also i^{2} = -1 :",
+    "label": null,
+    "description": null,
+    "latex": "Also i^{2} = -1 :"
+  },
+  {
+    "formula": "(4 - 5i)(4 + 5i) = 16 + 25",
+    "label": null,
+    "description": null,
+    "latex": "(4 - 5i)(4 + 5i) = 16 + 25"
+  },
+  {
+    "formula": "(4 - 5i)(4 + 5i) = 4^{2} + 5^{2}",
+    "label": null,
+    "description": null,
+    "latex": "(4 - 5i)(4 + 5i) = 4^{2} + 5^{2}"
+  },
+  {
+    "formula": "\\\\frac{0}{0} is like asking \"how many 0s in 0?\"",
+    "label": null,
+    "description": null,
+    "latex": "\\\\frac{0}{0} is like asking \"how many 0s in 0?\""
+  },
+  {
+    "formula": "So \\\\frac{0}{0} is indeterminate (it could be any value).",
+    "label": null,
+    "description": null,
+    "latex": "So \\\\frac{0}{0} is indeterminate (it could be any value)."
+  },
+  {
+    "formula": "2^{4} = 2 \\times 2 \\times 2 \\times 2 = 16",
+    "label": null,
+    "description": null,
+    "latex": "2^{4} = 2 \\times 2 \\times 2 \\times 2 = 16"
+  },
+  {
+    "formula": "In 8^{2} the \"2\" says to use 8 twice in a multiplication,",
+    "label": null,
+    "description": null,
+    "latex": "In 8^{2} the \"2\" says to use 8 twice in a multiplication,"
+  },
+  {
+    "formula": "so 8^{2} = 8 \\times 8 = 64",
+    "label": null,
+    "description": null,
+    "latex": "so 8^{2} = 8 \\times 8 = 64"
+  },
+  {
+    "formula": "In words: 8^{2} could be called \"8 to the power 2\" or \"8 to the second power\", or simply \"8 squared\"",
+    "label": null,
+    "description": null,
+    "latex": "In words: 8^{2} could be called \"8 to the power 2\" or \"8 to the second power\", or simply \"8 squared\""
+  },
+  {
+    "formula": "a^{n} tells you to multiply a by itself,so there are n of those a's:",
+    "label": null,
+    "description": null,
+    "latex": "a^{n} tells you to multiply a by itself,so there are n of those a's:"
+  },
+  {
+    "formula": "Sometimes people use the ^ symbol (above the 6 on your keyboard), as it is easy to type.",
+    "label": null,
+    "description": null,
+    "latex": "Sometimes people use the ^ symbol (above the 6 on your keyboard), as it is easy to type."
+  },
+  {
+    "formula": "Sometimes people use the ^ symbol (above the 6 on your keyboard), as it is easy to type.",
+    "label": null,
+    "description": null,
+    "latex": "Sometimes people use the ^ symbol (above the 6 on your keyboard), as it is easy to type."
+  },
+  {
+    "formula": "Most calculators use \"E\" or \"e\", so 6E+5 means 6 \\times 10^{5}. \"E\" stands for exponent.",
+    "label": null,
+    "description": null,
+    "latex": "Most calculators use \"E\" or \"e\", so 6E+5 means 6 \\times 10^{5}. \"E\" stands for exponent."
+  },
+  {
+    "formula": "= 5x\" height=\"123\" width=\"188\">",
+    "label": null,
+    "description": null,
+    "latex": "= 5x\" height=\"123\" width=\"188\">"
+  },
+  {
+    "formula": "Use the buttons, or type formulas like 3\\\\cdot \\\\sqrt{2} or pi/2",
+    "label": null,
+    "description": null,
+    "latex": "Use the buttons, or type formulas like 3\\\\cdot \\\\sqrt{2} or pi/2"
+  },
+  {
+    "formula": "\\begin{equation} A = \\pi r^2 = \\frac{\\pi d^2}{4} \\end{equation}",
+    "label": "Geometry",
+    "description": "Area of a circle",
+    "latex": "\\begin{equation} A = \\pi r^2 = \\frac{\\pi d^2}{4} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} A = b h \\end{equation}",
+    "label": "Geometry",
+    "description": "Area of a parallelogram",
+    "latex": "\\begin{equation} A = b h \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} A = l w \\end{equation}",
+    "label": "Geometry",
+    "description": "Area of a rectangle",
+    "latex": "\\begin{equation} A = l w \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} A = \\frac{3 \\sqrt{3}}{2} \\, s^2 \\approx 2.598076211 s^2 \\end{equation}",
+    "label": "Geometry",
+    "description": "Area of a regular hexagon",
+    "latex": "\\begin{equation} A = \\frac{3 \\sqrt{3}}{2} \\, s^2 \\approx 2.598076211 s^2 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} A = 2 \\left( 1 + \\sqrt{2} \\right) s^2 \\approx 4.828427125 s^2 \\end{equation}",
+    "label": "Geometry",
+    "description": "Area of a regular octagon",
+    "latex": "\\begin{equation} A = 2 \\left( 1 + \\sqrt{2} \\right) s^2 \\approx 4.828427125 s^2 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} A = \\frac{n l^2 }{4} \\cot \\left( \\frac{\\pi}{n} \\right) = \\frac{p^2}{4n} \\cot \\left( \\frac{\\pi}{n} \\right) \\end{equation}",
+    "label": "Geometry",
+    "description": "Area of a regular polygon",
+    "latex": "\\begin{equation} A = \\frac{n l^2 }{4} \\cot \\left( \\frac{\\pi}{n} \\right) = \\frac{p^2}{4n} \\cot \\left( \\frac{\\pi}{n} \\right) \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} A = s^2 \\end{equation}",
+    "label": "Geometry",
+    "description": "Area of a square",
+    "latex": "\\begin{equation} A = s^2 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} A = \\frac{a + b}{2} \\, h \\end{equation}",
+    "label": "Geometry",
+    "description": "Area of a trapezoid",
+    "latex": "\\begin{equation} A = \\frac{a + b}{2} \\, h \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} A = \\frac{1}{2} b h \\end{equation}",
+    "label": "Geometry",
+    "description": "Area of a trapezoid",
+    "latex": "\\begin{equation} A = \\frac{1}{2} b h \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} A = \\pi a b \\end{equation}",
+    "label": "Geometry",
+    "description": "Area of an ellipse",
+    "latex": "\\begin{equation} A = \\pi a b \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} A = \\pi r \\left( r + s \\right) = \\pi r \\left( r + \\sqrt{r^2 + h^2} \\right) \\end{equation}",
+    "label": "Geometry",
+    "description": "Surface area of a cone",
+    "latex": "\\begin{equation} A = \\pi r \\left( r + s \\right) = \\pi r \\left( r + \\sqrt{r^2 + h^2} \\right) \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} A = 6 s^2 \\end{equation}",
+    "label": "Geometry",
+    "description": "Surface area of a cube",
+    "latex": "\\begin{equation} A = 6 s^2 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} A = 2 \\pi r \\left( r + h \\right) \\end{equation}",
+    "label": "Geometry",
+    "description": "Surface area of a cylinder",
+    "latex": "\\begin{equation} A = 2 \\pi r \\left( r + h \\right) \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} A = 2 \\left( l w + l h + w h \\right) \\end{equation}",
+    "label": "Geometry",
+    "description": "Surface area of a rectangular prism",
+    "latex": "\\begin{equation} A = 2 \\left( l w + l h + w h \\right) \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} A = \\sqrt{3} s^2 \\end{equation}",
+    "label": "Geometry",
+    "description": "Surface area of a regular tetrahedron",
+    "latex": "\\begin{equation} A = \\sqrt{3} s^2 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} A = 4 \\pi r^2 = \\pi d^2 \\end{equation}",
+    "label": "Geometry",
+    "description": "Surface area of a sphere",
+    "latex": "\\begin{equation} A = 4 \\pi r^2 = \\pi d^2 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} (f \\circ g)' (x) = f'(g) \\, g'(x) \\end{equation}",
+    "label": "Calculus",
+    "description": "Chain rule",
+    "latex": "\\begin{equation} (f \\circ g)' (x) = f'(g) \\, g'(x) \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\frac {du}{dx} = \\frac {du}{dv} \\, \\frac {dv}{dx} \\end{equation}",
+    "label": "Calculus",
+    "description": "Chain rule (Leibniz notation)",
+    "latex": "\\begin{equation} \\frac {du}{dx} = \\frac {du}{dv} \\, \\frac {dv}{dx} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} f'(x\\!=\\!a)=\\lim_{h \\to 0}\\frac{f(a + h) - f(a)}{h} \\end{equation}",
+    "label": "Calculus",
+    "description": "Derivative definition",
+    "latex": "\\begin{equation} f'(x\\!=\\!a)=\\lim_{h \\to 0}\\frac{f(a + h) - f(a)}{h} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x^n dx = \\frac{x^{n+1}}{n+1} + C \\qquad\\qquad n \\neq -1 \\end{equation}",
+    "label": "Other",
+    "description": "Inverse power rule",
+    "latex": "\\begin{equation} \\int x^n dx = \\frac{x^{n+1}}{n+1} + C \\qquad\\qquad n \\neq -1 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{align} f(x) &= a \\, g(x) + b \\, h(x) \\\\\\ f'(x) &= a \\, g'(x) + b \\, h'(x) \\end{align}",
+    "label": "Calculus",
+    "description": "Linearity of differentiation",
+    "latex": "\\begin{align} f(x) &= a \\, g(x) + b \\, h(x) \\\\\\ f'(x) &= a \\, g'(x) + b \\, h'(x) \\end{align}"
+  },
+  {
+    "formula": "\\begin{equation} \\frac{d(a \\, u+ b \\, v)}{dx} = a \\, \\frac{du}{dx} +b\\frac{dv}{dx} \\end{equation}",
+    "label": "Calculus",
+    "description": "Linearity of differentiation (Leibniz notation)",
+    "latex": "\\begin{equation} \\frac{d(a \\, u+ b \\, v)}{dx} = a \\, \\frac{du}{dx} +b\\frac{dv}{dx} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int (a \\, g(x) + b \\, h(x))\\, dx = a \\int g(x) \\, dx + b \\int h(x) \\, dx \\end{equation}",
+    "label": "Calculus",
+    "description": "Linearity of integration",
+    "latex": "\\begin{equation} \\int (a \\, g(x) + b \\, h(x))\\, dx = a \\int g(x) \\, dx + b \\int h(x) \\, dx \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\frac{d}{dx} x^n = n x^{n-1} \\qquad\\qquad n \\neq 0 \\end{equation}",
+    "label": "Other",
+    "description": "Power rule",
+    "latex": "\\begin{equation} \\frac{d}{dx} x^n = n x^{n-1} \\qquad\\qquad n \\neq 0 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\left[ f(x) \\, g(x) \\right]'=f'(x) \\, g(x) + f(x) \\, g'(x) \\end{equation}",
+    "label": "Calculus",
+    "description": "Product rule",
+    "latex": "\\begin{equation} \\left[ f(x) \\, g(x) \\right]'=f'(x) \\, g(x) + f(x) \\, g'(x) \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\dfrac{d}{dx}(u \\, v) = \\dfrac{du}{dx} \\, v + u \\, \\dfrac{dv}{dx} \\end{equation}",
+    "label": "Calculus",
+    "description": "Product rule (Leibniz notation)",
+    "latex": "\\begin{equation} \\dfrac{d}{dx}(u \\, v) = \\dfrac{du}{dx} \\, v + u \\, \\dfrac{dv}{dx} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} f'(x) = \\left[ \\frac{g(x)}{h(x)} \\right]' = \\frac{g'(x) \\, h(x) - g(x) \\, h'(x)}{[h(x)]^2} \\end{equation}",
+    "label": "Calculus",
+    "description": "Quotient rule",
+    "latex": "\\begin{equation} f'(x) = \\left[ \\frac{g(x)}{h(x)} \\right]' = \\frac{g'(x) \\, h(x) - g(x) \\, h'(x)}{[h(x)]^2} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{align} &S = \\sum_{i=1}^{n} f(x_i^*)(x_{i} - x_{i-1}) \\qquad x_{i-1}\\le x_i^* \\le x_i \\\\\\ &\\text{Left Riemann sum: } x_i^* = x_{i-1} \\text{ for all } i \\\\\\ &\\text{Right Riemann sum: } x_i^* = x_{i} \\text{ for all } i \\\\\\ &\\text{Middle Riemann sum: } x_i^* = \\frac{1}{2} \\left( x_i + x_{i-1} \\right) \\text{ for all } i \\end{align}",
+    "label": "Calculus",
+    "description": "Riemann sum",
+    "latex": "\\begin{align} &S = \\sum_{i=1}^{n} f(x_i^*)(x_{i} - x_{i-1}) \\qquad x_{i-1}\\le x_i^* \\le x_i \\\\\\ &\\text{Left Riemann sum: } x_i^* = x_{i-1} \\text{ for all } i \\\\\\ &\\text{Right Riemann sum: } x_i^* = x_{i} \\text{ for all } i \\\\\\ &\\text{Middle Riemann sum: } x_i^* = \\frac{1}{2} \\left( x_i + x_{i-1} \\right) \\text{ for all } i \\end{align}"
+  },
+  {
+    "formula": "\\begin{equation} \\int_a^b f(x) \\, dx = F(b) - F(a) \\end{equation}",
+    "label": "Calculus",
+    "description": "Second fundamental theorem of calculus",
+    "latex": "\\begin{equation} \\int_a^b f(x) \\, dx = F(b) - F(a) \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int_a^b f(x) \\, dx \\approx \\frac{b-a}{6} \\left[ f(a) + 4f \\left( \\frac{a+b}{2} \\right) + f(b) \\right] \\end{equation}",
+    "label": "Calculus",
+    "description": "Simpson's rule",
+    "latex": "\\begin{equation} \\int_a^b f(x) \\, dx \\approx \\frac{b-a}{6} \\left[ f(a) + 4f \\left( \\frac{a+b}{2} \\right) + f(b) \\right] \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{Arithmetic Sum for Finite} S_{n}=\\frac{n}{2}(a_{1}+a_{n}) \\end{equation}",
+    "label": "Algebra",
+    "description": "Arithmetic Sum for Finite",
+    "latex": "\\begin{equation} \\label{Arithmetic Sum for Finite} S_{n}=\\frac{n}{2}(a_{1}+a_{n}) \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{Geometric Sum of a Finite} S_{n}=\\frac{a_{1}(1-r^{n})}{1-r} \\end{equation}",
+    "label": "Algebra",
+    "description": "Geometric Sum of a Finite",
+    "latex": "\\begin{equation} \\label{Geometric Sum of a Finite} S_{n}=\\frac{a_{1}(1-r^{n})}{1-r} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{Geometric Sum of a Finite} S_{n}=\\frac{a_{1}-r\\cdot a_{n}}{1-r} \\end{equation}",
+    "label": "Algebra",
+    "description": "Geometric Sum of a Finite",
+    "latex": "\\begin{equation} \\label{Geometric Sum of a Finite} S_{n}=\\frac{a_{1}-r\\cdot a_{n}}{1-r} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{Geometric Sum of an Infinte} S_{n}=\\frac{a_{1}}{1-r} \\end{equation}",
+    "label": "Algebra",
+    "description": "Geometric Sum of an Infinte",
+    "latex": "\\begin{equation} \\label{Geometric Sum of an Infinte} S_{n}=\\frac{a_{1}}{1-r} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{Arithmetic Formula with a1} a_{n}=a_{1}+(n-1)d \\end{equation}",
+    "label": "Algebra",
+    "description": "Arithmetic Formula with a1",
+    "latex": "\\begin{equation} \\label{Arithmetic Formula with a1} a_{n}=a_{1}+(n-1)d \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{Arithmetic Formula with n&m} a_{n}=a_{m}+(n-m)d \\end{equation}",
+    "label": "Algebra",
+    "description": "Arithmetic Formula with n&m",
+    "latex": "\\begin{equation} \\label{Arithmetic Formula with n&m} a_{n}=a_{m}+(n-m)d \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{Arithmetic Sum for Finite} S_{n}=\\frac{n}{2}(2a_{1}+(n-1)d) \\end{equation}",
+    "label": "Algebra",
+    "description": "Arithmetic Sum for Finite",
+    "latex": "\\begin{equation} \\label{Arithmetic Sum for Finite} S_{n}=\\frac{n}{2}(2a_{1}+(n-1)d) \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{Combinations Calculation} _{n}C_{r}=\\frac{n!}{r!(n-r)!} \\end{equation}",
+    "label": "Algebra",
+    "description": "Combinations Calculation",
+    "latex": "\\begin{equation} \\label{Combinations Calculation} _{n}C_{r}=\\frac{n!}{r!(n-r)!} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{Geometric Formula with a1} a_{n}=a_{1}\\cdot r^{n-1} \\end{equation}",
+    "label": "Algebra",
+    "description": "Geometric Formula with a1",
+    "latex": "\\begin{equation} \\label{Geometric Formula with a1} a_{n}=a_{1}\\cdot r^{n-1} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{Geometric Formula with n&m} a_{n}=a_{m}\\cdot r^{n-1} \\end{equation}",
+    "label": "Algebra",
+    "description": "Geometric Formula with n&m",
+    "latex": "\\begin{equation} \\label{Geometric Formula with n&m} a_{n}=a_{m}\\cdot r^{n-1} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} c_r = \\frac{1}{2}[f(x+) + f(x-)] \\end{equation}",
+    "label": "Calculus",
+    "description": "Average of left-hand and right-hand limits",
+    "latex": "\\begin{equation} c_r = \\frac{1}{2}[f(x+) + f(x-)] \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int _{-1}^{1}P_{m}(x)P_{n}(x)\\,dx={\\frac{2}{2n+1}}\\delta _{mn} \\end{equation}",
+    "label": "Calculus",
+    "description": "Orthogonality of Legendre polynomials",
+    "latex": "\\begin{equation} \\int _{-1}^{1}P_{m}(x)P_{n}(x)\\,dx={\\frac{2}{2n+1}}\\delta _{mn} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{legendiffeq} (1-x^{2})\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2} - 2x\\frac{\\mathrm{d}y}{\\mathrm{d}x} + n(n+1)y = 0 \\end{equation}",
+    "label": "Calculus",
+    "description": "Legendre differential equation",
+    "latex": "\\begin{equation} \\label{legendiffeq} (1-x^{2})\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2} - 2x\\frac{\\mathrm{d}y}{\\mathrm{d}x} + n(n+1)y = 0 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{legenpolydef} P_{n}(x) = \\sum_{r=0}^{\\left[ n/2 \\right]}(-1)^{r}\\frac{(2n-2r)!}{2^{n}r!(n-r)!(n-2r)!}x^{n-2r} \\end{equation}",
+    "label": "Calculus",
+    "description": "Legendre polynomial definition",
+    "latex": "\\begin{equation} \\label{legenpolydef} P_{n}(x) = \\sum_{r=0}^{\\left[ n/2 \\right]}(-1)^{r}\\frac{(2n-2r)!}{2^{n}r!(n-r)!(n-2r)!}x^{n-2r} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{legenvals} {\\begin{array}{r|r}n&P_{n}(x)\\\\\\hline 0&1\\\\1&x\\\\2&{\\frac {1}{2}}(3x^{2}-1)\\\\3&{\\frac {1}{2}}(5x^{3}-3x)\\\\4&{\\frac {1}{8}}(35x^{4}-30x^{2}+3) \\end{array}} \\end{equation}",
+    "label": "Trigonometry",
+    "description": "Half-angle cotangent relation in triangle",
+    "latex": "\\begin{equation} \\label{legenvals} {\\begin{array}{r|r}n&P_{n}(x)\\\\\\hline 0&1\\\\1&x\\\\2&{\\frac {1}{2}}(3x^{2}-1)\\\\3&{\\frac {1}{2}}(5x^{3}-3x)\\\\4&{\\frac {1}{8}}(35x^{4}-30x^{2}+3) \\end{array}} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{thrm3.2} P_{n}(x)={\\frac{1}{2^{n}n!}}\\frac{\\mathrm{d}^{n}}{\\mathrm{d}x^{n}}(x^{2}-1)^{n} \\end{equation}",
+    "label": "Trigonometry",
+    "description": "Law of sines",
+    "latex": "\\begin{equation} \\label{thrm3.2} P_{n}(x)={\\frac{1}{2^{n}n!}}\\frac{\\mathrm{d}^{n}}{\\mathrm{d}x^{n}}(x^{2}-1)^{n} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{thrm3.3} P_{n}(x) = \\frac{1}{\\pi}\\int_{0}^{\\pi}(x + \\sqrt{(x^{2}-1)}\\cos{\\theta})^{n}\\,d\\theta \\end{equation}",
+    "label": "Algebra",
+    "description": "Tangent half-angle identity",
+    "latex": "\\begin{equation} \\label{thrm3.3} P_{n}(x) = \\frac{1}{\\pi}\\int_{0}^{\\pi}(x + \\sqrt{(x^{2}-1)}\\cos{\\theta})^{n}\\,d\\theta \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{thrm3.4} {\\begin{aligned} & (i)\\, P_{n}(1)=1\\\\\\ & (ii)\\, P_{n}(-1) = (-1)^{n}\\\\\\ & (iii)\\, P_{n}^{\\;'}(1) = \\frac{1}{2}n(n+1)\\\\\\ & (iv)\\, P_{n}^{\\;'}(-1) = (-1)^{n-1}\\frac{1}{2}n(n+1)\\\\\\ & (v)\\, P_{2n}(0) = (-1)^{n}\\frac{(2n)!}{2^{2n}(n!)^{2}}\\\\\\ & (vi)\\, P_{2n+1}(0) = 0 \\end{aligned}} \\end{equation}",
+    "label": "Algebra",
+    "description": "Pythagorean theorem",
+    "latex": "\\begin{equation} \\label{thrm3.4} {\\begin{aligned} & (i)\\, P_{n}(1)=1\\\\\\ & (ii)\\, P_{n}(-1) = (-1)^{n}\\\\\\ & (iii)\\, P_{n}^{\\;'}(1) = \\frac{1}{2}n(n+1)\\\\\\ & (iv)\\, P_{n}^{\\;'}(-1) = (-1)^{n-1}\\frac{1}{2}n(n+1)\\\\\\ & (v)\\, P_{2n}(0) = (-1)^{n}\\frac{(2n)!}{2^{2n}(n!)^{2}}\\\\\\ & (vi)\\, P_{2n+1}(0) = 0 \\end{aligned}} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{thrm3.6} f(x) = \\sum_{r=0}^{n}\\, c_rP_r(x),\\quad c_r = (r + \\frac{1}{2})\\int_{-1}^{1}f(x)P_r(x)\\, dx \\end{equation}",
+    "label": "Algebra",
+    "description": "Pythagorean theorem (solve for hypotenuse)",
+    "latex": "\\begin{equation} \\label{thrm3.6} f(x) = \\sum_{r=0}^{n}\\, c_rP_r(x),\\quad c_r = (r + \\frac{1}{2})\\int_{-1}^{1}f(x)P_r(x)\\, dx \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{thrm3.8} {\\begin{aligned} & (i)\\, P_n^{\\;'}(x) = \\sum_{r=0}^{\\left[ \\frac{1}{2}(n-1) \\right]}(2n-4r-1)P_{n-2r-1}(x) \\\\& (ii)\\, xP_n(x) = \\frac{n+1}{2n+1}P_{n+1}(x) + \\frac{n}{2n+1}P_{n-1}(x) \\\\& (iii)\\, (n+1)P_{n+1}(x) - (2n+1)xP_n(x) + nP_{n-1}(x) = 0 \\\\& (iv)\\, P_{n+1}^{\\; '}(x) - P_{n-1}^{\\; '}(x) = (2n+1)P_n(x) \\\\& (v)\\, xP_n^{\\; '}(x) - P_{n-1}^{\\; '}(x) = nP_n(x) \\\\& (vi)\\, P_n^{\\; '}(x) - xP_{n-1}^{\\; '}(x) = nP_{n-1}(x) \\\\& (vii)\\, (x^2-1)P_{n}^{\\; '}(x) = nxP_n(x) - nP_{n-1}(x) \\\\& (viii)\\, (x^2-1)P_{n}^{\\; '}(x) = (n+1)P_{n+1}(x) - (n+1)xP_n(x) \\\\& (ix)\\, \\sum_{k=0}^n(2k+1)P_k(x)P_k(y) = \\frac{n+1}{x-y}\\left[ P_{n+1}(x)P_n(y) - P_n(x)P_{n+1}(y) \\right] \\end{aligned}} \\end{equation}",
+    "label": "Calculus",
+    "description": "General hypergeometric function",
+    "latex": "\\begin{equation} \\label{thrm3.8} {\\begin{aligned} & (i)\\, P_n^{\\;'}(x) = \\sum_{r=0}^{\\left[ \\frac{1}{2}(n-1) \\right]}(2n-4r-1)P_{n-2r-1}(x) \\\\& (ii)\\, xP_n(x) = \\frac{n+1}{2n+1}P_{n+1}(x) + \\frac{n}{2n+1}P_{n-1}(x) \\\\& (iii)\\, (n+1)P_{n+1}(x) - (2n+1)xP_n(x) + nP_{n-1}(x) = 0 \\\\& (iv)\\, P_{n+1}^{\\; '}(x) - P_{n-1}^{\\; '}(x) = (2n+1)P_n(x) \\\\& (v)\\, xP_n^{\\; '}(x) - P_{n-1}^{\\; '}(x) = nP_n(x) \\\\& (vi)\\, P_n^{\\; '}(x) - xP_{n-1}^{\\; '}(x) = nP_{n-1}(x) \\\\& (vii)\\, (x^2-1)P_{n}^{\\; '}(x) = nxP_n(x) - nP_{n-1}(x) \\\\& (viii)\\, (x^2-1)P_{n}^{\\; '}(x) = (n+1)P_{n+1}(x) - (n+1)xP_n(x) \\\\& (ix)\\, \\sum_{k=0}^n(2k+1)P_k(x)P_k(y) = \\frac{n+1}{x-y}\\left[ P_{n+1}(x)P_n(y) - P_n(x)P_{n+1}(y) \\right] \\end{aligned}} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{thrm3.1} {\\frac {1}{\\sqrt {1-2xt+t^{2}}}}=\\sum _{n=0}^{\\infty }t^{n}P_{n}(x) \\end{equation}",
+    "label": "Calculus",
+    "description": "Gaussian hypergeometric function",
+    "latex": "\\begin{equation} \\label{thrm3.1} {\\frac {1}{\\sqrt {1-2xt+t^{2}}}}=\\sum _{n=0}^{\\infty }t^{n}P_{n}(x) \\end{equation}"
+  },
+  {
+    "formula": "\\begin{align} \\label{thrm 4.10} All \\; results \\; from \\; 4.8 \\; hold \\; for \\; H_n^{(1)}(x) \\; and \\;H_n^{(2)}(x) \\; instead \\; of \\; J_n(x) \\end{align}",
+    "label": "Other",
+    "description": "Pochhammer symbol base case",
+    "latex": "\\begin{align} \\label{thrm 4.10} All \\; results \\; from \\; 4.8 \\; hold \\; for \\; H_n^{(1)}(x) \\; and \\;H_n^{(2)}(x) \\; instead \\; of \\; J_n(x) \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\label{thrm4.11(a)} x^2\\frac{\\mathrm d^2y}{\\mathrm dx^2} + x\\frac{\\mathrm dy}{\\mathrm dx} + (\\lambda^2x^2-n^2)y = 0 \\end{align}",
+    "label": "Other",
+    "description": "Pochhammer symbol definition",
+    "latex": "\\begin{align} \\label{thrm4.11(a)} x^2\\frac{\\mathrm d^2y}{\\mathrm dx^2} + x\\frac{\\mathrm dy}{\\mathrm dx} + (\\lambda^2x^2-n^2)y = 0 \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\label{thrm4.11(b)} AJ_n(\\lambda x) + BY_n(\\lambda x) \\end{align}",
+    "label": "Algebra",
+    "description": "Hermite polynomials values",
+    "latex": "\\begin{align} \\label{thrm4.11(b)} AJ_n(\\lambda x) + BY_n(\\lambda x) \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\label{thrm4.12(a)} x^2\\frac{\\mathrm d^2y}{\\mathrm dx^2} + (1-2\\alpha)\\frac{\\mathrm dy}{\\mathrm dx} + (\\beta^2\\gamma^2x^{2\\gamma}+(\\alpha^2-n^2\\gamma^2))y = 0 \\end{align}",
+    "label": "Algebra",
+    "description": "Generating function of Hermite polynomials",
+    "latex": "\\begin{align} \\label{thrm4.12(a)} x^2\\frac{\\mathrm d^2y}{\\mathrm dx^2} + (1-2\\alpha)\\frac{\\mathrm dy}{\\mathrm dx} + (\\beta^2\\gamma^2x^{2\\gamma}+(\\alpha^2-n^2\\gamma^2))y = 0 \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\label{thrm4.12(b)} Ax^{\\alpha}J_n(\\beta x^{\\gamma})+Bx^{\\alpha}Y_n(\\beta x^\\gamma) \\end{align}",
+    "label": "Other",
+    "description": "Exponential differential operator expansion",
+    "latex": "\\begin{align} \\label{thrm4.12(b)} Ax^{\\alpha}J_n(\\beta x^{\\gamma})+Bx^{\\alpha}Y_n(\\beta x^\\gamma) \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\label{thrm4.3} Y_n(x) = & \\frac2\\pi\\left[ ln\\frac x2 + \\gamma -\\frac 12 \\sum_{r=1}^n\\frac 1r \\right]J_n(x) \\\\\\ & -\\frac 1\\pi\\sum_{s=0}^\\infty (-1)^s\\frac{1}{s!(n+s)!}\\left( \\frac x2 \\right) ^{n+2s}\\sum_{r=1}^s\\left[ \\frac 1r + \\frac 1{r+n} \\right] \\\\\\ & - \\frac 1\\pi \\sum_{s=0}^{n-1}\\frac{(n-s-1)!}{s!}\\left( \\frac x2 \\right)^{-n+2s} \\end{align}",
+    "label": "Other",
+    "description": "Hermite orthogonality relation",
+    "latex": "\\begin{align} \\label{thrm4.3} Y_n(x) = & \\frac2\\pi\\left[ ln\\frac x2 + \\gamma -\\frac 12 \\sum_{r=1}^n\\frac 1r \\right]J_n(x) \\\\\\ & -\\frac 1\\pi\\sum_{s=0}^\\infty (-1)^s\\frac{1}{s!(n+s)!}\\left( \\frac x2 \\right) ^{n+2s}\\sum_{r=1}^s\\left[ \\frac 1r + \\frac 1{r+n} \\right] \\\\\\ & - \\frac 1\\pi \\sum_{s=0}^{n-1}\\frac{(n-s-1)!}{s!}\\left( \\frac x2 \\right)^{-n+2s} \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\label{thrm4.4} Y_{-n}(x) = (-1)^nY_n(x) \\end{align}",
+    "label": "Other",
+    "description": "Hermite function definition",
+    "latex": "\\begin{align} \\label{thrm4.4} Y_{-n}(x) = (-1)^nY_n(x) \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\label{thrm4.5} e^{\\left[ \\frac 12x(t-\\frac 1t) \\right]} = \\sum_{n= -\\infty}^{\\infty}t^nJ_n(x) \\end{align}",
+    "label": "Other",
+    "description": " Generating function of Bessel functions",
+    "latex": "\\begin{align} \\label{thrm4.5} e^{\\left[ \\frac 12x(t-\\frac 1t) \\right]} = \\sum_{n= -\\infty}^{\\infty}t^nJ_n(x) \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\label{thrm4.7} J_n(x) = \\frac{(\\tfrac 12x)^n}{\\sqrt{(\\pi)}\\, \\Gamma(n+\\tfrac 12)}\\int_{-1}^1(1-t^2)^{n- \\tfrac 12}e^{ixt}\\mathrm dt,\\quad (n>-\\tfrac 12) \\end{align}",
+    "label": "Calculus",
+    "description": "Bessel function integral representation",
+    "latex": "\\begin{align} \\label{thrm4.7} J_n(x) = \\frac{(\\tfrac 12x)^n}{\\sqrt{(\\pi)}\\, \\Gamma(n+\\tfrac 12)}\\int_{-1}^1(1-t^2)^{n- \\tfrac 12}e^{ixt}\\mathrm dt,\\quad (n>-\\tfrac 12) \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\label{thrm4.8} \\\\\\ & (i)\\; \\frac{\\mathrm d}{\\mathrm dx}\\left[ x^nJ_n(x) \\right] = x^nJ_{n-1}(x) \\\\\\ & (ii)\\; \\frac{\\mathrm d}{\\mathrm dx}\\left[ x^{-n}J_n(x) \\right] = -x^{-n}J_{n+1}(x) \\\\\\ & (iii)\\; J_n^{\\; '}(x) = J_{n-1}(x) - \\frac nxJ_n(x) \\\\\\ & (iv)\\; J_n^{\\; '}(x) =\\frac nxJ_n(x) - J_{n+1}(x) \\\\\\ & (v)\\; J_n^{\\; '}(x) = \\tfrac 12 \\left[J_{n-1}(x) - J_{n+1}(x) \\right] \\\\\\ & (vi)\\; J_{n-1}(x) + J_{n+1}(x) = \\frac {2n}xJ_n(x) \\end{align}",
+    "label": "Calculus",
+    "description": "Derivatives of Bessel functions",
+    "latex": "\\begin{align} \\label{thrm4.8} \\\\\\ & (i)\\; \\frac{\\mathrm d}{\\mathrm dx}\\left[ x^nJ_n(x) \\right] = x^nJ_{n-1}(x) \\\\\\ & (ii)\\; \\frac{\\mathrm d}{\\mathrm dx}\\left[ x^{-n}J_n(x) \\right] = -x^{-n}J_{n+1}(x) \\\\\\ & (iii)\\; J_n^{\\; '}(x) = J_{n-1}(x) - \\frac nxJ_n(x) \\\\\\ & (iv)\\; J_n^{\\; '}(x) =\\frac nxJ_n(x) - J_{n+1}(x) \\\\\\ & (v)\\; J_n^{\\; '}(x) = \\tfrac 12 \\left[J_{n-1}(x) - J_{n+1}(x) \\right] \\\\\\ & (vi)\\; J_{n-1}(x) + J_{n+1}(x) = \\frac {2n}xJ_n(x) \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\label{thrm4.9} All \\; results \\; from \\; 4.8 \\; hold \\; for \\; Y_n(x) \\; instead \\; of \\; J_n(x) \\end{align}",
+    "label": "Other",
+    "description": "Properties of Hankel functions",
+    "latex": "\\begin{align} \\label{thrm4.9} All \\; results \\; from \\; 4.8 \\; hold \\; for \\; Y_n(x) \\; instead \\; of \\; J_n(x) \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\label{hankdef} & H_n^{(1)}(x) = J_n(x) + iY_n(x)\\\\\\ & H_n^{(2)}(x) = J_n(x) - iY_n(x) \\end{align}",
+    "label": "Other",
+    "description": "Definition of Hankel functions",
+    "latex": "\\begin{align} \\label{hankdef} & H_n^{(1)}(x) = J_n(x) + iY_n(x)\\\\\\ & H_n^{(2)}(x) = J_n(x) - iY_n(x) \\end{align}"
+  },
+  {
+    "formula": "\\begin{equation} J_{-n}(x)=(-1)^{n}J_{n}(x) \\end{equation}",
+    "label": "Other",
+    "description": "Symmetry property of Bessel functions",
+    "latex": "\\begin{equation} J_{-n}(x)=(-1)^{n}J_{n}(x) \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} x^{2}{\\frac {d^{2}y}{dx^{2}}}+x{\\frac {dy}{dx}}+(x^{2}-n ^{2})y=0 \\end{equation}",
+    "label": "Algebra",
+    "description": "Bessel's differential equation",
+    "latex": "\\begin{equation} x^{2}{\\frac {d^{2}y}{dx^{2}}}+x{\\frac {dy}{dx}}+(x^{2}-n ^{2})y=0 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{besselfirst1} J_{-n}(x)=\\sum _{r=0}^{\\infty }(-1)^r{\\frac {1}{r!\\,\\Gamma (-n+r +1)}}{\\left({\\frac {x}{2}}\\right)}^{2r-n }, and \\end{equation}",
+    "label": "Other",
+    "description": "Generating function of Bessel functions",
+    "latex": "\\begin{equation} \\label{besselfirst1} J_{-n}(x)=\\sum _{r=0}^{\\infty }(-1)^r{\\frac {1}{r!\\,\\Gamma (-n+r +1)}}{\\left({\\frac {x}{2}}\\right)}^{2r-n }, and \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{besselfirstn} J_{n }(x)=\\sum _{r=0}^{\\infty }(-1)^r{\\frac {1}{r!\\,\\Gamma (n+r +1)}}{\\left({\\frac {x}{2}}\\right)}^{2r+n }, \\end{equation}",
+    "label": "Calculus",
+    "description": "Bessel function integral representation",
+    "latex": "\\begin{equation} \\label{besselfirstn} J_{n }(x)=\\sum _{r=0}^{\\infty }(-1)^r{\\frac {1}{r!\\,\\Gamma (n+r +1)}}{\\left({\\frac {x}{2}}\\right)}^{2r+n }, \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{besselsecond} Y_{n }(x)={\\frac {\\cos(n \\pi )J_n(x)-J_{-n }(x)}{\\sin(n \\pi )}} \\end{equation}",
+    "label": "Other",
+    "description": "Bessel function of the second kind",
+    "latex": "\\begin{equation} \\label{besselsecond} Y_{n }(x)={\\frac {\\cos(n \\pi )J_n(x)-J_{-n }(x)}{\\sin(n \\pi )}} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{thrm4.6} J_{n }(x)={\\frac {1}{\\pi }}\\int _{0}^{\\pi }\\cos(n \\phi -x\\sin \\phi )\\,d\\phi \\end{equation}",
+    "label": "Calculus",
+    "description": "Bessel function integral representation",
+    "latex": "\\begin{equation} \\label{thrm4.6} J_{n }(x)={\\frac {1}{\\pi }}\\int _{0}^{\\pi }\\cos(n \\phi -x\\sin \\phi )\\,d\\phi \\end{equation}"
+  },
+  {
+    "formula": "\\begin{align} \\label{thrm5.6} \\\\\\ & (i)\\, H_n^{\\; '}(x) = 2nH_{n-1}(x), \\;\\; (n \\geq 1); \\quad H_0^{\\; '}(x) = 0 \\\\\\ & (ii)\\, H_{n+1}(x)=2xH_{n}(x)-2nH_{n-1}(x),\\;\\; (n\\geq 1); \\quad H_1(x) = 2xH_0(x) \\end{align}",
+    "label": "Calculus",
+    "description": "Hankel function derivatives",
+    "latex": "\\begin{align} \\label{thrm5.6} \\\\\\ & (i)\\, H_n^{\\; '}(x) = 2nH_{n-1}(x), \\;\\; (n \\geq 1); \\quad H_0^{\\; '}(x) = 0 \\\\\\ & (ii)\\, H_{n+1}(x)=2xH_{n}(x)-2nH_{n-1}(x),\\;\\; (n\\geq 1); \\quad H_1(x) = 2xH_0(x) \\end{align}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{hermdef} H_{n}(x)=\\sum _{r=0}^{\\left[ {\\frac {1}{2}n}\\right ] }(-1)^r\\frac{n!}{r!(n-2r)!}(2x)^{n-2r} \\end{equation}",
+    "label": "Algebra",
+    "description": "Hermite polynomial definition",
+    "latex": "\\begin{equation} \\label{hermdef} H_{n}(x)=\\sum _{r=0}^{\\left[ {\\frac {1}{2}n}\\right ] }(-1)^r\\frac{n!}{r!(n-2r)!}(2x)^{n-2r} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{hermdiffeq} \\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2} - 2x\\frac{\\mathrm{d}y}{\\mathrm{d}x} + 2ny = 0 \\end{equation}",
+    "label": "Algebra",
+    "description": "Hermite differential equation",
+    "latex": "\\begin{equation} \\label{hermdiffeq} \\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2} - 2x\\frac{\\mathrm{d}y}{\\mathrm{d}x} + 2ny = 0 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{hermvals} {\\begin{array}{r|r}n&H_{n}(x)\\\\\\hline 0&1\\\\1&2x\\\\2&4x^{2}-2\\\\3&8x^{3}-12x\\\\4&16x^{4}-48x^{2}+12\\\\5&32x^5-160x^3+120x \\end{array}} \\end{equation}",
+    "label": "Algebra",
+    "description": "Hermite polynomial values",
+    "latex": "\\begin{equation} \\label{hermvals} {\\begin{array}{r|r}n&H_{n}(x)\\\\\\hline 0&1\\\\1&2x\\\\2&4x^{2}-2\\\\3&8x^{3}-12x\\\\4&16x^{4}-48x^{2}+12\\\\5&32x^5-160x^3+120x \\end{array}} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{thrm5.1} e^{2xt-t^{2}}=\\sum _{n=0}^{\\infty }{\\frac {t^{n}}{n!}}H_n(x)\\,\\! \\end{equation}",
+    "label": "Algebra",
+    "description": "Generating function of Hermite polynomials",
+    "latex": "\\begin{equation} \\label{thrm5.1} e^{2xt-t^{2}}=\\sum _{n=0}^{\\infty }{\\frac {t^{n}}{n!}}H_n(x)\\,\\! \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{thrm5.3(ii)} \\exp{(\\frac{\\mathrm{d}}{\\mathrm{d}x})}f(x) = \\sum_{n=0}^{\\infty}\\frac{1}{n!}\\frac{\\mathrm{d}^nf}{\\mathrm{d}x^n} \\end{equation}",
+    "label": "Calculus",
+    "description": "Exponential of derivative operator",
+    "latex": "\\begin{equation} \\label{thrm5.3(ii)} \\exp{(\\frac{\\mathrm{d}}{\\mathrm{d}x})}f(x) = \\sum_{n=0}^{\\infty}\\frac{1}{n!}\\frac{\\mathrm{d}^nf}{\\mathrm{d}x^n} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{thrm5.5} \\int _{-\\infty }^{\\infty }e^{-x^2}H_{n}(x)H_{m}(x)\\,\\mathrm {d} x=2^{n}n!(\\sqrt{\\pi})\\delta _{nm} \\end{equation}",
+    "label": "Algebra",
+    "description": "Orthogonality of Hermite polynomials",
+    "latex": "\\begin{equation} \\label{thrm5.5} \\int _{-\\infty }^{\\infty }e^{-x^2}H_{n}(x)H_{m}(x)\\,\\mathrm {d} x=2^{n}n!(\\sqrt{\\pi})\\delta _{nm} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{weberherm(i)} \\Psi_n(x) = e^{-x^2/2}H_n(x), solves: \\end{equation}",
+    "label": "Algebra",
+    "description": "Weber's equation",
+    "latex": "\\begin{equation} \\label{weberherm(i)} \\Psi_n(x) = e^{-x^2/2}H_n(x), solves: \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{weberherm(ii)} \\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2} + (\\lambda - x^2)y = 0\\quad where\\; \\lambda = 2n+1 \\end{equation}",
+    "label": "Algebra",
+    "description": "Weber's equation",
+    "latex": "\\begin{equation} \\label{weberherm(ii)} \\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2} + (\\lambda - x^2)y = 0\\quad where\\; \\lambda = 2n+1 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{thrm5.2} H_{n}(x)=(-1)^{n}e^{x^{2}}{\\frac {d^{n}}{dx^{n}}}e^{-x^{2}} \\end{equation}",
+    "label": "Algebra",
+    "description": "Hermite polynomial definition",
+    "latex": "\\begin{equation} \\label{thrm5.2} H_{n}(x)=(-1)^{n}e^{x^{2}}{\\frac {d^{n}}{dx^{n}}}e^{-x^{2}} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{thrm5.3(i)} H_n(x) = 2^n[\\exp{(-\\frac{1}{4}\\frac{\\mathrm{d}^2}{\\mathrm{d}x^2})}]x^n, where \\end{equation}",
+    "label": "Algebra",
+    "description": "Hermite polynomial generating function",
+    "latex": "\\begin{equation} \\label{thrm5.3(i)} H_n(x) = 2^n[\\exp{(-\\frac{1}{4}\\frac{\\mathrm{d}^2}{\\mathrm{d}x^2})}]x^n, where \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{thrm5.4(i)} H_{2n}(0) = (-1)^n\\frac{(2n)!}{n!} \\end{equation}",
+    "label": "Algebra",
+    "description": "Hermite polynomial values at zero",
+    "latex": "\\begin{equation} \\label{thrm5.4(i)} H_{2n}(0) = (-1)^n\\frac{(2n)!}{n!} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{thrm5.4(ii)} H_{2n+1}(0) = 0 \\end{equation}",
+    "label": "Algebra",
+    "description": "Hermite polynomial values at zero",
+    "latex": "\\begin{equation} \\label{thrm5.4(ii)} H_{2n+1}(0) = 0 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{align} \\int x^n cos x dx &= -\\frac{1}{2}(i)^{n+1}\\left [ \\Gamma(n+1, -ix) \\right . \\nonumber \\\\\\ & \\left . + (-1)^n \\Gamma(n+1, ix)\\right] \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of x^n cos x",
+    "latex": "\\begin{align} \\int x^n cos x dx &= -\\frac{1}{2}(i)^{n+1}\\left [ \\Gamma(n+1, -ix) \\right . \\nonumber \\\\\\ & \\left . + (-1)^n \\Gamma(n+1, ix)\\right] \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\sqrt{a^2 - x^2} dx &= \\frac{1}{2} x \\sqrt{a^2-x^2} %\\nonumber \\\\\\ & +\\frac{1}{2}a^2\\tan^{-1}\\frac{x}{\\sqrt{a^2-x^2}} \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\sqrt{a^2 - x^2}",
+    "latex": "\\begin{align} \\int \\sqrt{a^2 - x^2} dx &= \\frac{1}{2} x \\sqrt{a^2-x^2} %\\nonumber \\\\\\ & +\\frac{1}{2}a^2\\tan^{-1}\\frac{x}{\\sqrt{a^2-x^2}} \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int & e^{ax} \\tanh bx dx = \\nonumber \\\\\\ & \\begin{cases} { \\frac{ e^{(a+2b)x}}{(a+2b)} {_2F_1}\\left[ 1+\\frac{a}{2b},1,2+\\frac{a}{2b}, -e^{2bx}\\right] }& \\\\\\ { \\hspace{1cm}-\\frac{1}{a}e^{ax}{_2F_1}\\left[ \\frac{a}{2b},1,1E, -e^{2bx}\\right] } & a\\ne b \\\\\\ {\\frac{e^{ax}-2\\tan^{-1}[e^{ax}]}{a} } & a = b \\end{cases} \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of e^{ax} \\tanh bx",
+    "latex": "\\begin{align} \\int & e^{ax} \\tanh bx dx = \\nonumber \\\\\\ & \\begin{cases} { \\frac{ e^{(a+2b)x}}{(a+2b)} {_2F_1}\\left[ 1+\\frac{a}{2b},1,2+\\frac{a}{2b}, -e^{2bx}\\right] }& \\\\\\ { \\hspace{1cm}-\\frac{1}{a}e^{ax}{_2F_1}\\left[ \\frac{a}{2b},1,1E, -e^{2bx}\\right] } & a\\ne b \\\\\\ {\\frac{e^{ax}-2\\tan^{-1}[e^{ax}]}{a} } & a = b \\end{cases} \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int &x \\sqrt{a x^2 + bx + c} = \\frac{1}{48a^{5/2}}\\left ( 2 \\sqrt{a} \\sqrt{ax^2+bx+c} \\right . \\nonumber \\\\\\ & \\times \\left( -3b^2 + 2 abx + 8 a(c+ax^2) \\right) \\nonumber \\\\\\ & \\left. + 3(b^3-4abc)\\ln \\left|b + 2ax + 2\\sqrt{a}\\sqrt{ax^2+bx+x} \\right| \\right) \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of x \\sqrt{a x^2 + bx + c}",
+    "latex": "\\begin{align} \\int &x \\sqrt{a x^2 + bx + c} = \\frac{1}{48a^{5/2}}\\left ( 2 \\sqrt{a} \\sqrt{ax^2+bx+c} \\right . \\nonumber \\\\\\ & \\times \\left( -3b^2 + 2 abx + 8 a(c+ax^2) \\right) \\nonumber \\\\\\ & \\left. + 3(b^3-4abc)\\ln \\left|b + 2ax + 2\\sqrt{a}\\sqrt{ax^2+bx+x} \\right| \\right) \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int &x \\sqrt{ax + b}dx = %\\nonumber \\\\& \\frac{2}{15 a^2}(-2b^2+abx + 3 a^2 x^2) \\sqrt{ax+b} \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of x \\sqrt{ax + b}",
+    "latex": "\\begin{align} \\int &x \\sqrt{ax + b}dx = %\\nonumber \\\\& \\frac{2}{15 a^2}(-2b^2+abx + 3 a^2 x^2) \\sqrt{ax+b} \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int &\\frac{x}{\\sqrt{ax^2+bx+c}}dx= \\frac{1}{a}\\sqrt{ax^2+bx + c} \\nonumber \\\\& - \\frac{b}{2a^{3/2}}\\ln \\left| 2ax+b + 2 \\sqrt{a(ax^2+bx+c)} \\right | \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{x}{\\sqrt{ax^2+bx+c}}",
+    "latex": "\\begin{align} \\int &\\frac{x}{\\sqrt{ax^2+bx+c}}dx= \\frac{1}{a}\\sqrt{ax^2+bx + c} \\nonumber \\\\& - \\frac{b}{2a^{3/2}}\\ln \\left| 2ax+b + 2 \\sqrt{a(ax^2+bx+c)} \\right | \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int &\\sin^n ax dx = \\nonumber \\\\\\ & -\\frac{1}{a}{\\cos ax} \\hspace{2mm}{_2F_1}\\left[ \\frac{1}{2}, \\frac{1-n}{2}, \\frac{3}{2}, \\cos^2 ax \\right] \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\sin^n ax",
+    "latex": "\\begin{align} \\int &\\sin^n ax dx = \\nonumber \\\\\\ & -\\frac{1}{a}{\\cos ax} \\hspace{2mm}{_2F_1}\\left[ \\frac{1}{2}, \\frac{1-n}{2}, \\frac{3}{2}, \\cos^2 ax \\right] \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int &\\sqrt{a x^2 + b x + c} dx = \\frac{b+2ax}{4a}\\sqrt{ax^2+bx+c} \\nonumber \\\\\\ & + \\frac{4ac-b^2}{8a^{3/2}}\\ln \\left| 2ax + b + 2\\sqrt{a(ax^2+bx^+c)}\\right | \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\sqrt{a x^2 + b x + c}",
+    "latex": "\\begin{align} \\int &\\sqrt{a x^2 + b x + c} dx = \\frac{b+2ax}{4a}\\sqrt{ax^2+bx+c} \\nonumber \\\\\\ & + \\frac{4ac-b^2}{8a^{3/2}}\\ln \\left| 2ax + b + 2\\sqrt{a(ax^2+bx^+c)}\\right | \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int &\\tan^n ax dx = \\frac{\\tan^{n+1} ax }{a(1+n)} \\times \\nonumber \\\\\\ & {_2}F_1\\left( \\frac{n+1}{2}, 1, \\frac{n+3}{2}, -\\tan^2 ax \\right) \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\tan^n ax",
+    "latex": "\\begin{align} \\int &\\tan^n ax dx = \\frac{\\tan^{n+1} ax }{a(1+n)} \\times \\nonumber \\\\\\ & {_2}F_1\\left( \\frac{n+1}{2}, 1, \\frac{n+3}{2}, -\\tan^2 ax \\right) \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int e^{ax} & \\cosh bx dx = \\nonumber \\\\\\ & \\begin{cases} {\\frac{e^{ax}}{a^2-b^2} }[ a \\cosh bx - b \\sinh bx ] & a\\ne b \\\\\\ {\\frac{e^{2ax}}{4a} + \\frac{x}{2}} & a = b \\end{cases} \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of e^{ax} \\cosh bx",
+    "latex": "\\begin{align} \\int e^{ax} & \\cosh bx dx = \\nonumber \\\\\\ & \\begin{cases} {\\frac{e^{ax}}{a^2-b^2} }[ a \\cosh bx - b \\sinh bx ] & a\\ne b \\\\\\ {\\frac{e^{2ax}}{4a} + \\frac{x}{2}} & a = b \\end{cases} \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int e^{ax}& \\sinh bx dx = \\nonumber \\\\\\ & \\begin{cases} {\\frac{e^{ax}}{a^2-b^2} }[ -b \\cosh bx + a \\sinh bx ] & a\\ne b \\\\\\ {\\frac{e^{2ax}}{4a} - \\frac{x}{2}} & a = b \\end{cases} \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of e^{ax} \\sinh bx",
+    "latex": "\\begin{align} \\int e^{ax}& \\sinh bx dx = \\nonumber \\\\\\ & \\begin{cases} {\\frac{e^{ax}}{a^2-b^2} }[ -b \\cosh bx + a \\sinh bx ] & a\\ne b \\\\\\ {\\frac{e^{2ax}}{4a} - \\frac{x}{2}} & a = b \\end{cases} \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int x \\ln (ax + b) dx &= \\frac{bx}{2a}-\\frac{1}{4}x^2 \\nonumber \\\\& +\\frac{1}{2}\\left(x^2-\\frac{b^2}{a^2}\\right)\\ln (ax+b) \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of x \\ln (ax + b)",
+    "latex": "\\begin{align} \\int x \\ln (ax + b) dx &= \\frac{bx}{2a}-\\frac{1}{4}x^2 \\nonumber \\\\& +\\frac{1}{2}\\left(x^2-\\frac{b^2}{a^2}\\right)\\ln (ax+b) \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int x \\ln \\left ( a^2 - b^2 x^2 \\right ) dx &= -\\frac{1}{2}x^2+ \\nonumber \\\\& \\frac{1}{2}\\left( x^2 - \\frac{a^2}{b^2} \\right ) \\ln \\left (a^2 -b^2 x^2 \\right) \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of x \\ln \\left ( a^2 - b^2 x^2 \\right )",
+    "latex": "\\begin{align} \\int x \\ln \\left ( a^2 - b^2 x^2 \\right ) dx &= -\\frac{1}{2}x^2+ \\nonumber \\\\& \\frac{1}{2}\\left( x^2 - \\frac{a^2}{b^2} \\right ) \\ln \\left (a^2 -b^2 x^2 \\right) \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int x^n cos ax dx &= \\frac{1}{2}(ia)^{1-n}\\left [ (-1)^n \\Gamma(n+1, -iax) \\right. \\nonumber \\\\\\ & \\left. -\\Gamma(n+1, ixa)\\right] \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of x^n \\cos ax",
+    "latex": "\\begin{align} \\int x^n cos ax dx &= \\frac{1}{2}(ia)^{1-n}\\left [ (-1)^n \\Gamma(n+1, -iax) \\right. \\nonumber \\\\\\ & \\left. -\\Gamma(n+1, ixa)\\right] \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int x^n \\sin x dx &= -\\frac{1}{2}(i)^n\\left[ \\Gamma(n+1, -ix) %\\right. \\nonumber \\\\\\ & \\left. - (-1)^n\\Gamma(n+1, -ix)\\right] \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of x^n \\sin x",
+    "latex": "\\begin{align} \\int x^n \\sin x dx &= -\\frac{1}{2}(i)^n\\left[ \\Gamma(n+1, -ix) %\\right. \\nonumber \\\\\\ & \\left. - (-1)^n\\Gamma(n+1, -ix)\\right] \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\cos ax \\cosh bx dx &= \\frac{1}{a^2 + b^2} \\left[ a \\sin ax \\cosh bx \\right . \\nonumber \\\\\\ & \\left. + b \\cos ax \\sinh bx \\right] \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\cos ax \\cosh bx",
+    "latex": "\\begin{align} \\int \\cos ax \\cosh bx dx &= \\frac{1}{a^2 + b^2} \\left[ a \\sin ax \\cosh bx \\right . \\nonumber \\\\\\ & \\left. + b \\cos ax \\sinh bx \\right] \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\cos ax \\sin bx dx &= \\frac{\\cos[(a-b) x]}{2(a-b)} - %\\nonumber \\\\\\ & \\frac{\\cos[(a+b)x]}{2(a+b)} , a\\ne b \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\cos ax \\sin bx",
+    "latex": "\\begin{align} \\int \\cos ax \\sin bx dx &= \\frac{\\cos[(a-b) x]}{2(a-b)} - %\\nonumber \\\\\\ & \\frac{\\cos[(a+b)x]}{2(a+b)} , a\\ne b \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\cos ax \\sinh bx dx& = \\frac{1}{a^2 + b^2} \\left[ b \\cos ax \\cosh bx + \\right . \\nonumber \\\\\\ & \\left . a \\sin ax \\sinh bx \\right] \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\cos ax \\sinh bx",
+    "latex": "\\begin{align} \\int \\cos ax \\sinh bx dx& = \\frac{1}{a^2 + b^2} \\left[ b \\cos ax \\cosh bx + \\right . \\nonumber \\\\\\ & \\left . a \\sin ax \\sinh bx \\right] \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\cos^2 ax \\sin bx dx &= \\frac{\\cos[(2a-b)x]}{4(2a-b)} - \\frac{\\cos bx}{2b} \\nonumber \\\\\\ & - \\frac{\\cos[(2a+b)x]}{4(2a+b)} \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\cos^2 ax \\sin bx",
+    "latex": "\\begin{align} \\int \\cos^2 ax \\sin bx dx &= \\frac{\\cos[(2a-b)x]}{4(2a-b)} - \\frac{\\cos bx}{2b} \\nonumber \\\\\\ & - \\frac{\\cos[(2a+b)x]}{4(2a+b)} \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\cos^p ax dx & = -\\frac{1}{a(1+p)}{\\cos^{1+p} ax} \\times \\nonumber \\\\\\ & {_2F_1}\\left[ \\frac{1+p}{2}, \\frac{1}{2}, \\frac{3+p}{2}, \\cos^2 ax \\right] \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\cos^p ax",
+    "latex": "\\begin{align} \\int \\cos^p ax dx & = -\\frac{1}{a(1+p)}{\\cos^{1+p} ax} \\times \\nonumber \\\\\\ & {_2F_1}\\left[ \\frac{1+p}{2}, \\frac{1}{2}, \\frac{3+p}{2}, \\cos^2 ax \\right] \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\frac{x^2}{\\sqrt{x^2 \\pm a^2}} dx &= \\frac{1}{2}x\\sqrt{x^2 \\pm a^2} %\\nonumber \\\\\\ & \\mp \\frac{1}{2}a^2 \\ln \\left| x + \\sqrt{x^2\\pm a^2} \\right | \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{x^2}{\\sqrt{x^2 \\pm a^2}}",
+    "latex": "\\begin{align} \\int \\frac{x^2}{\\sqrt{x^2 \\pm a^2}} dx &= \\frac{1}{2}x\\sqrt{x^2 \\pm a^2} %\\nonumber \\\\\\ & \\mp \\frac{1}{2}a^2 \\ln \\left| x + \\sqrt{x^2\\pm a^2} \\right | \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\frac{x}{ax^2+bx+c}dx &= \\frac{1}{2a}\\ln|ax^2+bx+c| \\nonumber \\\\&-\\frac{b}{a\\sqrt{4ac-b^2}}\\tan^{-1}\\frac{2ax+b}{\\sqrt{4ac-b^2}} \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{x}{ax^2+bx+c}",
+    "latex": "\\begin{align} \\int \\frac{x}{ax^2+bx+c}dx &= \\frac{1}{2a}\\ln|ax^2+bx+c| \\nonumber \\\\&-\\frac{b}{a\\sqrt{4ac-b^2}}\\tan^{-1}\\frac{2ax+b}{\\sqrt{4ac-b^2}} \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\ln ( x^2 + a^2 )\\hspace{.5ex}\\text{dx} = x \\ln (x^2 + a^2 ) +2a\\tan^{-1} \\frac{x}{a} - 2x \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\ln ( x^2 + a^2 )",
+    "latex": "\\begin{align} \\int \\ln ( x^2 + a^2 )\\hspace{.5ex}\\text{dx} = x \\ln (x^2 + a^2 ) +2a\\tan^{-1} \\frac{x}{a} - 2x \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\ln ( x^2 - a^2 )\\hspace{.5ex}\\text{dx} = x \\ln (x^2 - a^2 ) +a\\ln \\frac{x+a}{x-a} - 2x \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\ln ( x^2 - a^2 )",
+    "latex": "\\begin{align} \\int \\ln ( x^2 - a^2 )\\hspace{.5ex}\\text{dx} = x \\ln (x^2 - a^2 ) +a\\ln \\frac{x+a}{x-a} - 2x \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\ln & \\left ( ax^2 + bx + c\\right) dx = \\frac{1}{a}\\sqrt{4ac-b^2}\\tan^{-1}\\frac{2ax+b}{\\sqrt{4ac-b^2}} \\nonumber \\\\\\ & -2x + \\left( \\frac{b}{2a}+x \\right )\\ln \\left (ax^2+bx+c \\right) \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\ln \\left ( ax^2 + bx + c\\right)",
+    "latex": "\\begin{align} \\int \\ln & \\left ( ax^2 + bx + c\\right) dx = \\frac{1}{a}\\sqrt{4ac-b^2}\\tan^{-1}\\frac{2ax+b}{\\sqrt{4ac-b^2}} \\nonumber \\\\\\ & -2x + \\left( \\frac{b}{2a}+x \\right )\\ln \\left (ax^2+bx+c \\right) \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\sec x dx &= \\ln | \\sec x + \\tan x | = 2 \\tanh^{-1} \\left (\\tan \\frac{x}{2} \\right) \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\sec x",
+    "latex": "\\begin{align} \\int \\sec x dx &= \\ln | \\sec x + \\tan x | = 2 \\tanh^{-1} \\left (\\tan \\frac{x}{2} \\right) \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\sin ax \\cosh bx dx &= \\frac{1}{a^2 + b^2} \\left[ -a \\cos ax \\cosh bx + \\right . \\nonumber \\\\\\ & \\left . b \\sin ax \\sinh bx \\right] \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\sin ax \\cosh bx",
+    "latex": "\\begin{align} \\int \\sin ax \\cosh bx dx &= \\frac{1}{a^2 + b^2} \\left[ -a \\cos ax \\cosh bx + \\right . \\nonumber \\\\\\ & \\left . b \\sin ax \\sinh bx \\right] \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\sin ax \\sinh bx dx &= \\frac{1}{a^2 + b^2} \\left[ b \\cosh bx \\sin ax - \\right . \\nonumber \\\\\\ & \\left . a \\cos ax \\sinh bx \\right] \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\sin ax \\sinh bx",
+    "latex": "\\begin{align} \\int \\sin ax \\sinh bx dx &= \\frac{1}{a^2 + b^2} \\left[ b \\cosh bx \\sin ax - \\right . \\nonumber \\\\\\ & \\left . a \\cos ax \\sinh bx \\right] \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\sinh ax \\cosh bx dx&= \\frac{1}{b^2-a^2}\\left[ b \\cosh bx \\sinh ax \\right . \\nonumber \\\\\\ & \\left . - a \\cosh ax \\sinh bx \\right] \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\sinh ax \\cosh bx",
+    "latex": "\\begin{align} \\int \\sinh ax \\cosh bx dx&= \\frac{1}{b^2-a^2}\\left[ b \\cosh bx \\sinh ax \\right . \\nonumber \\\\\\ & \\left . - a \\cosh ax \\sinh bx \\right] \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\sin^2 ax \\cos bx dx &= -\\frac{\\sin[(2a-b)x]}{4(2a-b)} \\nonumber \\\\\\ & + \\frac{\\sin bx}{2b} - \\frac{\\sin[(2a+b)x]}{4(2a+b)} \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\sin^2 ax \\cos bx",
+    "latex": "\\begin{align} \\int \\sin^2 ax \\cos bx dx &= -\\frac{\\sin[(2a-b)x]}{4(2a-b)} \\nonumber \\\\\\ & + \\frac{\\sin bx}{2b} - \\frac{\\sin[(2a+b)x]}{4(2a+b)} \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\sin^2 ax \\cos^2 bx dx &= \\frac{x}{4} -\\frac{\\sin 2ax}{8a}- \\frac{\\sin[2(a-b)x]}{16(a-b)} \\nonumber \\\\\\ & +\\frac{\\sin 2bx}{8b}- \\frac{\\sin[2(a+b)x]}{16(a+b)} \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\sin^2 ax \\cos^2 bx",
+    "latex": "\\begin{align} \\int \\sin^2 ax \\cos^2 bx dx &= \\frac{x}{4} -\\frac{\\sin 2ax}{8a}- \\frac{\\sin[2(a-b)x]}{16(a-b)} \\nonumber \\\\\\ & +\\frac{\\sin 2bx}{8b}- \\frac{\\sin[2(a+b)x]}{16(a+b)} \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\sqrt{x(ax+b)} dx &= \\frac{1}{4a^{3/2}}\\left[(2ax + b)\\sqrt{ax(ax+b)} \\right. \\nonumber \\\\& \\left. -b^2 \\ln \\left| a\\sqrt{x} + \\sqrt{a(ax+b)} \\right| \\right ] \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\sqrt{x(ax+b)}",
+    "latex": "\\begin{align} \\int \\sqrt{x(ax+b)} dx &= \\frac{1}{4a^{3/2}}\\left[(2ax + b)\\sqrt{ax(ax+b)} \\right. \\nonumber \\\\& \\left. -b^2 \\ln \\left| a\\sqrt{x} + \\sqrt{a(ax+b)} \\right| \\right ] \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\sqrt{x^3(ax+b)} dx &=\\left [ \\frac{b}{12a}- \\frac{b^2}{8a^2x}+ \\frac{x}{3}\\right] \\sqrt{x^3(ax+b)} \\nonumber \\\\& + \\frac{b^3}{8a^{5/2}}\\ln \\left | a\\sqrt{x} + \\sqrt{a(ax+b)} \\right | \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\sqrt{x^3(ax+b)}",
+    "latex": "\\begin{align} \\int \\sqrt{x^3(ax+b)} dx &=\\left [ \\frac{b}{12a}- \\frac{b^2}{8a^2x}+ \\frac{x}{3}\\right] \\sqrt{x^3(ax+b)} \\nonumber \\\\& + \\frac{b^3}{8a^{5/2}}\\ln \\left | a\\sqrt{x} + \\sqrt{a(ax+b)} \\right | \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\sqrt{x} e^{ax} dx &= \\frac{1}{a}\\sqrt{x}e^{ax} +\\frac{i\\sqrt{\\pi}}{2a^{3/2}} \\text{erf}\\left(i\\sqrt{ax}\\right), \\nonumber \\\\& \\text{ where erf}(x)=\\frac{2}{\\sqrt{\\pi}}\\int_0^x e^{-t^2}dt \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\sqrt{x} e^{ax}",
+    "latex": "\\begin{align} \\int \\sqrt{x} e^{ax} dx &= \\frac{1}{a}\\sqrt{x}e^{ax} +\\frac{i\\sqrt{\\pi}}{2a^{3/2}} \\text{erf}\\left(i\\sqrt{ax}\\right), \\nonumber \\\\& \\text{ where erf}(x)=\\frac{2}{\\sqrt{\\pi}}\\int_0^x e^{-t^2}dt \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\sqrt{\\frac{x}{a+x}}dx &= \\sqrt{x(a+x)} %\\nonumber \\\\& -a\\ln \\left [ \\sqrt{x} + \\sqrt{x+a}\\right] \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\sqrt{\\frac{x}{a+x}}",
+    "latex": "\\begin{align} \\int \\sqrt{\\frac{x}{a+x}}dx &= \\sqrt{x(a+x)} %\\nonumber \\\\& -a\\ln \\left [ \\sqrt{x} + \\sqrt{x+a}\\right] \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int \\sqrt{\\frac{x}{a-x}}dx &= -\\sqrt{x(a-x)} %\\nonumber \\\\& -a\\tan^{-1}\\frac{\\sqrt{x(a-x)}}{x-a} \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\sqrt{\\frac{x}{a-x}}",
+    "latex": "\\begin{align} \\int \\sqrt{\\frac{x}{a-x}}dx &= -\\sqrt{x(a-x)} %\\nonumber \\\\& -a\\tan^{-1}\\frac{\\sqrt{x(a-x)}}{x-a} \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int&\\frac{1}{\\sqrt{ax^2+bx+c}}dx= %==\\nonumber \\\\& \\frac{1}{\\sqrt{a}}\\ln \\left| 2ax+b + 2 \\sqrt{a(ax^2+bx+c)} \\right | \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{1}{\\sqrt{ax^2+bx+c}}",
+    "latex": "\\begin{align} \\int&\\frac{1}{\\sqrt{ax^2+bx+c}}dx= %==\\nonumber \\\\& \\frac{1}{\\sqrt{a}}\\ln \\left| 2ax+b + 2 \\sqrt{a(ax^2+bx+c)} \\right | \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\int\\sqrt{x^2 \\pm a^2} dx &= \\frac{1}{2}x\\sqrt{x^2\\pm a^2} %\\nonumber \\\\& \\pm\\frac{1}{2}a^2 \\ln \\left | x + \\sqrt{x^2\\pm a^2} \\right | \\end{align}",
+    "label": "Calculus",
+    "description": " Integral of \\sqrt{x^2 \\pm a^2}",
+    "latex": "\\begin{align} \\int\\sqrt{x^2 \\pm a^2} dx &= \\frac{1}{2}x\\sqrt{x^2\\pm a^2} %\\nonumber \\\\& \\pm\\frac{1}{2}a^2 \\ln \\left | x + \\sqrt{x^2\\pm a^2} \\right | \\end{align}"
+  },
+  {
+    "formula": "\\begin{equation} \\begin{split} \\int x^n e^{ax}\\hspace{2pt}\\text{d}x = \\frac{(-1)^n}{a^{n+1}}\\Gamma[1+n,-ax], \\\\\\ \\text{ where } \\Gamma(a,x)=\\int_x^{\\infty} t^{a-1}e^{-t}\\hspace{2pt}\\text{d}t \\end{split} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x^n e^{ax}",
+    "latex": "\\begin{equation} \\begin{split} \\int x^n e^{ax}\\hspace{2pt}\\text{d}x = \\frac{(-1)^n}{a^{n+1}}\\Gamma[1+n,-ax], \\\\\\ \\text{ where } \\Gamma(a,x)=\\int_x^{\\infty} t^{a-1}e^{-t}\\hspace{2pt}\\text{d}t \\end{split} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x \\sqrt{x^2 \\pm a^2} dx= \\frac{1}{3}\\left ( x^2 \\pm a^2 \\right)^{3/2} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x \\sqrt{x^2 \\pm a^2}",
+    "latex": "\\begin{equation} \\int x \\sqrt{x^2 \\pm a^2} dx= \\frac{1}{3}\\left ( x^2 \\pm a^2 \\right)^{3/2} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\tanh ax\\hspace{1.5pt} dx =\\frac{1}{a} \\ln \\cosh ax \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\tanh ax",
+    "latex": "\\begin{equation} \\int \\tanh ax\\hspace{1.5pt} dx =\\frac{1}{a} \\ln \\cosh ax \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int (ax+b)^{3/2}dx =\\frac{2}{5a}(ax+b)^{5/2} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of (ax+b)^{3/2}",
+    "latex": "\\begin{equation} \\int (ax+b)^{3/2}dx =\\frac{2}{5a}(ax+b)^{5/2} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int (x+a)^n dx = \\frac{(x+a)^{n+1}}{n+1}+c, n\\ne -1 \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of (x+a)^n",
+    "latex": "\\begin{equation} \\int (x+a)^n dx = \\frac{(x+a)^{n+1}}{n+1}+c, n\\ne -1 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int e^x \\cos x dx = \\frac{1}{2}e^x (\\sin x + \\cos x) \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of e^x \\cos x",
+    "latex": "\\begin{equation} \\int e^x \\cos x dx = \\frac{1}{2}e^x (\\sin x + \\cos x) \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int e^x \\sin x dx = \\frac{1}{2}e^x (\\sin x - \\cos x) \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of e^x \\sin x",
+    "latex": "\\begin{equation} \\int e^x \\sin x dx = \\frac{1}{2}e^x (\\sin x - \\cos x) \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int e^{-ax^2}\\hspace{1pt}\\text{d}x = \\frac{\\sqrt{\\pi}}{2\\sqrt{a}}\\text{erf}\\left(x\\sqrt{a}\\right) \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of e^{-ax^2}",
+    "latex": "\\begin{equation} \\int e^{-ax^2}\\hspace{1pt}\\text{d}x = \\frac{\\sqrt{\\pi}}{2\\sqrt{a}}\\text{erf}\\left(x\\sqrt{a}\\right) \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int e^{ax^2}\\hspace{1pt}\\text{d}x = -\\frac{i\\sqrt{\\pi}}{2\\sqrt{a}}\\text{erf}\\left(ix\\sqrt{a}\\right) \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of e^{ax^2}",
+    "latex": "\\begin{equation} \\int e^{ax^2}\\hspace{1pt}\\text{d}x = -\\frac{i\\sqrt{\\pi}}{2\\sqrt{a}}\\text{erf}\\left(ix\\sqrt{a}\\right) \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int e^{ax} dx = \\frac{1}{a}e^{ax} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of e^{ax}",
+    "latex": "\\begin{equation} \\int e^{ax} dx = \\frac{1}{a}e^{ax} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int e^{bx} \\cos ax dx = \\frac{1}{a^2 + b^2} e^{bx} ( a \\sin ax + b \\cos ax ) \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of e^{bx} \\cos ax",
+    "latex": "\\begin{equation} \\int e^{bx} \\cos ax dx = \\frac{1}{a^2 + b^2} e^{bx} ( a \\sin ax + b \\cos ax ) \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int e^{bx} \\sin ax dx = \\frac{1}{a^2+b^2}e^{bx} (b\\sin ax - a\\cos ax) \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of e^{bx} \\sin ax",
+    "latex": "\\begin{equation} \\int e^{bx} \\sin ax dx = \\frac{1}{a^2+b^2}e^{bx} (b\\sin ax - a\\cos ax) \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int u dv = uv - \\int v du \\end{equation}",
+    "label": "Calculus",
+    "description": " Integration by Parts",
+    "latex": "\\begin{equation} \\int u dv = uv - \\int v du \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x e^x dx = (x-1) e^x \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x e^x",
+    "latex": "\\begin{equation} \\int x e^x dx = (x-1) e^x \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x e^x \\cos x dx = \\frac{1}{2}e^x (x \\cos x - \\sin x + x \\sin x) \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x e^x \\cos x",
+    "latex": "\\begin{equation} \\int x e^x \\cos x dx = \\frac{1}{2}e^x (x \\cos x - \\sin x + x \\sin x) \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x e^x \\sin x dx = \\frac{1}{2}e^x (\\cos x - x \\cos x + x \\sin x) \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x e^x \\sin x",
+    "latex": "\\begin{equation} \\int x e^x \\sin x dx = \\frac{1}{2}e^x (\\cos x - x \\cos x + x \\sin x) \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x e^{-ax^2}\\\\ \\text{dx} = -\\dfrac{1}{2a}e^{-ax^2} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x e^{-ax^2}",
+    "latex": "\\begin{equation} \\int x e^{-ax^2}\\\\ \\text{dx} = -\\dfrac{1}{2a}e^{-ax^2} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x e^{ax} dx = \\left(\\frac{x}{a}-\\frac{1}{a^2}\\right) e^{ax} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x e^{ax}",
+    "latex": "\\begin{equation} \\int x e^{ax} dx = \\left(\\frac{x}{a}-\\frac{1}{a^2}\\right) e^{ax} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x \\cos ax dx = \\frac{1}{a^2} \\cos ax + \\frac{x}{a} \\sin ax \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x \\cos ax",
+    "latex": "\\begin{equation} \\int x \\cos ax dx = \\frac{1}{a^2} \\cos ax + \\frac{x}{a} \\sin ax \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x \\cos x dx = \\cos x + x \\sin x \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x \\cos x",
+    "latex": "\\begin{equation} \\int x \\cos x dx = \\cos x + x \\sin x \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x \\sin ax dx = -\\frac{x \\cos ax}{a} + \\frac{\\sin ax}{a^2} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x \\sin ax",
+    "latex": "\\begin{equation} \\int x \\sin ax dx = -\\frac{x \\cos ax}{a} + \\frac{\\sin ax}{a^2} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x \\sin x dx = -x \\cos x + \\sin x \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x \\sin x",
+    "latex": "\\begin{equation} \\int x \\sin x dx = -x \\cos x + \\sin x \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x(x+a)^n dx = \\frac{(x+a)^{n+1} ( (n+1)x-a)}{(n+1)(n+2)} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x(x+a)^n",
+    "latex": "\\begin{equation} \\int x(x+a)^n dx = \\frac{(x+a)^{n+1} ( (n+1)x-a)}{(n+1)(n+2)} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x\\sqrt{x-a} dx = \\frac{2}{3}a(x-a)^{3/2}+\\frac{2}{5}(x-a)^{5/2} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x\\sqrt{x-a}",
+    "latex": "\\begin{equation} \\int x\\sqrt{x-a} dx = \\frac{2}{3}a(x-a)^{3/2}+\\frac{2}{5}(x-a)^{5/2} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x^2 e^{-ax^2}\\\\ \\text{dx} = \\dfrac{1}{4}\\sqrt{\\dfrac{\\pi}{a^3}}\\text{erf}(x\\sqrt{a}) -\\dfrac{x}{2a}e^{-ax^2} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x^2 e^{-ax^2}",
+    "latex": "\\begin{equation} \\int x^2 e^{-ax^2}\\\\ \\text{dx} = \\dfrac{1}{4}\\sqrt{\\dfrac{\\pi}{a^3}}\\text{erf}(x\\sqrt{a}) -\\dfrac{x}{2a}e^{-ax^2} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x^2 e^{ax} dx = \\left(\\frac{x^2}{a}-\\frac{2x}{a^2}+\\frac{2}{a^3}\\right) e^{ax} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x^2 e^{ax}",
+    "latex": "\\begin{equation} \\int x^2 e^{ax} dx = \\left(\\frac{x^2}{a}-\\frac{2x}{a^2}+\\frac{2}{a^3}\\right) e^{ax} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x^2 e^{x} dx = \\left(x^2 - 2x + 2\\right) e^{x} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x^2 e^{x}",
+    "latex": "\\begin{equation} \\int x^2 e^{x} dx = \\left(x^2 - 2x + 2\\right) e^{x} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x^2 \\cos ax dx = \\frac{2 x \\cos ax }{a^2} + \\frac{ a^2 x^2 - 2 }{a^3} \\sin ax \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x^2 \\cos ax",
+    "latex": "\\begin{equation} \\int x^2 \\cos ax dx = \\frac{2 x \\cos ax }{a^2} + \\frac{ a^2 x^2 - 2 }{a^3} \\sin ax \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x^2 \\cos x dx = 2 x \\cos x + \\left ( x^2 - 2 \\right ) \\sin x \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x^2 \\cos x",
+    "latex": "\\begin{equation} \\int x^2 \\cos x dx = 2 x \\cos x + \\left ( x^2 - 2 \\right ) \\sin x \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x^2 \\sin ax dx =\\frac{2-a^2x^2}{a^3}\\cos ax +\\frac{ 2 x \\sin ax}{a^2} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x^2 \\sin ax",
+    "latex": "\\begin{equation} \\int x^2 \\sin ax dx =\\frac{2-a^2x^2}{a^3}\\cos ax +\\frac{ 2 x \\sin ax}{a^2} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x^2 \\sin x dx = \\left(2-x^2\\right) \\cos x + 2 x \\sin x \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x^2 \\sin x",
+    "latex": "\\begin{equation} \\int x^2 \\sin x dx = \\left(2-x^2\\right) \\cos x + 2 x \\sin x \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x^3 e^{x} dx = \\left(x^3-3x^2 + 6x - 6\\right) e^{x} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x^3 e^{x}",
+    "latex": "\\begin{equation} \\int x^3 e^{x} dx = \\left(x^3-3x^2 + 6x - 6\\right) e^{x} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x^n dx = \\frac{1}{n+1}x^{n+1} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x^n",
+    "latex": "\\begin{equation} \\int x^n dx = \\frac{1}{n+1}x^{n+1} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int x^n e^{ax}\\hspace{1pt}\\text{d}x = \\dfrac{x^n e^{ax}}{a} - \\dfrac{n}{a}\\int x^{n-1}e^{ax}\\hspace{1pt}\\text{d}x \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of x^n e^{ax}",
+    "latex": "\\begin{equation} \\int x^n e^{ax}\\hspace{1pt}\\text{d}x = \\dfrac{x^n e^{ax}}{a} - \\dfrac{n}{a}\\int x^{n-1}e^{ax}\\hspace{1pt}\\text{d}x \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\cos ax dx= \\frac{1}{a} \\sin ax \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\cos ax",
+    "latex": "\\begin{equation} \\int \\cos ax dx= \\frac{1}{a} \\sin ax \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\cosh ax dx =\\frac{1}{a} \\sinh ax \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\cosh ax",
+    "latex": "\\begin{equation} \\int \\cosh ax dx =\\frac{1}{a} \\sinh ax \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\cos^2 ax dx = \\frac{x}{2}+\\frac{ \\sin 2ax}{4a} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\cos^2 ax",
+    "latex": "\\begin{equation} \\int \\cos^2 ax dx = \\frac{x}{2}+\\frac{ \\sin 2ax}{4a} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\cos^2 ax \\sin ax dx = -\\frac{1}{3a}\\cos^3{ax} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\cos^2 ax \\sin ax",
+    "latex": "\\begin{equation} \\int \\cos^2 ax \\sin ax dx = -\\frac{1}{3a}\\cos^3{ax} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\cos^3 ax dx = \\frac{3 \\sin ax}{4a}+\\frac{ \\sin 3ax}{12a} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\cos^3 ax",
+    "latex": "\\begin{equation} \\int \\cos^3 ax dx = \\frac{3 \\sin ax}{4a}+\\frac{ \\sin 3ax}{12a} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\csc x dx = \\ln \\left | \\tan \\frac{x}{2} \\right| = \\ln | \\csc x - \\cot x| + C \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\csc x",
+    "latex": "\\begin{equation} \\int \\csc x dx = \\ln \\left | \\tan \\frac{x}{2} \\right| = \\ln | \\csc x - \\cot x| + C \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\csc^2 ax dx = -\\frac{1}{a} \\cot ax \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\csc^2 ax",
+    "latex": "\\begin{equation} \\int \\csc^2 ax dx = -\\frac{1}{a} \\cot ax \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\csc^3 x dx = -\\frac{1}{2}\\cot x \\csc x + \\frac{1}{2} \\ln | \\csc x - \\cot x | \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\csc^3 x",
+    "latex": "\\begin{equation} \\int \\csc^3 x dx = -\\frac{1}{2}\\cot x \\csc x + \\frac{1}{2} \\ln | \\csc x - \\cot x | \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\csc^nx \\cot x dx = -\\frac{1}{n}\\csc^n x, n\\ne 0 \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\csc^nx \\cot x",
+    "latex": "\\begin{equation} \\int \\csc^nx \\cot x dx = -\\frac{1}{n}\\csc^n x, n\\ne 0 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\frac{1}{(x+a)(x+b)}dx = \\frac{1}{b-a}\\ln\\frac{a+x}{b+x}, \\text{ } a\\ne b \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{1}{(x+a)(x+b)}",
+    "latex": "\\begin{equation} \\int \\frac{1}{(x+a)(x+b)}dx = \\frac{1}{b-a}\\ln\\frac{a+x}{b+x}, \\text{ } a\\ne b \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\frac{1}{(x+a)^2}dx = -\\frac{1}{x+a} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{1}{(x+a)^2}",
+    "latex": "\\begin{equation} \\int \\frac{1}{(x+a)^2}dx = -\\frac{1}{x+a} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\frac{1}{1+x^2}dx = \\tan^{-1}x \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{1}{1+x^2}",
+    "latex": "\\begin{equation} \\int \\frac{1}{1+x^2}dx = \\tan^{-1}x \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\frac{1}{ax+b}dx = \\frac{1}{a} \\ln |ax + b| \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{1}{ax+b}",
+    "latex": "\\begin{equation} \\int \\frac{1}{ax+b}dx = \\frac{1}{a} \\ln |ax + b| \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\frac{1}{ax^2+bx+c}dx = \\frac{2}{\\sqrt{4ac-b^2}}\\tan^{-1}\\frac{2ax+b}{\\sqrt{4ac-b^2}} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{1}{ax^2+bx+c}",
+    "latex": "\\begin{equation} \\int \\frac{1}{ax^2+bx+c}dx = \\frac{2}{\\sqrt{4ac-b^2}}\\tan^{-1}\\frac{2ax+b}{\\sqrt{4ac-b^2}} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\frac{1}{a^2+x^2}dx = \\frac{1}{a}\\tan^{-1}\\frac{x}{a} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{1}{a^2+x^2}",
+    "latex": "\\begin{equation} \\int \\frac{1}{a^2+x^2}dx = \\frac{1}{a}\\tan^{-1}\\frac{x}{a} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\frac{1}{x}dx = \\ln |x| \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{1}{x}",
+    "latex": "\\begin{equation} \\int \\frac{1}{x}dx = \\ln |x| \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\frac{1}{\\sqrt{a-x}} dx = -2\\sqrt{a-x} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{1}{\\sqrt{a-x}}",
+    "latex": "\\begin{equation} \\int \\frac{1}{\\sqrt{a-x}} dx = -2\\sqrt{a-x} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\frac{1}{\\sqrt{a^2 - x^2}} dx = \\sin^{-1}\\frac{x}{a} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{1}{\\sqrt{a^2 - x^2}}",
+    "latex": "\\begin{equation} \\int \\frac{1}{\\sqrt{a^2 - x^2}} dx = \\sin^{-1}\\frac{x}{a} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\frac{1}{\\sqrt{x\\pm a}} dx = 2\\sqrt{x\\pm a} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{1}{\\sqrt{x\\pm a}}",
+    "latex": "\\begin{equation} \\int \\frac{1}{\\sqrt{x\\pm a}} dx = 2\\sqrt{x\\pm a} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\frac{1}{\\sqrt{x^2 \\pm a^2}} dx = \\ln \\left | x + \\sqrt{x^2 \\pm a^2} \\right | \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{1}{\\sqrt{x^2 \\pm a^2}}",
+    "latex": "\\begin{equation} \\int \\frac{1}{\\sqrt{x^2 \\pm a^2}} dx = \\ln \\left | x + \\sqrt{x^2 \\pm a^2} \\right | \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\frac{x^2}{a^2+x^2}dx = x-a\\tan^{-1}\\frac{x}{a} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{x^2}{a^2+x^2}",
+    "latex": "\\begin{equation} \\int \\frac{x^2}{a^2+x^2}dx = x-a\\tan^{-1}\\frac{x}{a} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\frac{x^3}{a^2+x^2}dx = \\frac{1}{2}x^2-\\frac{1}{2}a^2\\ln|a^2+x^2| \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{x^3}{a^2+x^2}",
+    "latex": "\\begin{equation} \\int \\frac{x^3}{a^2+x^2}dx = \\frac{1}{2}x^2-\\frac{1}{2}a^2\\ln|a^2+x^2| \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\frac{x}{(x+a)^2}dx = \\frac{a}{a+x}+\\ln |a+x| \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{x}{(x+a)^2}",
+    "latex": "\\begin{equation} \\int \\frac{x}{(x+a)^2}dx = \\frac{a}{a+x}+\\ln |a+x| \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\frac{x}{a^2+x^2}dx = \\frac{1}{2}\\ln|a^2+x^2| \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{x}{a^2+x^2}",
+    "latex": "\\begin{equation} \\int \\frac{x}{a^2+x^2}dx = \\frac{1}{2}\\ln|a^2+x^2| \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\frac{x}{\\sqrt{a^2-x^2}}dx = -\\sqrt{a^2-x^2} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{x}{\\sqrt{a^2-x^2}}",
+    "latex": "\\begin{equation} \\int \\frac{x}{\\sqrt{a^2-x^2}}dx = -\\sqrt{a^2-x^2} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\frac{x}{\\sqrt{x\\pm a} } dx = \\frac{2}{3}(x\\mp 2a)\\sqrt{x\\pm a} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{x}{\\sqrt{x\\pm a} }",
+    "latex": "\\begin{equation} \\int \\frac{x}{\\sqrt{x\\pm a} } dx = \\frac{2}{3}(x\\mp 2a)\\sqrt{x\\pm a} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\frac{x}{\\sqrt{x^2\\pm a^2}}dx = \\sqrt{x^2 \\pm a^2} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{x}{\\sqrt{x^2\\pm a^2}}",
+    "latex": "\\begin{equation} \\int \\frac{x}{\\sqrt{x^2\\pm a^2}}dx = \\sqrt{x^2 \\pm a^2} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\frac{\\ln ax}{x} dx = \\frac{1}{2}\\left ( \\ln ax \\right)^2 \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{\\ln ax}{x}",
+    "latex": "\\begin{equation} \\int \\frac{\\ln ax}{x} dx = \\frac{1}{2}\\left ( \\ln ax \\right)^2 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\ln (ax + b) dx = \\left ( x + \\frac{b}{a} \\right) \\ln (ax+b) - x , a\\ne 0 \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\ln (ax + b)",
+    "latex": "\\begin{equation} \\int \\ln (ax + b) dx = \\left ( x + \\frac{b}{a} \\right) \\ln (ax+b) - x , a\\ne 0 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\ln ax dx = x \\ln ax - x \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\ln ax",
+    "latex": "\\begin{equation} \\int \\ln ax dx = x \\ln ax - x \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\sec x \\csc x dx = \\ln | \\tan x | \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\sec x \\csc x",
+    "latex": "\\begin{equation} \\int \\sec x \\csc x dx = \\ln | \\tan x | \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\sec x \\tan x dx = \\sec x \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\sec x \\tan x",
+    "latex": "\\begin{equation} \\int \\sec x \\tan x dx = \\sec x \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\sec^2 ax dx = \\frac{1}{a} \\tan ax \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\sec^2 ax",
+    "latex": "\\begin{equation} \\int \\sec^2 ax dx = \\frac{1}{a} \\tan ax \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\sec^2 x \\tan x dx = \\frac{1}{2} \\sec^2 x \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\sec^2 x \\tan x",
+    "latex": "\\begin{equation} \\int \\sec^2 x \\tan x dx = \\frac{1}{2} \\sec^2 x \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\sec^3 x \\hspace{2pt}\\text{dx} = \\frac{1}{2} \\sec x \\tan x + \\frac{1}{2}\\ln | \\sec x + \\tan x | \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\sec^3 x",
+    "latex": "\\begin{equation} \\int \\sec^3 x \\hspace{2pt}\\text{dx} = \\frac{1}{2} \\sec x \\tan x + \\frac{1}{2}\\ln | \\sec x + \\tan x | \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\sec^n x \\tan x dx = \\frac{1}{n} \\sec^n x , n\\ne 0 \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\sec^n x \\tan x",
+    "latex": "\\begin{equation} \\int \\sec^n x \\tan x dx = \\frac{1}{n} \\sec^n x , n\\ne 0 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\sin ax dx = -\\frac{1}{a} \\cos ax \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\sin ax",
+    "latex": "\\begin{equation} \\int \\sin ax dx = -\\frac{1}{a} \\cos ax \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\sinh ax dx = \\frac{1}{a} \\cosh ax \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\sinh ax",
+    "latex": "\\begin{equation} \\int \\sinh ax dx = \\frac{1}{a} \\cosh ax \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\sinh ax \\cosh ax dx= \\frac{1}{4a}\\left[ -2ax + \\sinh 2ax \\right] \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\sinh ax \\cosh ax",
+    "latex": "\\begin{equation} \\int \\sinh ax \\cosh ax dx= \\frac{1}{4a}\\left[ -2ax + \\sinh 2ax \\right] \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\sin^2 ax dx = \\frac{x}{2} - \\frac{\\sin 2ax} {4a} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\sin^2 ax",
+    "latex": "\\begin{equation} \\int \\sin^2 ax dx = \\frac{x}{2} - \\frac{\\sin 2ax} {4a} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\sin^2 ax \\cos^2 ax dx = \\frac{x}{8}-\\frac{\\sin 4ax}{32a} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\sin^2 ax \\cos^2 ax",
+    "latex": "\\begin{equation} \\int \\sin^2 ax \\cos^2 ax dx = \\frac{x}{8}-\\frac{\\sin 4ax}{32a} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\sin^2 x \\cos x dx = \\frac{1}{3} \\sin^3 x \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\sin^2 x \\cos x",
+    "latex": "\\begin{equation} \\int \\sin^2 x \\cos x dx = \\frac{1}{3} \\sin^3 x \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\sin^3 ax dx = -\\frac{3 \\cos ax}{4a} + \\frac{\\cos 3ax} {12a} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\sin^3 ax",
+    "latex": "\\begin{equation} \\int \\sin^3 ax dx = -\\frac{3 \\cos ax}{4a} + \\frac{\\cos 3ax} {12a} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\sqrt{ax+b}dx = \\left(\\frac{2b}{3a}+\\frac{2x}{3}\\right)\\sqrt{ax+b} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\sqrt{ax+b}",
+    "latex": "\\begin{equation} \\int \\sqrt{ax+b}dx = \\left(\\frac{2b}{3a}+\\frac{2x}{3}\\right)\\sqrt{ax+b} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\sqrt{x-a} dx = \\frac{2}{3}(x-a)^{3/2} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\sqrt{x-a}",
+    "latex": "\\begin{equation} \\int \\sqrt{x-a} dx = \\frac{2}{3}(x-a)^{3/2} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\tan ax dx = -\\frac{1}{a} \\ln \\cos ax \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\tan ax",
+    "latex": "\\begin{equation} \\int \\tan ax dx = -\\frac{1}{a} \\ln \\cos ax \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\tan^2 ax dx = -x + \\frac{1}{a} \\tan ax \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\tan^2 ax",
+    "latex": "\\begin{equation} \\int \\tan^2 ax dx = -x + \\frac{1}{a} \\tan ax \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int \\tan^3 ax dx = \\frac{1}{a} \\ln \\cos ax + \\frac{1}{2a}\\sec^2 ax \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\tan^3 ax",
+    "latex": "\\begin{equation} \\int \\tan^3 ax dx = \\frac{1}{a} \\ln \\cos ax + \\frac{1}{2a}\\sec^2 ax \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\int\\frac{dx}{(a^2+x^2)^{3/2}}=\\frac{x}{a^2\\sqrt{a^2+x^2}} \\end{equation}",
+    "label": "Calculus",
+    "description": " Integral of \\frac{1}{(a^2+x^2)^{3/2}}",
+    "latex": "\\begin{equation} \\int\\frac{dx}{(a^2+x^2)^{3/2}}=\\frac{x}{a^2\\sqrt{a^2+x^2}} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{split} \\int x^n e^{ax}\\hspace{2pt}\\text{d}x = \\frac{(-1)^n}{a^{n+1}}\\Gamma[1+n,-ax], \\\\\\ \\text{ where } \\Gamma(a,x)=\\int_x^{\\infty} t^{a-1}e^{-t}\\hspace{2pt}\\text{d}t \\end{split}",
+    "label": "Calculus",
+    "description": " Integral of x^n e^{ax} in terms of the incomplete gamma function",
+    "latex": "\\begin{split} \\int x^n e^{ax}\\hspace{2pt}\\text{d}x = \\frac{(-1)^n}{a^{n+1}}\\Gamma[1+n,-ax], \\\\\\ \\text{ where } \\Gamma(a,x)=\\int_x^{\\infty} t^{a-1}e^{-t}\\hspace{2pt}\\text{d}t \\end{split}"
+  },
+  {
+    "formula": "\\begin{equation} e \\approx 2.718281828459045... \\end{equation}",
+    "label": "Other",
+    "description": "Euler's number",
+    "latex": "\\begin{equation} e \\approx 2.718281828459045... \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\varphi = \\frac{1+\\sqrt{5}}{2} \\approx 1.61803398874989... \\end{equation}",
+    "label": "Other",
+    "description": "Golden ratio",
+    "latex": "\\begin{equation} \\varphi = \\frac{1+\\sqrt{5}}{2} \\approx 1.61803398874989... \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} i = \\sqrt{-1} \\end{equation}",
+    "label": "Other",
+    "description": "Imaginary unit",
+    "latex": "\\begin{equation} i = \\sqrt{-1} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\pi = \\frac{C}{d} \\approx 3.141592653589793... \\end{equation}",
+    "label": "Other",
+    "description": "Pi (Archimedes' constant)",
+    "latex": "\\begin{equation} \\pi = \\frac{C}{d} \\approx 3.141592653589793... \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\csc \\theta = \\frac{1}{\\sin \\theta} \\end{equation}",
+    "label": "Other",
+    "description": "Cosecant",
+    "latex": "\\begin{equation} \\csc \\theta = \\frac{1}{\\sin \\theta} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{align} \\cos 2\\theta &= \\cos^2 \\theta - \\sin^2 \\theta \\\\\\ &= 2 \\cos^2 \\theta - 1 \\\\\\ &= 1 - 2 \\sin^2 \\theta \\\\\\ &= \\frac{1 - \\tan^2 \\theta} {1 + \\tan^2 \\theta} \\end{align}",
+    "label": "Trigonometry",
+    "description": "Cosine double-angle formula",
+    "latex": "\\begin{align} \\cos 2\\theta &= \\cos^2 \\theta - \\sin^2 \\theta \\\\\\ &= 2 \\cos^2 \\theta - 1 \\\\\\ &= 1 - 2 \\sin^2 \\theta \\\\\\ &= \\frac{1 - \\tan^2 \\theta} {1 + \\tan^2 \\theta} \\end{align}"
+  },
+  {
+    "formula": "\\begin{equation} \\cos(\\alpha \\pm \\beta) = \\cos \\alpha \\cos \\beta \\mp \\sin \\alpha \\sin \\beta \\end{equation}",
+    "label": "Algebra",
+    "description": "Cosine sum and difference identity",
+    "latex": "\\begin{equation} \\cos(\\alpha \\pm \\beta) = \\cos \\alpha \\cos \\beta \\mp \\sin \\alpha \\sin \\beta \\end{equation}"
+  },
+  {
+    "formula": "\\begin{align}\\cos 3\\theta & = \\cos^3\\theta - 3 \\sin^2 \\theta\\cos \\theta \\\\\\ & = 4 \\cos^3\\theta - 3 \\cos\\theta\\end{align}",
+    "label": "Trigonometry",
+    "description": "Cosine triple-angle formula",
+    "latex": "\\begin{align}\\cos 3\\theta & = \\cos^3\\theta - 3 \\sin^2 \\theta\\cos \\theta \\\\\\ & = 4 \\cos^3\\theta - 3 \\cos\\theta\\end{align}"
+  },
+  {
+    "formula": "\\begin{equation} \\cot \\theta = \\frac{1}{\\tan \\theta} = \\frac{\\cos \\theta}{\\sin \\theta} \\end{equation}",
+    "label": "Trigonometry",
+    "description": "Cotangent",
+    "latex": "\\begin{equation} \\cot \\theta = \\frac{1}{\\tan \\theta} = \\frac{\\cos \\theta}{\\sin \\theta} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\cot 2\\theta = \\frac{\\cot^2 \\theta - 1}{2 \\cot \\theta} \\end{equation}",
+    "label": "Trigonometry",
+    "description": "Cotangent double-angle formula",
+    "latex": "\\begin{equation} \\cot 2\\theta = \\frac{\\cot^2 \\theta - 1}{2 \\cot \\theta} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\cot 3\\theta = \\frac{3 \\cot\\theta - \\cot^3\\theta}{1 - 3 \\cot^2\\theta} \\end{equation}",
+    "label": "Trigonometry",
+    "description": "Cotangent triple-angle formula",
+    "latex": "\\begin{equation} \\cot 3\\theta = \\frac{3 \\cot\\theta - \\cot^3\\theta}{1 - 3 \\cot^2\\theta} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\sin^2 \\theta + \\cos^2 \\theta = 1 \\end{equation}",
+    "label": "Algebra",
+    "description": "Pythagorean identity",
+    "latex": "\\begin{equation} \\sin^2 \\theta + \\cos^2 \\theta = 1 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} 1 + \\cot^2 \\theta = \\csc^2 \\theta \\end{equation}",
+    "label": "Algebra",
+    "description": "Pythagorean identity (cotangent and cosecant)",
+    "latex": "\\begin{equation} 1 + \\cot^2 \\theta = \\csc^2 \\theta \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\tan^2 \\theta + 1 = \\sec^2 \\theta \\end{equation}",
+    "label": "Algebra",
+    "description": "Pythagorean identity (tangent and secant)",
+    "latex": "\\begin{equation} \\tan^2 \\theta + 1 = \\sec^2 \\theta \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\sec\\theta= \\frac{1}{\\cos \\theta} \\end{equation}",
+    "label": "Other",
+    "description": "Secant",
+    "latex": "\\begin{equation} \\sec\\theta= \\frac{1}{\\cos \\theta} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{align} \\sin 2\\theta &= 2 \\sin \\theta \\cos \\theta \\\\\\ &= \\frac{2 \\tan \\theta} {1 + \\tan^2 \\theta} \\end{align}",
+    "label": "Trigonometry",
+    "description": "Sine double-angle formula",
+    "latex": "\\begin{align} \\sin 2\\theta &= 2 \\sin \\theta \\cos \\theta \\\\\\ &= \\frac{2 \\tan \\theta} {1 + \\tan^2 \\theta} \\end{align}"
+  },
+  {
+    "formula": "\\begin{equation} \\sin(\\alpha \\pm \\beta) = \\sin \\alpha \\cos \\beta \\pm \\cos \\alpha \\sin \\beta \\end{equation}",
+    "label": "Algebra",
+    "description": "Sine sum and difference identity",
+    "latex": "\\begin{equation} \\sin(\\alpha \\pm \\beta) = \\sin \\alpha \\cos \\beta \\pm \\cos \\alpha \\sin \\beta \\end{equation}"
+  },
+  {
+    "formula": "\\begin{align} \\sin 3\\theta & = -\\sin^3\\theta + 3 \\cos^2\\theta \\sin\\theta\\\\\\ & = -4\\sin^3\\theta + 3\\sin\\theta \\end{align}",
+    "label": "Trigonometry",
+    "description": "Sine triple-angle formula",
+    "latex": "\\begin{align} \\sin 3\\theta & = -\\sin^3\\theta + 3 \\cos^2\\theta \\sin\\theta\\\\\\ & = -4\\sin^3\\theta + 3\\sin\\theta \\end{align}"
+  },
+  {
+    "formula": "\\begin{equation} \\tan \\theta = \\frac{\\sin \\theta}{\\cos \\theta} \\end{equation}",
+    "label": "Trigonometry",
+    "description": "Tangent",
+    "latex": "\\begin{equation} \\tan \\theta = \\frac{\\sin \\theta}{\\cos \\theta} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\tan 2\\theta = \\frac{2 \\tan \\theta} {1 - \\tan^2 \\theta} \\end{equation}",
+    "label": "Trigonometry",
+    "description": "Tangent double-angle formula",
+    "latex": "\\begin{equation} \\tan 2\\theta = \\frac{2 \\tan \\theta} {1 - \\tan^2 \\theta} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\tan(\\alpha \\pm \\beta) = \\frac{\\tan \\alpha \\pm \\tan \\beta}{1 \\mp \\tan \\alpha \\tan \\beta} \\end{equation}",
+    "label": "Algebra",
+    "description": "Tangent sum and difference identity",
+    "latex": "\\begin{equation} \\tan(\\alpha \\pm \\beta) = \\frac{\\tan \\alpha \\pm \\tan \\beta}{1 \\mp \\tan \\alpha \\tan \\beta} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\tan 3\\theta = \\frac{3 \\tan\\theta - \\tan^3\\theta}{1 - 3 \\tan^2\\theta} \\end{equation}",
+    "label": "Trigonometry",
+    "description": "Tangent triple-angle formula",
+    "latex": "\\begin{equation} \\tan 3\\theta = \\frac{3 \\tan\\theta - \\tan^3\\theta}{1 - 3 \\tan^2\\theta} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{align} \\sin(\\theta + \\tfrac{\\pi}{2}) &= +\\cos \\theta & \\sin(\\theta + \\pi) &= -\\sin \\theta & \\sin(\\theta + 2\\pi) &= +\\sin \\theta \\\\\\ \\cos(\\theta + \\tfrac{\\pi}{2}) &= -\\sin \\theta & \\cos(\\theta + \\pi) &= -\\cos \\theta & \\cos(\\theta + 2\\pi) &= +\\cos \\theta \\\\\\ \\tan(\\theta + \\tfrac{\\pi}{2}) &= -\\cot \\theta & \\tan(\\theta + \\pi) &= +\\tan \\theta & \\tan(\\theta + 2\\pi) &= +\\tan \\theta \\\\\\ \\csc(\\theta + \\tfrac{\\pi}{2}) &= +\\sec \\theta & \\csc(\\theta + \\pi) &= -\\csc \\theta & \\csc(\\theta + 2\\pi) &= +\\csc \\theta \\\\\\ \\sec(\\theta + \\tfrac{\\pi}{2}) &= -\\csc \\theta & \\sec(\\theta + \\pi) &= -\\sec \\theta & \\sec(\\theta + 2\\pi) &= +\\sec \\theta \\\\\\ \\cot(\\theta + \\tfrac{\\pi}{2}) &= -\\tan \\theta & \\cot(\\theta + \\pi) &= +\\cot \\theta & \\cot(\\theta + 2\\pi) &= +\\cot \\theta \\end{align}",
+    "label": "Trigonometry",
+    "description": "Trigonometric functions shifts and periodicity",
+    "latex": "\\begin{align} \\sin(\\theta + \\tfrac{\\pi}{2}) &= +\\cos \\theta & \\sin(\\theta + \\pi) &= -\\sin \\theta & \\sin(\\theta + 2\\pi) &= +\\sin \\theta \\\\\\ \\cos(\\theta + \\tfrac{\\pi}{2}) &= -\\sin \\theta & \\cos(\\theta + \\pi) &= -\\cos \\theta & \\cos(\\theta + 2\\pi) &= +\\cos \\theta \\\\\\ \\tan(\\theta + \\tfrac{\\pi}{2}) &= -\\cot \\theta & \\tan(\\theta + \\pi) &= +\\tan \\theta & \\tan(\\theta + 2\\pi) &= +\\tan \\theta \\\\\\ \\csc(\\theta + \\tfrac{\\pi}{2}) &= +\\sec \\theta & \\csc(\\theta + \\pi) &= -\\csc \\theta & \\csc(\\theta + 2\\pi) &= +\\csc \\theta \\\\\\ \\sec(\\theta + \\tfrac{\\pi}{2}) &= -\\csc \\theta & \\sec(\\theta + \\pi) &= -\\sec \\theta & \\sec(\\theta + 2\\pi) &= +\\sec \\theta \\\\\\ \\cot(\\theta + \\tfrac{\\pi}{2}) &= -\\tan \\theta & \\cot(\\theta + \\pi) &= +\\cot \\theta & \\cot(\\theta + 2\\pi) &= +\\cot \\theta \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\sin(-\\theta) &= -\\sin \\theta & \\sin(\\tfrac{\\pi}{2} - \\theta) &= +\\cos \\theta & \\sin(\\pi - \\theta) &= +\\sin \\theta \\\\\\ \\cos(-\\theta) &= +\\cos \\theta & \\cos(\\tfrac{\\pi}{2} - \\theta) &= +\\sin \\theta & \\cos(\\pi - \\theta) &= -\\cos \\theta \\\\\\ \\tan(-\\theta) &= -\\tan \\theta & \\tan(\\tfrac{\\pi}{2} - \\theta) &= +\\cot \\theta & \\tan(\\pi - \\theta) &= -\\tan \\theta \\\\\\ \\csc(-\\theta) &= -\\csc \\theta & \\csc(\\tfrac{\\pi}{2} - \\theta) &= +\\sec \\theta & \\csc(\\pi - \\theta) &= +\\csc \\theta \\\\\\ \\sec(-\\theta) &= +\\sec \\theta & \\sec(\\tfrac{\\pi}{2} - \\theta) &= +\\csc \\theta & \\sec(\\pi - \\theta) &= -\\sec \\theta \\\\\\ \\cot(-\\theta) &= -\\cot \\theta & \\cot(\\tfrac{\\pi}{2} - \\theta) &= +\\tan \\theta & \\cot(\\pi - \\theta) &= -\\cot \\theta \\end{align}",
+    "label": "Trigonometry",
+    "description": "Trigonometric functions symmetry",
+    "latex": "\\begin{align} \\sin(-\\theta) &= -\\sin \\theta & \\sin(\\tfrac{\\pi}{2} - \\theta) &= +\\cos \\theta & \\sin(\\pi - \\theta) &= +\\sin \\theta \\\\\\ \\cos(-\\theta) &= +\\cos \\theta & \\cos(\\tfrac{\\pi}{2} - \\theta) &= +\\sin \\theta & \\cos(\\pi - \\theta) &= -\\cos \\theta \\\\\\ \\tan(-\\theta) &= -\\tan \\theta & \\tan(\\tfrac{\\pi}{2} - \\theta) &= +\\cot \\theta & \\tan(\\pi - \\theta) &= -\\tan \\theta \\\\\\ \\csc(-\\theta) &= -\\csc \\theta & \\csc(\\tfrac{\\pi}{2} - \\theta) &= +\\sec \\theta & \\csc(\\pi - \\theta) &= +\\csc \\theta \\\\\\ \\sec(-\\theta) &= +\\sec \\theta & \\sec(\\tfrac{\\pi}{2} - \\theta) &= +\\csc \\theta & \\sec(\\pi - \\theta) &= -\\sec \\theta \\\\\\ \\cot(-\\theta) &= -\\cot \\theta & \\cot(\\tfrac{\\pi}{2} - \\theta) &= +\\tan \\theta & \\cot(\\pi - \\theta) &= -\\cot \\theta \\end{align}"
+  },
+  {
+    "formula": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\mathrm{arccsc}\\, x = \\frac{-1}{\\left\\lvert x \\right\\rvert \\sqrt{x^2 - 1}} \\end{equation}",
+    "label": "Calculus",
+    "description": "Derivative of arccosecant",
+    "latex": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\mathrm{arccsc}\\, x = \\frac{-1}{\\left\\lvert x \\right\\rvert \\sqrt{x^2 - 1}} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\arccos x = \\frac{-1}{\\sqrt{1-x^2}} \\end{equation}",
+    "label": "Calculus",
+    "description": "Derivative of arccosine",
+    "latex": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\arccos x = \\frac{-1}{\\sqrt{1-x^2}} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\mathrm{arccot}\\, x = \\frac{-1}{1+x^2} \\end{equation}",
+    "label": "Calculus",
+    "description": "Derivative of arccotangent",
+    "latex": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\mathrm{arccot}\\, x = \\frac{-1}{1+x^2} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\mathrm{arcsec}\\, x = \\frac{1}{\\left\\lvert x \\right\\rvert \\sqrt{x^2 - 1}} \\end{equation}",
+    "label": "Calculus",
+    "description": "Derivative of arcsecant",
+    "latex": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\mathrm{arcsec}\\, x = \\frac{1}{\\left\\lvert x \\right\\rvert \\sqrt{x^2 - 1}} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\arcsin x = \\frac{1}{\\sqrt{1-x^2}} \\end{equation}",
+    "label": "Calculus",
+    "description": "Derivative of arcsine",
+    "latex": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\arcsin x = \\frac{1}{\\sqrt{1-x^2}} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\arctan x = \\frac{1}{1+x^2} \\end{equation}",
+    "label": "Calculus",
+    "description": "Derivative of arctangent",
+    "latex": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\arctan x = \\frac{1}{1+x^2} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\csc x = -\\csc x \\cot x \\end{equation}",
+    "label": "Calculus",
+    "description": "Derivative of cosecant",
+    "latex": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\csc x = -\\csc x \\cot x \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\cos x = - \\sin x \\end{equation}",
+    "label": "Calculus",
+    "description": "Derivative of cosine",
+    "latex": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\cos x = - \\sin x \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\cot x = - \\csc^2 x \\end{equation}",
+    "label": "Calculus",
+    "description": "Derivative of cotangent",
+    "latex": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\cot x = - \\csc^2 x \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\sec x = \\sec x \\tan x \\end{equation}",
+    "label": "Calculus",
+    "description": "Derivative of secant",
+    "latex": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\sec x = \\sec x \\tan x \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\sin x = \\cos x \\end{equation}",
+    "label": "Calculus",
+    "description": "Derivative of sine",
+    "latex": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\sin x = \\cos x \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\tan x = \\sec ^2 x \\end{equation}",
+    "label": "Calculus",
+    "description": "Derivative of tangent",
+    "latex": "\\begin{equation} \\frac{\\mathrm{d}}{\\mathrm{d} x} \\tan x = \\sec ^2 x \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} S^c = \\{ x \\in \\Omega \\, | \\, x \\notin S \\} \\end{equation}",
+    "label": "Other",
+    "description": "Complement of a Set",
+    "latex": "\\begin{equation} S^c = \\{ x \\in \\Omega \\, | \\, x \\notin S \\} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} S = \\{x_1, x_2, \\dotso \\} \\end{equation}",
+    "label": "Other",
+    "description": "Countably Infinite Set",
+    "latex": "\\begin{equation} S = \\{x_1, x_2, \\dotso \\} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{align} \\left( \\bigcup_n S_n \\right)^c &= \\bigcap_n S_n^c \\\\\\ \\left( \\bigcap_n S_n \\right)^c &= \\bigcup_n S_n^c \\end{align}",
+    "label": "Other",
+    "description": "De Morgan's Laws",
+    "latex": "\\begin{align} \\left( \\bigcup_n S_n \\right)^c &= \\bigcap_n S_n^c \\\\\\ \\left( \\bigcap_n S_n \\right)^c &= \\bigcup_n S_n^c \\end{align}"
+  },
+  {
+    "formula": "\\begin{equation} S = T \\end{equation}",
+    "label": "Other",
+    "description": "Equal Sets",
+    "latex": "\\begin{equation} S = T \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} S = \\{x_1, x_2, \\dotso x_n \\} \\end{equation}",
+    "label": "Other",
+    "description": "Finite Set",
+    "latex": "\\begin{equation} S = \\{x_1, x_2, \\dotso x_n \\} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\bigcap_{i=1}^N = S_1 \\, \\cup \\, S_2 \\, \\cup \\dotso = \\{ x \\, | \\, x \\in S_i \\text{ for all } i\\} \\end{equation}",
+    "label": "Other",
+    "description": "Intersection of Sets",
+    "latex": "\\begin{equation} \\bigcap_{i=1}^N = S_1 \\, \\cup \\, S_2 \\, \\cup \\dotso = \\{ x \\, | \\, x \\in S_i \\text{ for all } i\\} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} S \\subset T \\; \\text{or} \\; T \\supset S \\end{equation}",
+    "label": "Other",
+    "description": "Subset and Superset",
+    "latex": "\\begin{equation} S \\subset T \\; \\text{or} \\; T \\supset S \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\bigcup_{i=1}^N = S_1 \\, \\cup \\, S_2 \\, \\cup \\dotso = \\{ x \\, | \\, x \\in S_i \\text{ for some } i\\} \\end{equation}",
+    "label": "Other",
+    "description": "Union of Sets",
+    "latex": "\\begin{equation} \\bigcup_{i=1}^N = S_1 \\, \\cup \\, S_2 \\, \\cup \\dotso = \\{ x \\, | \\, x \\in S_i \\text{ for some } i\\} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\Omega \\end{equation}",
+    "label": "Other",
+    "description": "Universal Set",
+    "latex": "\\begin{equation} \\Omega \\end{equation}"
+  },
+  {
+    "formula": "\\begin{align} \\arctan x &= x - \\frac{x^3}{3} + \\frac{x^5}{5} - \\frac{x^7}{7} + \\frac{x^9}{9} - \\dotso \\\\\\ &= \\sum_{n=0}^\\infty (-1)^n \\frac{x^{2n + 1}}{2n + 1} \\end{align}",
+    "label": "Algebra",
+    "description": "Arctangent Taylor series",
+    "latex": "\\begin{align} \\arctan x &= x - \\frac{x^3}{3} + \\frac{x^5}{5} - \\frac{x^7}{7} + \\frac{x^9}{9} - \\dotso \\\\\\ &= \\sum_{n=0}^\\infty (-1)^n \\frac{x^{2n + 1}}{2n + 1} \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\cos x &= 1 - \\frac{x^2}{2!} + \\frac{x^4}{4!} - \\frac{x^6}{6!} + \\frac{x^8}{8!} - \\dotso \\\\\\ &= \\sum_{n=0}^\\infty (-1)^n \\frac{x^{2n}}{(2n)!} \\end{align}",
+    "label": "Algebra",
+    "description": "Cosine Taylor series",
+    "latex": "\\begin{align} \\cos x &= 1 - \\frac{x^2}{2!} + \\frac{x^4}{4!} - \\frac{x^6}{6!} + \\frac{x^8}{8!} - \\dotso \\\\\\ &= \\sum_{n=0}^\\infty (-1)^n \\frac{x^{2n}}{(2n)!} \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} e^x &= 1 + x + \\frac{x^2}{2!} + \\frac{x^3}{3!} + \\frac{x^4}{4!} + \\dotso \\\\\\ &= \\sum_{n=0}^\\infty \\frac{x^n}{n!} \\end{align}",
+    "label": "Algebra",
+    "description": "Exponential Taylor series",
+    "latex": "\\begin{align} e^x &= 1 + x + \\frac{x^2}{2!} + \\frac{x^3}{3!} + \\frac{x^4}{4!} + \\dotso \\\\\\ &= \\sum_{n=0}^\\infty \\frac{x^n}{n!} \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\frac{1}{1-x} &= 1 + x + x^2 + x^3 + x^4 + \\dotso \\\\\\ &= \\sum_{n=0}^\\infty x^n \\end{align}",
+    "label": "Algebra",
+    "description": "Geometric Taylor series",
+    "latex": "\\begin{align} \\frac{1}{1-x} &= 1 + x + x^2 + x^3 + x^4 + \\dotso \\\\\\ &= \\sum_{n=0}^\\infty x^n \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\ln (1 + x) &= x - \\frac{x^2}{2} + \\frac{x^3}{3} - \\frac{x^4}{4} + \\frac{x^5}{5} - \\dotso \\\\\\ &= \\sum_{n=1}^\\infty (-1)^{n + 1} \\frac{x^n}{n} \\end{align}",
+    "label": "Algebra",
+    "description": "Natural logarithm Taylor series",
+    "latex": "\\begin{align} \\ln (1 + x) &= x - \\frac{x^2}{2} + \\frac{x^3}{3} - \\frac{x^4}{4} + \\frac{x^5}{5} - \\dotso \\\\\\ &= \\sum_{n=1}^\\infty (-1)^{n + 1} \\frac{x^n}{n} \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\sin x &= x - \\frac{x^3}{3!} + \\frac{x^5}{5!} - \\frac{x^7}{7!} + \\frac{x^9}{9!} - \\dotso \\\\\\ &= \\sum_{n=0}^\\infty (-1)^n \\frac{x^{2n + 1}}{(2n + 1)!} \\end{align}",
+    "label": "Algebra",
+    "description": "Sine Taylor series",
+    "latex": "\\begin{align} \\sin x &= x - \\frac{x^3}{3!} + \\frac{x^5}{5!} - \\frac{x^7}{7!} + \\frac{x^9}{9!} - \\dotso \\\\\\ &= \\sum_{n=0}^\\infty (-1)^n \\frac{x^{2n + 1}}{(2n + 1)!} \\end{align}"
+  },
+  {
+    "formula": "\\begin{equation} c^2 = a^2 + b^2 - 2 a b\\cos\\gamma \\end{equation}",
+    "label": "Trigonometry",
+    "description": "Law of cosines",
+    "latex": "\\begin{equation} c^2 = a^2 + b^2 - 2 a b\\cos\\gamma \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\frac{\\cot(\\alpha / 2)}{s - a} = \\frac{\\cot(\\beta / 2)}{s - b} = \\frac{\\cot(\\gamma / 2)}{s - c} \\end{equation}",
+    "label": "Trigonometry",
+    "description": "Law of cotangents",
+    "latex": "\\begin{equation} \\frac{\\cot(\\alpha / 2)}{s - a} = \\frac{\\cot(\\beta / 2)}{s - b} = \\frac{\\cot(\\gamma / 2)}{s - c} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\frac{a}{\\sin \\alpha} = \\frac{b}{\\sin \\beta} = \\frac{c}{\\sin \\gamma} = D \\end{equation}",
+    "label": "Trigonometry",
+    "description": "Law of sines",
+    "latex": "\\begin{equation} \\frac{a}{\\sin \\alpha} = \\frac{b}{\\sin \\beta} = \\frac{c}{\\sin \\gamma} = D \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\frac{a - b}{a + b} = \\frac{\\tan\\left[ \\frac{1}{2} (\\alpha - \\beta) \\right]}{\\tan \\left[ \\frac{1}{2} (\\alpha + \\beta) \\right]} \\end{equation}",
+    "label": "Trigonometry",
+    "description": "Law of tangents",
+    "latex": "\\begin{equation} \\frac{a - b}{a + b} = \\frac{\\tan\\left[ \\frac{1}{2} (\\alpha - \\beta) \\right]}{\\tan \\left[ \\frac{1}{2} (\\alpha + \\beta) \\right]} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} a^2 + b^2 = c^2\\! \\end{equation}",
+    "label": "Algebra",
+    "description": "Pythagorean theorem",
+    "latex": "\\begin{equation} a^2 + b^2 = c^2\\! \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} c = \\sqrt{a^2 + b^2} \\end{equation}",
+    "label": "Algebra",
+    "description": "Pythagorean theorem hypotenuse solution",
+    "latex": "\\begin{equation} c = \\sqrt{a^2 + b^2} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{align*} {}_mF_n \\left[ \\left\\lgroup \\qquad\\qquad\\qquad \\right\\rgroup x \\right] \\end{align*}",
+    "label": "Calculus",
+    "description": " Generalized hypergeometric function",
+    "latex": "\\begin{align*} {}_mF_n \\left[ \\left\\lgroup \\qquad\\qquad\\qquad \\right\\rgroup x \\right] \\end{align*}"
+  },
+  {
+    "formula": "\\begin{align*} \\label{hypergeorows} & \\alpha_1, \\alpha_2,...\\, \\alpha_m; \\\\\\ & \\beta_1,\\beta_2,...\\,\\; \\beta_n\\, ; \\end{align*}",
+    "label": "Calculus",
+    "description": " Generalized hypergeometric function parameters",
+    "latex": "\\begin{align*} \\label{hypergeorows} & \\alpha_1, \\alpha_2,...\\, \\alpha_m; \\\\\\ & \\beta_1,\\beta_2,...\\,\\; \\beta_n\\, ; \\end{align*}"
+  },
+  {
+    "formula": "\\begin{align} & (i)\\; P_n(x) = {}_2F_1 \\left(-n , n+1 ; 1 ; \\frac{1-x}2 \\right) \\\\\\ & (ii)\\; P_n^m(x) = \\frac{(n+m)!}{(n-m)!}\\frac{(1-x^2)^{m/2}}{2^mm!}{}_2F_1 \\left( m-n , m+n+1 ; m+1 ; \\frac{1-x}2 \\right) \\\\\\ & (iii)\\; J_n(x) = \\frac{e^{-ix}}{n!} \\left( \\frac x2 \\right)^n {}_1F_1(n+\\tfrac 12 ; 2n+1 ; 2ix) \\\\\\ & (iv)\\; H_{2n}(x) = (-1)^n\\frac{(2n)!}{n!} {}_1F_1(-n ; \\tfrac12 ; x^2) \\\\\\ & (v)\\; H_{2n+1}(x) = (-1)^n\\frac{2(2n+1)!}{n!}x\\; {}_1F_1(-n ; \\tfrac32 ; x^2) \\\\\\ & (vi)\\; L_n(x) = {}_1F_1(-n ; 1 ; x) \\\\\\ & (vii)\\; L_n^k(x) = \\frac{\\Gamma(n+k+1)}{n!\\Gamma(k+1)}{}_1F_1(-n ; k+1 ; x) \\\\\\ & (viii)\\; T_n(x) = {}_2F_1 \\left(-n , n ; \\frac12 ; \\frac{1-x}2 \\right) \\\\\\ & (ix)\\; U_n(x) = \\sqrt{(1-x^2)}\\; n\\; {}_2F_1 \\left(-n+1 , n+1 ; \\frac32 ; \\frac{1-x}2\\right) \\\\\\ & (x)\\; C_n^\\lambda(x) = \\frac{\\Gamma(n+2\\lambda)}{n!\\Gamma(2\\lambda)}{}_2F_1 \\left( -n , n+2\\lambda ; \\lambda +\\tfrac12 ; \\frac{1-x}2 \\right) \\\\\\ & (xi)\\; P_n^{(\\alpha,\\beta)}(x) = \\frac{\\Gamma(n+\\alpha+1)}{n!\\Gamma(\\alpha+1)} {}_2F_1\\left(-n , n+\\alpha+\\beta+1 ; \\alpha+1 ; \\frac{1-x}2\\right) \\end{align}",
+    "label": "Calculus",
+    "description": " Hypergeometric function representations of special functions",
+    "latex": "\\begin{align} & (i)\\; P_n(x) = {}_2F_1 \\left(-n , n+1 ; 1 ; \\frac{1-x}2 \\right) \\\\\\ & (ii)\\; P_n^m(x) = \\frac{(n+m)!}{(n-m)!}\\frac{(1-x^2)^{m/2}}{2^mm!}{}_2F_1 \\left( m-n , m+n+1 ; m+1 ; \\frac{1-x}2 \\right) \\\\\\ & (iii)\\; J_n(x) = \\frac{e^{-ix}}{n!} \\left( \\frac x2 \\right)^n {}_1F_1(n+\\tfrac 12 ; 2n+1 ; 2ix) \\\\\\ & (iv)\\; H_{2n}(x) = (-1)^n\\frac{(2n)!}{n!} {}_1F_1(-n ; \\tfrac12 ; x^2) \\\\\\ & (v)\\; H_{2n+1}(x) = (-1)^n\\frac{2(2n+1)!}{n!}x\\; {}_1F_1(-n ; \\tfrac32 ; x^2) \\\\\\ & (vi)\\; L_n(x) = {}_1F_1(-n ; 1 ; x) \\\\\\ & (vii)\\; L_n^k(x) = \\frac{\\Gamma(n+k+1)}{n!\\Gamma(k+1)}{}_1F_1(-n ; k+1 ; x) \\\\\\ & (viii)\\; T_n(x) = {}_2F_1 \\left(-n , n ; \\frac12 ; \\frac{1-x}2 \\right) \\\\\\ & (ix)\\; U_n(x) = \\sqrt{(1-x^2)}\\; n\\; {}_2F_1 \\left(-n+1 , n+1 ; \\frac32 ; \\frac{1-x}2\\right) \\\\\\ & (x)\\; C_n^\\lambda(x) = \\frac{\\Gamma(n+2\\lambda)}{n!\\Gamma(2\\lambda)}{}_2F_1 \\left( -n , n+2\\lambda ; \\lambda +\\tfrac12 ; \\frac{1-x}2 \\right) \\\\\\ & (xi)\\; P_n^{(\\alpha,\\beta)}(x) = \\frac{\\Gamma(n+\\alpha+1)}{n!\\Gamma(\\alpha+1)} {}_2F_1\\left(-n , n+\\alpha+\\beta+1 ; \\alpha+1 ; \\frac{1-x}2\\right) \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\label{confluenthypergeo} {}_1F_1(\\alpha ; \\beta ; x) \\end{align}",
+    "label": "Calculus",
+    "description": " Confluent hypergeometric function",
+    "latex": "\\begin{align} \\label{confluenthypergeo} {}_1F_1(\\alpha ; \\beta ; x) \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\label{diffeqsolution} {}_2F_1(\\alpha , \\beta ; \\gamma ; x) \\end{align}",
+    "label": "Calculus",
+    "description": " Gaussian hypergeometric function",
+    "latex": "\\begin{align} \\label{diffeqsolution} {}_2F_1(\\alpha , \\beta ; \\gamma ; x) \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\label{thrm9.2} {}_2F_1(\\alpha , \\beta ; \\gamma ; x) = {}_2F_1(\\beta , \\alpha ; \\gamma ; x) \\end{align}",
+    "label": "Calculus",
+    "description": " Symmetry property of the Gaussian hypergeometric function",
+    "latex": "\\begin{align} \\label{thrm9.2} {}_2F_1(\\alpha , \\beta ; \\gamma ; x) = {}_2F_1(\\beta , \\alpha ; \\gamma ; x) \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\label{thrm9.3} x(1-x)\\frac{\\mathrm d^2 y}{\\mathrm d x^2} + [\\gamma - (\\alpha + \\beta + 1)x]\\frac{\\mathrm d y}{\\mathrm d x} - \\alpha\\beta y = 0 \\end{align}",
+    "label": "Calculus",
+    "description": " Differential equation satisfied by the Gaussian hypergeometric function",
+    "latex": "\\begin{align} \\label{thrm9.3} x(1-x)\\frac{\\mathrm d^2 y}{\\mathrm d x^2} + [\\gamma - (\\alpha + \\beta + 1)x]\\frac{\\mathrm d y}{\\mathrm d x} - \\alpha\\beta y = 0 \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\label{thrm9.4} {}_2F_1(\\alpha , \\beta ; \\gamma ; x) = \\frac{\\Gamma(\\gamma)}{\\Gamma(\\beta)\\Gamma(\\gamma-\\beta)}\\int_0^1t^{\\beta-1}(1-t)^{\\gamma-\\beta-1}(1-xt)^{-\\alpha}\\; \\mathrm dt,\\quad \\gamma>\\beta>0 \\end{align}",
+    "label": "Calculus",
+    "description": " Integral representation of the Gaussian hypergeometric function",
+    "latex": "\\begin{align} \\label{thrm9.4} {}_2F_1(\\alpha , \\beta ; \\gamma ; x) = \\frac{\\Gamma(\\gamma)}{\\Gamma(\\beta)\\Gamma(\\gamma-\\beta)}\\int_0^1t^{\\beta-1}(1-t)^{\\gamma-\\beta-1}(1-xt)^{-\\alpha}\\; \\mathrm dt,\\quad \\gamma>\\beta>0 \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\label{thrm9.6} x^2\\frac{\\mathrm d^2 y}{\\mathrm d x^2} + (\\beta-x)\\frac{\\mathrm d y}{\\mathrm d x} - \\alpha y = 0 \\end{align}",
+    "label": "Calculus",
+    "description": " Differential equation satisfied by the confluent hypergeometric function",
+    "latex": "\\begin{align} \\label{thrm9.6} x^2\\frac{\\mathrm d^2 y}{\\mathrm d x^2} + (\\beta-x)\\frac{\\mathrm d y}{\\mathrm d x} - \\alpha y = 0 \\end{align}"
+  },
+  {
+    "formula": "\\begin{align} \\label{thrm9.7} {}_1F_1(\\alpha ; \\beta ; x) = \\frac{\\Gamma(\\beta)}{\\Gamma(\\alpha)\\Gamma(\\beta-\\alpha)}\\int_0^1(1-t)^{\\beta-\\alpha-1}t^{\\alpha-1}e^{xt}\\; \\mathrm dt,\\quad \\beta>\\alpha>0 \\end{align}",
+    "label": "Calculus",
+    "description": " Integral representation of the confluent hypergeometric function",
+    "latex": "\\begin{align} \\label{thrm9.7} {}_1F_1(\\alpha ; \\beta ; x) = \\frac{\\Gamma(\\beta)}{\\Gamma(\\alpha)\\Gamma(\\beta-\\alpha)}\\int_0^1(1-t)^{\\beta-\\alpha-1}t^{\\alpha-1}e^{xt}\\; \\mathrm dt,\\quad \\beta>\\alpha>0 \\end{align}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{confhypergeo} _1F_1(\\alpha;\\beta;x) = \\sum_{r=0}^\\infty\\frac{(\\alpha)_r\\,x^r}{(\\beta)_rr!} \\end{equation}",
+    "label": "Calculus",
+    "description": " Confluent hypergeometric function",
+    "latex": "\\begin{equation} \\label{confhypergeo} _1F_1(\\alpha;\\beta;x) = \\sum_{r=0}^\\infty\\frac{(\\alpha)_r\\,x^r}{(\\beta)_rr!} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{hypergeodef} _{m}F_{n}(\\alpha_1,\\alpha_2,...\\alpha_m;\\, \\beta_1,\\beta_2,...\\beta_n;\\, x)=\\sum _{r=0}^\\infty \\frac {(\\alpha_1)_r(\\alpha_2)_r...(\\alpha_m)_r\\;x^r}{(\\beta_1)_r(\\beta_2)_r...(\\beta_n)_r\\;r!} \\end{equation}",
+    "label": "Calculus",
+    "description": " Hypergeometric function",
+    "latex": "\\begin{equation} \\label{hypergeodef} _{m}F_{n}(\\alpha_1,\\alpha_2,...\\alpha_m;\\, \\beta_1,\\beta_2,...\\beta_n;\\, x)=\\sum _{r=0}^\\infty \\frac {(\\alpha_1)_r(\\alpha_2)_r...(\\alpha_m)_r\\;x^r}{(\\beta_1)_r(\\beta_2)_r...(\\beta_n)_r\\;r!} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{simplehypergeo} _2F_1(\\alpha,\\beta;\\gamma;x)=\\sum _{r=0}^{\\infty }\\frac {(\\alpha)_{r}(\\beta)_{r}\\,x^r}{(\\gamma)_r\\,r!} \\end{equation}",
+    "label": "Calculus",
+    "description": " Gaussian hypergeometric function",
+    "latex": "\\begin{equation} \\label{simplehypergeo} _2F_1(\\alpha,\\beta;\\gamma;x)=\\sum _{r=0}^{\\infty }\\frac {(\\alpha)_{r}(\\beta)_{r}\\,x^r}{(\\gamma)_r\\,r!} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{poch0} (\\alpha)_0 = 1 \\end{equation}",
+    "label": "Other",
+    "description": " Pochhammer symbol",
+    "latex": "\\begin{equation} \\label{poch0} (\\alpha)_0 = 1 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{pochhammer} (\\alpha)_r=\\alpha(\\alpha+1)(\\alpha+2) ... (\\alpha+r-1) = \\frac{\\Gamma(\\alpha + r)}{\\Gamma(\\alpha)} \\end{equation}",
+    "label": "Other",
+    "description": " Pochhammer symbol",
+    "latex": "\\begin{equation} \\label{pochhammer} (\\alpha)_r=\\alpha(\\alpha+1)(\\alpha+2) ... (\\alpha+r-1) = \\frac{\\Gamma(\\alpha + r)}{\\Gamma(\\alpha)} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} V = \\frac{1}{3} \\pi r^2 h \\end{equation}",
+    "label": "Geometry",
+    "description": "Volume of a cone",
+    "latex": "\\begin{equation} V = \\frac{1}{3} \\pi r^2 h \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} V = s^3 \\end{equation}",
+    "label": "Geometry",
+    "description": "Volume of a cube",
+    "latex": "\\begin{equation} V = s^3 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} V = \\pi r^2 h \\end{equation}",
+    "label": "Geometry",
+    "description": "Volume of a cylinder",
+    "latex": "\\begin{equation} V = \\pi r^2 h \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} V = l w h \\end{equation}",
+    "label": "Geometry",
+    "description": "Volume of a rectangular prism",
+    "latex": "\\begin{equation} V = l w h \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} V = \\frac{s^3}{6 \\sqrt{2}} \\end{equation}",
+    "label": "Geometry",
+    "description": "Volume of a regular tetrahedron",
+    "latex": "\\begin{equation} V = \\frac{s^3}{6 \\sqrt{2}} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\!V = \\frac{4}{3}\\pi r^3 \\end{equation}",
+    "label": "Geometry",
+    "description": "Volume of a sphere",
+    "latex": "\\begin{equation} \\!V = \\frac{4}{3}\\pi r^3 \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} V = \\frac{4}{3} \\pi a b c \\end{equation}",
+    "label": "Geometry",
+    "description": "Volume of an ellipsoid",
+    "latex": "\\begin{equation} V = \\frac{4}{3} \\pi a b c \\end{equation}"
+  },
+  {
+    "formula": "x^{0} = 1",
+    "label": "Algebra",
+    "description": "Pochhammer symbol for zero",
+    "latex": "x^{0} = 1"
+  },
+  {
+    "formula": "x^{-1} = 1/x",
+    "label": "Algebra",
+    "description": "Pochhammer symbol for negative integers",
+    "latex": "x^{-1} = 1/x"
+  },
+  {
+    "formula": "x^{-n} = 1/(x(x+1)(x+2)...(x+n-1))",
+    "label": "Algebra",
+    "description": "Pochhammer symbol for negative integers",
+    "latex": "x^{-n} = 1/(x(x+1)(x+2)...(x+n-1))"
+   },
+  {
+    "formula": "x^{m}x^{n} = x^{m+n}",
+    "label": "Algebra",
+    "description": "Pochhammer symbol property for addition of indices",
+    "latex": "x^{m}x^{n} = x^{m+n}"
+  },
+  {
+    "formula": "(x)_{m+n} = (x)_m (x+m)_n",
+    "label": "Algebra",
+    "description": "Pochhammer symbol property for addition of indices",
+    "latex": "(x)_{m+n} = (x)_m (x+m)_n"
+  },
+  {
+    "formula": "(x)_{-n} = \\frac{1}{(x-n)_n}",
+    "label": "Algebra",
+    "description": "Pochhammer symbol property for negative indices",
+    "latex": "(x)_{-n} = \\frac{1}{(x-n)_n}"
+  },
+  {
+    "formula": "(x)_{n} = \\frac{\\Gamma(x+n)}{\\Gamma(x)}",
+    "label": "Algebra",
+    "description": "Pochhammer symbol in terms of the gamma function",
+    "latex": "(x)_{n} = \\frac{\\Gamma(x+n)}{\\Gamma(x)}"
+  },
+  {
+    "formula": "(x)_{-n} = \\frac{\\Gamma(x)}{\\Gamma(x-n)}",
+    "label": "Algebra",
+    "description": "Pochhammer symbol for negative integers in terms of the gamma function",
+    "latex": "(x)_{-n} = \\frac{\\Gamma(x)}{\\Gamma(x-n)}"
+  },
+  {
+    "formula": "(x)_{0} = 1",
+    "label": "Algebra",
+    "description": "Pochhammer symbol for zero in terms of the gamma function",
+    "latex": "(x)_{0} = 1"
+  },
+  {
+    "formula": "(x)_{-1} = \\frac{1}{x-1}",
+    "label": "Algebra",
+    "description": "Pochhammer symbol for negative integers in terms of the gamma function",
+    "latex": "(x)_{-1} = \\frac{1}{x-1}"
+  },
+  {
+    "formula": "(x)_{-n} = \\frac{1}{(x-n)_n} = \\frac{\\Gamma(x)}{\\Gamma(x-n)}",
+    "label": "Algebra",
+    "description": "Pochhammer symbol for negative integers in terms of the gamma function",
+    "latex": "(x)_{-n} = \\frac{1}{(x-n)_n} = \\frac{\\Gamma(x)}{\\Gamma(x-n)}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{pochneg} (x)_{-n} = \\frac{1}{(x-n)_n} = \\frac{\\Gamma(x)}{\\Gamma(x-n)} \\end{equation}",
+    "label": "Algebra",
+    "description": "Pochhammer symbol for negative integers in terms of the gamma function",
+    "latex": "\\begin{equation} \\label{pochneg} (x)_{-n} = \\frac{1}{(x-n)_n} = \\frac{\\Gamma(x)}{\\Gamma(x-n)} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{pochneg1} (x)_{-1} = \\frac{1}{x-1} = \\frac{\\Gamma(x)}{\\Gamma(x-1)} \\end{equation}",
+    "label": "Algebra",
+    "description": "Pochhammer symbol for negative integers in terms of the gamma function",
+    "latex": "\\begin{equation} \\label{pochneg1} (x)_{-1} = \\frac{1}{x-1} = \\frac{\\Gamma(x)}{\\Gamma(x-1)} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{pochneg2} (x)_{-2} = \\frac{1}{(x-2)(x-1)} = \\frac{\\Gamma(x)}{\\Gamma(x-2)} \\end{equation}",
+    "label": "Algebra",
+    "description": "Pochhammer symbol for negative integers in terms of the gamma function",
+    "latex": "\\begin{equation} \\label{pochneg2} (x)_{-2} = \\frac{1}{(x-2)(x-1)} = \\frac{\\Gamma(x)}{\\Gamma(x-2)} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{pochneg3} (x)_{-3} = \\frac{1}{(x-3)(x-2)(x-1)} = \\frac{\\Gamma(x)}{\\Gamma(x-3)} \\end{equation}",
+    "label": "Algebra",
+    "description": "Pochhammer symbol for negative integers in terms of the gamma function",
+    "latex": "\\begin{equation} \\label{pochneg3} (x)_{-3} = \\frac{1}{(x-3)(x-2)(x-1)} = \\frac{\\Gamma(x)}{\\Gamma(x-3)} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{pochneg4} (x)_{-4} = \\frac{1}{(x-4)(x-3)(x-2)(x-1)} = \\frac{\\Gamma(x)}{\\Gamma(x-4)} \\end{equation}",
+    "label": "Algebra",
+    "description": "Pochhammer symbol for negative integers in terms of the gamma function",
+    "latex": "\\begin{equation} \\label{pochneg4} (x)_{-4} = \\frac{1}{(x-4)(x-3)(x-2)(x-1)} = \\frac{\\Gamma(x)}{\\Gamma(x-4)} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{pochneg5} (x)_{-5} = \\frac{1}{(x-5)(x-4)(x-3)(x-2)(x-1)} = \\frac{\\Gamma(x)}{\\Gamma(x-5)} \\end{equation}",
+    "label": "Algebra",
+    "description": "Pochhammer symbol for negative integers in terms of the gamma function",
+    "latex": "\\begin{equation} \\label{pochneg5} (x)_{-5} = \\frac{1}{(x-5)(x-4)(x-3)(x-2)(x-1)} = \\frac{\\Gamma(x)}{\\Gamma(x-5)} \\end{equation}"
+  },
+  {
+    "formula": "\\begin{equation} \\label{pochneg6} (x)_{-6} = \\frac{1}{(x-6)(x-5)(x-4)(x-3)(x-2)(x-1)} = \\frac{\\Gamma(x)}{\\Gamma(x-6)} \\end{equation}",
+    "label": "Algebra",
+    "description": "Pochhammer symbol for negative integers in terms of the gamma function",
+    "latex": "\\begin{equation} \\label{pochneg6} (x)_{-6} = \\frac{1}{(x-6)(x-5)(x-4)(x-3)(x-2)(x-1)} = \\frac{\\Gamma(x)}{\\Gamma(x-6)} \\end{equation}"
+  }
+]

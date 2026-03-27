@@ -1,0 +1,48 @@
+# Đường dẫn file
+data_path = r"D:\Hoc_tap\The-math-latex--craw-and-ML\formulas\datasheet.json"
+
+# Load JSON
+with open(data_path, "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+df = pd.DataFrame(data)
+
+# === VISUALIZATION 1: Tổng quan dữ liệu ===
+fig, axes = plt.subplots(2, 2, figsize=(14, 10))
+fig.suptitle('📊 Tổng quan dữ liệu công thức LaTeX', fontsize=16, fontweight='bold')
+
+# Số lượng bản ghi
+axes[0, 0].text(0.5, 0.5, f'Tổng số công thức: {len(df)}', 
+                ha='center', va='center', fontsize=20, transform=axes[0, 0].transAxes)
+axes[0, 0].set_title('Số lượng công thức', fontsize=12)
+axes[0, 0].axis('off')
+
+# Các cột có sẵn
+axes[0, 1].bar(df.columns, [100] * len(df.columns), color='steelblue')
+axes[0, 1].set_title('Các cột trong dữ liệu', fontsize=12)
+axes[0, 1].set_ylabel('Có dữ liệu (%)')
+axes[0, 1].set_ylim(0, 110)
+for i, col in enumerate(df.columns):
+    axes[0, 1].text(i, 105, col, ha='center', fontsize=10, rotation=45)
+
+# Missing values
+missing = df.isnull().sum()
+axes[1, 0].bar(missing.index, missing.values, color=['green' if v==0 else 'red' for v in missing])
+axes[1, 0].set_title('Missing values', fontsize=12)
+axes[1, 0].set_ylabel('Số lượng missing')
+for i, v in enumerate(missing):
+    axes[1, 0].text(i, v + 0.5, str(v), ha='center')
+
+# Sample công thức
+sample_formula = df.iloc[0]['formula'][:100]
+axes[1, 1].text(0.1, 0.5, f'Mẫu công thức:\n\n{sample_formula}...', 
+                ha='left', va='center', fontsize=10, transform=axes[1, 1].transAxes,
+                bbox=dict(boxstyle="round,pad=0.3", facecolor="lightyellow", alpha=0.8))
+axes[1, 1].set_title('Ví dụ công thức', fontsize=12)
+axes[1, 1].axis('off')
+
+plt.tight_layout()
+plt.show()
+
+print(f"\n✅ Đã nạp {len(df)} công thức từ file JSON")
+df.head()

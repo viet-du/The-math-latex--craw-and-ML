@@ -1,0 +1,32 @@
+{
+  "name": "the-math-latex--craw-and-ml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "index": "npm run build && node dist/index.js && node dist/clean-dataset.js",
+    "start": "npm run index",
+    "clean": "npm run build && node dist/clean-dataset.js",
+    "export": "npm run build && node dist/export-from-json.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viet-du/The-math-latex--craw-and-ML.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/viet-du/The-math-latex--craw-and-ML/issues"
+  },
+  "homepage": "https://github.com/viet-du/The-math-latex--craw-and-ML#readme",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "mathml-to-latex": "^1.5.0",
+    "puppeteer": "^24.22.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
