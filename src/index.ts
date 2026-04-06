@@ -69,27 +69,58 @@ const decodeHtml = (value: string) => load(`<div>${value}</div>`)('div').text();
 
 const replaceLatexLikeSymbols = (value: string) =>
     value
-        .replace(/⋅/g, '\\cdot ')
+       .replace(/⋅/g, '\\cdot ')
         .replace(/×/g, '\\times ')
-        .replace(/≤/g, '\\leq ')
-        .replace(/≥/g, '\\geq ')
+        .replace(/÷/g, '\\div ')  // THÊM: phép chia
+        .replace(/≤/g, '\\le ')   // SỬA: dùng \le thay vì \leq
+        .replace(/≥/g, '\\ge ')   // SỬA: dùng \ge thay vì \geq
         .replace(/≠/g, '\\ne ')
+        .replace(/≈/g, '\\approx ')  // THÊM: xấp xỉ
         .replace(/∞/g, '\\infty ')
         .replace(/∑/g, '\\sum ')
         .replace(/∏/g, '\\prod ')
         .replace(/∫/g, '\\int ')
+        .replace(/∮/g, '\\oint ')  // THÊM: tích phân đường
         .replace(/√/g, '\\sqrt{}')
         .replace(/±/g, '\\pm ')
+        .replace(/∓/g, '\\mp ')    // THÊM: dấu trừ cộng
+        .replace(/∂/g, '\\partial ')  // THÊM: đạo hàm riêng
+        .replace(/∇/g, '\\nabla ')    // THÊM: gradient
+        .replace(/∈/g, '\\in ')       // THÊM: thuộc
+        .replace(/∉/g, '\\notin ')    // THÊM: không thuộc
+        .replace(/⊂/g, '\\subset ')   // THÊM: tập con
+        .replace(/⊆/g, '\\subseteq ') // THÊM: tập con hoặc bằng
+        .replace(/⊃/g, '\\supset ')   // THÊM: tập chứa
+        .replace(/∩/g, '\\cap ')      // THÊM: giao
+        .replace(/∪/g, '\\cup ')      // THÊM: hợp
+        .replace(/∀/g, '\\forall ')   // THÊM: với mọi
+        .replace(/∃/g, '\\exists ')   // THÊM: tồn tại
+        .replace(/∄/g, '\\nexists ')  // THÊM: không tồn tại
+        .replace(/→/g, '\\to ')       // THÊM: mũi tên
+        .replace(/⇒/g, '\\Rightarrow ')
+        .replace(/⇔/g, '\\Leftrightarrow ')
         .replace(/π/g, '\\pi ')
+        .replace(/τ/g, '\\tau ')      // THÊM: tau
+        .replace(/θ/g, '\\theta ')    // THÊM: theta
+        .replace(/φ/g, '\\phi ')
+        .replace(/ψ/g, '\\psi ')      // THÊM: psi
+        .replace(/ω/g, '\\omega ')
         .replace(/α/g, '\\alpha ')
         .replace(/β/g, '\\beta ')
         .replace(/γ/g, '\\gamma ')
-        .replace(/Δ/g, '\\Delta ')
+        .replace(/δ/g, '\\delta ')    // THÊM: delta
+        .replace(/ε/g, '\\epsilon ')  // THÊM: epsilon
         .replace(/λ/g, '\\lambda ')
         .replace(/μ/g, '\\mu ')
         .replace(/σ/g, '\\sigma ')
-        .replace(/φ/g, '\\phi ')
-        .replace(/ω/g, '\\omega ');
+        .replace(/Σ/g, '\\Sigma ')    // THÊM: Sigma hoa
+        .replace(/Δ/g, '\\Delta ')
+        .replace(/Ω/g, '\\Omega ')    // THÊM: Omega hoa
+        .replace(/Γ/g, '\\Gamma ')    // THÊM: Gamma hoa
+        .replace(/Θ/g, '\\Theta ')    // THÊM: Theta hoa
+        .replace(/Λ/g, '\\Lambda ')   // THÊM: Lambda hoa
+        .replace(/Φ/g, '\\Phi ')      // THÊM: Phi hoa
+        .replace(/Ψ/g, '\\Psi ');     // THÊM: Psi hoa
 
 const stripMathDelimiters = (value: string) => value.replace(/^\\\[\s*|\s*\\\]$/g, '');
 const extractMathsIsFunFormulas = ($: CheerioAPI, pageTitle: string, pageUrl: string): ExtractedFormulaRecord[] => {
@@ -253,7 +284,7 @@ const extractMathsIsFunFormulas = ($: CheerioAPI, pageTitle: string, pageUrl: st
     return records;
 };
 const isMathmlMarkup = (value: string) =>
-    /<(math|mrow|mi|mn|mo|msup|msub|mfrac|msqrt|mroot|mtable|mtr|mtd|mfenced|mover|munder|munderover|msubsup|mmultiscripts)\b/i.test(
+    /<(math|mrow|mi|mn|mo|msup|msub|mfrac|msqrt|mroot|mtable|mtr|mtd|mfenced|mover|munder|munderover|msubsup|mmultiscripts|mstyle|merror)\b/i.test(
         value,
     );
 
@@ -267,45 +298,84 @@ const detectFormulaType = (input: string): FormulaType => {
 
 const normalizeImplicitPowers = (value: string) => {
     const superscriptMap: Record<string, string> = {
-        '⁰': '0',
-        '¹': '1',
-        '²': '2',
-        '³': '3',
-        '⁴': '4',
-        '⁵': '5',
-        '⁶': '6',
-        '⁷': '7',
-        '⁸': '8',
-        '⁹': '9',
+        '⁰': '0', '¹': '1', '²': '2', '³': '3', '⁴': '4',
+        '⁵': '5', '⁶': '6', '⁷': '7', '⁸': '8', '⁹': '9',
+        '⁺': '+', '⁻': '-', '⁼': '=', '⁽': '(', '⁾': ')'
     };
-    const functionNames = new Set(['sin', 'cos', 'tan', 'sec', 'csc', 'cot', 'log', 'ln', 'exp']);
-
-    const withUnicodeSuperscripts = value.replace(
-        /([A-Za-z])([⁰¹²³⁴⁵⁶⁷⁸⁹])/g,
-        (_match, letter: string, superscript: string) => `${letter}^{${superscriptMap[superscript] ?? superscript}}`,
+    
+    const subscriptMap: Record<string, string> = {
+        '₀': '0', '₁': '1', '₂': '2', '₃': '3', '₄': '4',
+        '₅': '5', '₆': '6', '₇': '7', '₈': '8', '₉': '9',
+        '₊': '+', '₋': '-', '₌': '=', '₍': '(', '₎': ')'
+    };
+    
+    const functionNames = new Set(['sin', 'cos', 'tan', 'sec', 'csc', 'cot', 
+                                    'log', 'ln', 'exp', 'sinh', 'cosh', 'tanh']);
+    
+    // Xử lý unicode superscript
+    let result = value.replace(
+        /([A-Za-z0-9\)])([⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾]+)/g,
+        (_: string, base: string, sup: string) => {
+            const converted = sup.split('').map((ch: string) => superscriptMap[ch] || ch).join(''); // THÊM kiểu :string
+            return `${base}^{${converted}}`;
+        }
     );
-
-    return withUnicodeSuperscripts.replace(
+    
+    // Xử lý unicode subscript
+    result = result.replace(
+        /([A-Za-z0-9\)])([₀₁₂₃₄₅₆₇₈₉₊₋₌₍₎]+)/g,
+        (_: string, base: string, sub: string) => {
+            const converted = sub.split('').map((ch: string) => subscriptMap[ch] || ch).join(''); // THÊM kiểu :string
+            return `${base}_{${converted}}`;
+        }
+    );
+    
+    // Xử lý implicit powers (x2 -> x^2)
+    result = result.replace(
         /([A-Za-z])([2-9])(?!\d)/g,
-        (match, letter: string, digit: string, offset: number, source: string) => {
+        (match: string, letter: string, digit: string, offset: number, source: string) => {
             const prefix = source.slice(0, offset + 1);
             const currentWord = prefix.match(/[A-Za-z]+$/)?.[0]?.toLowerCase() ?? '';
             if (currentWord.length > 1 && functionNames.has(currentWord)) {
-                return match;
+                return match; // Giữ nguyên sin2, cos2, v.v.
             }
             return `${letter}^{${digit}}`;
-        },
+        }
     );
+    
+    return result;
 };
 
-const textToLatex = (text: string): string =>
-    normalizeImplicitPowers(
-        text
-            .replace(/sqrt\((.*?)\)/g, '\\\\sqrt{$1}')
-            .replace(/(\d+)\s*\/\s*(\d+)/g, '\\\\frac{$1}{$2}')
-            .replace(/\^(\d+)/g, '^{$1}')
-            .replace(/\*/g, '\\\\cdot '),
-    );
+const textToLatex = (text: string): string => {
+    let result = text;
+    
+    // Xử lý căn bậc hai và căn bậc n
+    result = result.replace(/sqrt\((.*?)\)/g, '\\sqrt{$1}');
+    result = result.replace(/sqrt\[(\d+)\]\((.*?)\)/g, '\\sqrt[$1]{$2}');
+    
+    // Xử lý phân số với tử số và mẫu số phức tạp
+    result = result.replace(/([a-zA-Z0-9\(\)]+)\s*\/\s*([a-zA-Z0-9\(\)]+)/g, '\\frac{$1}{$2}');
+    
+    // Xử lý lũy thừa
+    result = result.replace(/\^(\d+)/g, '^{$1}');
+    result = result.replace(/\^\{([^}]+)\}/g, '^{$1}');
+    result = result.replace(/([a-zA-Z])([⁰¹²³⁴⁵⁶⁷⁸⁹]+)/g, (_, base: string, sup: string) => {
+        const supMap: Record<string, string> = {'⁰':'0','¹':'1','²':'2','³':'3','⁴':'4','⁵':'5','⁶':'6','⁷':'7','⁸':'8','⁹':'9'};
+        const converted = sup.split('').map((ch: string) => supMap[ch] || ch).join(''); // THÊM kiểu :string
+        return `${base}^{${converted}}`;
+    });
+    
+    // Xử lý ký tự đặc biệt
+    result = result
+        .replace(/\*/g, '\\cdot ')
+        .replace(/\.\.\./g, '\\ldots ')
+        .replace(/->/g, '\\to ')
+        .replace(/=>/g, '\\Rightarrow ')
+        .replace(/<=/g, '\\Leftarrow ')
+        .replace(/<>/g, '\\neq ');
+    
+    return normalizeImplicitPowers(result);
+};
 
 const normalizeVectorNotation = (value: string) =>
     value.replace(/([A-Za-z\u00C0-\u024F\u0370-\u03FF])\u20D7/g, '\\\\vec{$1}');
@@ -315,11 +385,35 @@ const normalizeLatex = (value: string) => {
         .replace(/\r/g, '')
         .replace(/\$+/g, '')
         .replace(/\\displaystyle/g, '')
+        .replace(/\\textstyle/g, '')
+        .replace(/\\scriptstyle/g, '')
         .replace(/&nbsp;/g, ' ')
         .replace(/\u00A0/g, ' ')
         .replace(/[–—−]/g, '-');
 
-    const withSymbols = replaceLatexLikeSymbols(stripMathDelimiters(normalizeVectorNotation(decoded)));
+    let withSymbols = replaceLatexLikeSymbols(stripMathDelimiters(normalizeVectorNotation(decoded)));
+    
+    // Xử lý các dạng đặc biệt
+    withSymbols = withSymbols
+        // Binomial
+        .replace(/\\binom\s*\{([^}]+)\}\s*\{([^}]+)\}/g, '\\binom{$1}{$2}')
+        // Matrix
+        .replace(/\\begin\{matrix\}/g, '\\begin{matrix}')
+        .replace(/\\end\{matrix\}/g, '\\end{matrix}')
+        // Cases
+        .replace(/\\begin\{cases\}/g, '\\begin{cases}')
+        .replace(/\\end\{cases\}/g, '\\end{cases}')
+        // Brackets
+        .replace(/\\left\(/g, '\\left(')
+        .replace(/\\right\)/g, '\\right)')
+        .replace(/\\left\[/g, '\\left[')
+        .replace(/\\right\]/g, '\\right]')
+        .replace(/\\left\{/g, '\\left\\{')
+        .replace(/\\right\}/g, '\\right\\}')
+        // Operators
+        .replace(/\\lim\s*([a-z]+)/g, '\\lim $1')
+        .replace(/\\log\s*_(\d+)/g, '\\log_{$1}')
+        .replace(/\\ln\s*([a-z]+)/g, '\\ln $1');
 
     return withSymbols
         .replace(/\\\s+(?=[^a-zA-Z])/g, '\\\\ ')
@@ -335,18 +429,24 @@ const normalizeFormulaInput = (input: string) => {
     const type = detectFormulaType(input);
 
     try {
+        let latex: string | null = null;
+        
         if (type === 'latex') {
-            const latex = normalizeLatex(input);
-            return latex ? { latex, type } : null;
+            latex = normalizeLatex(input);
+        } else if (type === 'mathml') {
+            latex = normalizeLatex(MathMLToLaTeX.convert(input));
+        } else {
+            latex = normalizeLatex(textToLatex(input));
         }
-
-        if (type === 'mathml') {
-            const latex = normalizeLatex(MathMLToLaTeX.convert(input));
-            return latex ? { latex, type } : null;
+        
+        if (!latex) return null;
+        
+        // Lọc bỏ các công thức có nội dung giống ví dụ
+        if (!isFormulaContent(latex)) {
+            return null;
         }
-
-        const latex = normalizeLatex(textToLatex(input));
-        return latex ? { latex, type } : null;
+        
+        return { latex, type };
     } catch {
         return null;
     }
@@ -397,7 +497,13 @@ const isAllowedPage = (
 ) => {
     try {
         const url = new URL(rawUrl);
-        if (url.host !== startHost) return false;
+        
+        // THÊM: Chỉ cho phép crawl các trang từ vietjack.com
+        const allowedHosts = ['www.vietjack.com', 'vietjack.com'];
+        if (!allowedHosts.includes(url.host)) {
+            return false;
+        }
+        
         if (!['http:', 'https:'].includes(url.protocol)) return false;
         if (ignoredPathFragments.some((fragment) => rawUrl.includes(fragment) || url.pathname.includes(fragment))) {
             return false;
@@ -446,18 +552,37 @@ const cleanHeadingText = (value: string) => normalizeWhitespace(value.replace(/^
 const isLikelyFormula = (value: string) => {
     const compact = normalizeWhitespace(value);
     if (!compact) return false;
-    if (/\\(frac|sqrt|cdot|times|quad|text|begin|end|circ|pm|Rightarrow|ge|le|ne)/.test(compact)) {
+    
+    // Các pattern LaTeX
+    if (/\\(frac|sqrt|cdot|times|quad|text|begin|end|circ|pm|Rightarrow|Leftrightarrow|ge|le|ne|sum|prod|int|oint|binom|choose|lim|log|ln|sin|cos|tan)/.test(compact)) {
         return true;
     }
+    
+    // Căn bậc hai
     if (/(sqrt\(|sqrt\s)/i.test(compact)) {
         return true;
     }
+    
+    // Phân số
     if (/\d+\s*\/\s*\d+/.test(compact)) {
         return true;
     }
+    
+    // Biểu thức có dấu = và biến
     if (/[=^{}]|\|x\||\d\/.+/.test(compact) && /[a-zA-Z]/.test(compact)) {
         return true;
     }
+    
+    // Ma trận và hệ phương trình
+    if (/(matrix|cases|array)/i.test(compact)) {
+        return true;
+    }
+    
+    // Ký hiệu toán học
+    if (/[∑∏∫∂∇∈∉⊂⊆∩∪∀∃∞]/.test(compact)) {
+        return true;
+    }
+    
     return false;
 };
 
@@ -478,12 +603,20 @@ const getArticleRoot = ($: CheerioAPI) => {
     return $('article').first();
 };
 
-const extractFormulas = ($: CheerioAPI, pageTitle: string, pageUrl: string): ExtractedFormulaRecord[] => {
+// SỬA: Thêm Promise<> vào return type
+const extractFormulas = async ($: CheerioAPI, pageTitle: string, pageUrl: string): Promise<ExtractedFormulaRecord[]> => {
     const article = getArticleRoot($);
     
-    // Khởi tạo records với kết quả từ mathsisfun
+    // Khởi tạo records với kết quả từ các nguồn đặc thù
     const mathsIsFunFormulas = extractMathsIsFunFormulas($, pageTitle, pageUrl);
-    const records: ExtractedFormulaRecord[] = [...mathsIsFunFormulas];
+    const mathFormulaAtlasFormulas = extractMathFormulaAtlasFormulas($, pageTitle, pageUrl);
+    
+    let vietJackFormulas: ExtractedFormulaRecord[] = [];
+    if (pageUrl.includes('vietjack.com')) {
+        vietJackFormulas = await extractVietJackFormulas($, pageTitle, pageUrl);
+    }
+    
+    const records: ExtractedFormulaRecord[] = [...mathsIsFunFormulas, ...mathFormulaAtlasFormulas, ...vietJackFormulas];
     const seen = new Set<string>();
     const subjectSlug = getSubjectSlug(pageUrl);
     const subjectPath = getSubjectPath(pageUrl);
@@ -491,7 +624,7 @@ const extractFormulas = ($: CheerioAPI, pageTitle: string, pageUrl: string): Ext
     let currentSubsection = '';
     const contentRoot = article.length > 0 ? article : $('body').first();
 
-    // Đánh dấu các công thức đã có từ mathsisfun để tránh trùng lặp
+    // Đánh dấu các công thức đã có để tránh trùng lặp
     records.forEach(record => seen.add(record.latex));
 
     const pushFormula = (latex: string, source: string) => {
@@ -582,7 +715,7 @@ const extractFormulas = ($: CheerioAPI, pageTitle: string, pageUrl: string): Ext
     });
 
     // Xử lý data-mathml attributes
-    contentRoot.find('[data-mathml], [data-mathml-encoded]').each((_, element) => {
+    contentRoot.find('[data-mathml], [data-mathml-encoded], .MathJax_CHTML[data-mathml]').each((_, element) => {
         const raw = $(element).attr('data-mathml') ?? $(element).attr('data-mathml-encoded');
         if (!raw) return;
 
@@ -598,6 +731,21 @@ const extractFormulas = ($: CheerioAPI, pageTitle: string, pageUrl: string): Ext
         pushNormalizedFormula(decoded, 'latex-attribute');
     });
 
+    // Xử lý MathJax containers
+    contentRoot.find('.MathJax, .MathJax_Display, mjx-container').each((_, element) => {
+        const mathmlAttr = $(element).attr('data-mathml');
+        if (mathmlAttr) {
+            pushNormalizedFormula(mathmlAttr, 'mathjax-data-mathml');
+            return;
+        }
+        
+        const innerMath = $(element).find('math').first();
+        if (innerMath.length > 0) {
+            const mathml = $.html(innerMath);
+            pushNormalizedFormula(mathml, 'mathjax-math');
+        }
+    });
+
     // Fallback cho các trang không có công thức nào
     if (records.length === 0) {
         $('[data-tex], annotation[encoding="application/x-tex"], script[type^="math/tex"], .MathJax, .MathJax_Display')
@@ -611,6 +759,327 @@ const extractFormulas = ($: CheerioAPI, pageTitle: string, pageUrl: string): Ext
             });
     }
 
+    return records;
+};
+
+const isExampleContext = ($: CheerioAPI, element: any): boolean => {
+    // Kiểm tra text xung quanh element
+    const parentText = $(element).parent().text().toLowerCase();
+    const prevText = $(element).prev().text().toLowerCase();
+    const nextText = $(element).next().text().toLowerCase();
+    const siblingText = $(element).siblings().first().text().toLowerCase();
+    
+    // Các từ khóa chỉ ví dụ
+    const exampleKeywords = [
+        'ví dụ', 'vd', 'example', 'ex:', 'e.g', 
+        'chẳng hạn', 'như:', ':', 'tính:', 'tìm:'
+    ];
+    
+    // Các từ khóa chỉ công thức (ưu tiên)
+    const formulaKeywords = [
+        'công thức', 'formula', 'định lý', 'theorem', 
+        'định nghĩa', 'definition', 'tính chất', 'property'
+    ];
+    
+    // Kiểm tra nếu có từ khóa công thức thì ưu tiên giữ lại
+    for (const keyword of formulaKeywords) {
+        if (parentText.includes(keyword) || prevText.includes(keyword)) {
+            return false; // Đây là công thức, không phải ví dụ
+        }
+    }
+    
+    // Kiểm tra nếu có từ khóa ví dụ
+    for (const keyword of exampleKeywords) {
+        if (prevText.includes(keyword) || siblingText.includes(keyword)) {
+            return true; // Đây là ví dụ
+        }
+    }
+    
+    // Kiểm tra nếu nằm trong thẻ có class chứa "example"
+    const parentClass = $(element).parent().attr('class')?.toLowerCase() || '';
+    if (parentClass.includes('example') || parentClass.includes('vidu')) {
+        return true;
+    }
+    
+    // Kiểm tra nếu có số thứ tự ví dụ (VD1, VD2, Example 1, ...)
+    if (/vd\s*\d+|example\s*\d+|ví dụ\s*\d+/i.test(prevText)) {
+        return true;
+    }
+    
+    return false;
+};
+
+const isFormulaInTable = ($: CheerioAPI, element: any): boolean => {
+    // Kiểm tra nếu công thức nằm trong bảng công thức (thường là công thức chính)
+    const $table = $(element).closest('table');
+    if ($table.length === 0) return false;
+    
+    const tableText = $table.text().toLowerCase();
+    const tableClass = $table.attr('class')?.toLowerCase() || '';
+    
+    // Bảng công thức thường có các từ khóa
+    if (tableClass.includes('formula') || tableClass.includes('congthuc')) {
+        return true;
+    }
+    
+    // Nếu bảng có cấu trúc 2 cột (công thức | mô tả)
+    const rows = $table.find('tr');
+    if (rows.length > 0) {
+        const firstRowCells = rows.first().find('td, th');
+        if (firstRowCells.length === 2) {
+            const firstCellText = firstRowCells.eq(0).text().toLowerCase();
+            if (firstCellText.includes('công thức') || firstCellText.includes('formula')) {
+                return true;
+            }
+        }
+    }
+    
+    return false;
+};
+const extractVietJackFormulas = async ($: CheerioAPI, pageTitle: string, pageUrl: string): Promise<ExtractedFormulaRecord[]> => {
+    const records: ExtractedFormulaRecord[] = [];
+    const subjectSlug = getSubjectSlug(pageUrl);
+    const subjectPath = getSubjectPath(pageUrl);
+    let currentSection = '';
+    let currentSubsection = '';
+
+    // Xử lý heading
+    $('h2, h3, h4').each((_, heading) => {
+        const tagName = heading.tagName?.toLowerCase();
+        const headingText = cleanHeadingText($(heading).text());
+        if (tagName === 'h2') {
+            currentSection = headingText;
+            currentSubsection = '';
+        } else if (tagName === 'h3') {
+            currentSubsection = headingText;
+        }
+    });
+
+    // Tìm tất cả các thẻ span có id bắt đầu bằng MathJax
+    $('span[id^="MathJax-Element-"], span.MathJax_CHTML, span.MathJax').each((_, element) => {
+        // Lấy text hiển thị
+        const displayText = $(element).text().trim();
+        
+        // Lọc các text có dấu = và có vẻ là công thức
+        if (displayText && displayText.includes('=') && displayText.length > 3) {
+            // Thay thế các ký tự đặc biệt
+            let latex = displayText
+                .replace(/log/g, '\\log')
+                .replace(/ln/g, '\\ln')
+                .replace(/sin/g, '\\sin')
+                .replace(/cos/g, '\\cos')
+                .replace(/tan/g, '\\tan')
+                .replace(/cot/g, '\\cot')
+                .replace(/⋅/g, '\\cdot')
+                .replace(/×/g, '\\times')
+                .replace(/∞/g, '\\infty')
+                .replace(/√/g, '\\sqrt')
+                .replace(/π/g, '\\pi')
+                .replace(/α/g, '\\alpha')
+                .replace(/β/g, '\\beta')
+                .replace(/γ/g, '\\gamma')
+                .replace(/Δ/g, '\\Delta');
+            
+            const normalized = normalizeFormulaInput(latex);
+            if (normalized?.latex) {
+                records.push({
+                    latex: normalized.latex,
+                    pageTitle,
+                    pageUrl,
+                    subjectSlug,
+                    subjectPath,
+                    section: currentSection || 'Uncategorized',
+                    subsection: currentSubsection,
+                    formulaName: '',
+                    source: 'vietjack-text',
+                    indexInPage: records.length + 1,
+                });
+            }
+        }
+    });
+
+    // Nếu không tìm thấy, thử tìm trong các thẻ script
+    if (records.length === 0) {
+        $('script[type="math/tex"], script[type="math/tex; mode=display"]').each((_, element) => {
+            const content = $(element).text().trim();
+            if (content) {
+                const normalized = normalizeFormulaInput(content);
+                if (normalized?.latex) {
+                    records.push({
+                        latex: normalized.latex,
+                        pageTitle,
+                        pageUrl,
+                        subjectSlug,
+                        subjectPath,
+                        section: currentSection || 'Uncategorized',
+                        subsection: currentSubsection,
+                        formulaName: '',
+                        source: 'vietjack-script',
+                        indexInPage: records.length + 1,
+                    });
+                }
+            }
+        });
+    }
+
+    console.log(`[vietjack] Extracted ${records.length} formulas from ${pageUrl}`);
+    return records;
+};
+const extractVietJackLinks = ($: CheerioAPI, currentUrl: string): string[] => {
+    const links: string[] = [];
+    
+    // Tìm tất cả các link đến các bài viết công thức
+    $('a[href*="/cong-thuc/"]').each((_, element) => {
+        const href = $(element).attr('href');
+        if (href) {
+            const absoluteUrl = toAbsoluteUrl(href, currentUrl);
+            if (absoluteUrl && absoluteUrl.includes('vietjack.com/cong-thuc/')) {
+                links.push(absoluteUrl);
+            }
+        }
+    });
+    
+    return links;
+};
+const isFormulaContent = (latex: string): boolean => {
+    // Các pattern thường xuất hiện trong ví dụ (số cụ thể)
+    const examplePatterns = [
+        /=\s*\d+/,           // = số cụ thể
+        /≈\s*\d+/,           // ≈ số cụ thể
+        /→\s*\d+/,           // → số cụ thể
+        /⇒\s*\d+/,           // ⇒ số cụ thể
+        /\\approx\s*\d+/,    // \approx số
+        /\\rightarrow\s*\d+/ // \rightarrow số
+    ];
+    
+    // Các pattern thường xuất hiện trong công thức (biến số)
+    const formulaPatterns = [
+        /[a-z]\s*=\s*[a-z]/,     // x = y
+        /=\s*[a-z]/,             // = biến
+        /\\frac{[a-z]}{[a-z]}/,  // phân số với biến
+        /\\sum_[a-z]/,           // tổng với biến
+        /\\int_[a-z]/,           // tích phân với biến
+        /[a-z]\^[a-z0-9]/        // lũy thừa với biến
+    ];
+    
+    // Nếu có pattern của ví dụ và không có pattern của công thức
+    const hasExamplePattern = examplePatterns.some(pattern => pattern.test(latex));
+    const hasFormulaPattern = formulaPatterns.some(pattern => pattern.test(latex));
+    
+    if (hasExamplePattern && !hasFormulaPattern) {
+        return false; // Đây là ví dụ
+    }
+    
+    // Nếu công thức chứa nhiều số hơn biến, có thể là ví dụ
+    const numberCount = (latex.match(/\d+/g) || []).length;
+    const variableCount = (latex.match(/[a-z](?![a-z])/g) || []).length;
+    
+    if (numberCount > variableCount * 2 && variableCount === 0) {
+        return false; // Chỉ toàn số, có thể là ví dụ tính toán
+    }
+    
+    return true;
+};
+const extractMathFormulaAtlasFormulas = ($: CheerioAPI, pageTitle: string, pageUrl: string): ExtractedFormulaRecord[] => {
+    const records: ExtractedFormulaRecord[] = [];
+    const subjectSlug = getSubjectSlug(pageUrl);
+    const subjectPath = getSubjectPath(pageUrl);
+    let currentSection = '';
+    let currentSubsection = '';
+
+    // Xử lý heading
+    $('h2, h3').each((_, heading) => {
+        const tagName = heading.tagName?.toLowerCase();
+        const headingText = cleanHeadingText($(heading).text());
+        if (tagName === 'h2') {
+            currentSection = headingText;
+            currentSubsection = '';
+        } else if (tagName === 'h3') {
+            currentSubsection = headingText;
+        }
+    });
+
+    // Xử lý các đoạn văn bản
+    $('p, li, td').each((_, element) => {
+        const text = $(element).text();
+        
+        // Tìm các công thức dạng: tên = biểu thức (có thể chứa \frac, \binom, v.v.)
+        // Sửa regex để bắt cả các ký tự đặc biệt
+        const formulaMatches = text.matchAll(/([A-Za-z()\s,|]+?)\s*=\s*([^=]+?)(?=\s*(?:[A-Za-z]|$|\(|\)|\{|\[|\\|\^))/g);
+        
+        for (const match of formulaMatches) {
+            let rawFormula = `${match[1]}=${match[2]}`.trim();
+            
+            if (rawFormula.length > 5 && rawFormula.length < 300 && /[=]/.test(rawFormula)) {
+                // Thay thế các ký tự đặc biệt
+                rawFormula = rawFormula
+                    .replace(/–/g, '-')
+                    .replace(/…/g, '...')
+                    .replace(/×/g, '\\times ')
+                    .replace(/⋅/g, '\\cdot ')
+                    .replace(/(\d+)\s*\/\s*(\d+)/g, '\\frac{$1}{$2}'); // Thêm xử lý phân số
+                
+                const normalized = normalizeFormulaInput(rawFormula);
+                if (normalized?.latex) {
+                    records.push({
+                        latex: normalized.latex,
+                        pageTitle,
+                        pageUrl,
+                        subjectSlug,
+                        subjectPath,
+                        section: currentSection || 'Uncategorized',
+                        subsection: currentSubsection,
+                        formulaName: match[1].trim(),
+                        source: 'mathformulaatlas-text',
+                        indexInPage: records.length + 1,
+                    });
+                }
+            }
+        }
+
+        // Xử lý các công thức có dấu \ (LaTeX thuần) - mở rộng regex
+        const latexMatches = text.matchAll(/\\(frac|binom|sum|prod|int|sqrt|choose|lim|log|ln|sin|cos|tan)\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}/g);
+        for (const match of latexMatches) {
+            const normalized = normalizeFormulaInput(match[0]);
+            if (normalized?.latex) {
+                records.push({
+                    latex: normalized.latex,
+                    pageTitle,
+                    pageUrl,
+                    subjectSlug,
+                    subjectPath,
+                    section: currentSection || 'Uncategorized',
+                    subsection: currentSubsection,
+                    formulaName: '',
+                    source: 'mathformulaatlas-latex',
+                    indexInPage: records.length + 1,
+                });
+            }
+        }
+        
+        // Bổ sung: xử lý các công thức dạng (n choose k)
+        const chooseMatches = text.matchAll(/\(([^)]+)\s+choose\s+([^)]+)\)/gi);
+        for (const match of chooseMatches) {
+            const latexFormula = `\\binom{${match[1].trim()}}{${match[2].trim()}}`;
+            const normalized = normalizeFormulaInput(latexFormula);
+            if (normalized?.latex) {
+                records.push({
+                    latex: normalized.latex,
+                    pageTitle,
+                    pageUrl,
+                    subjectSlug,
+                    subjectPath,
+                    section: currentSection || 'Uncategorized',
+                    subsection: currentSubsection,
+                    formulaName: '',
+                    source: 'mathformulaatlas-choose',
+                    indexInPage: records.length + 1,
+                });
+            }
+        }
+    });
+
+    console.log(`[mathformulaatlas] Extracted ${records.length} formulas from ${pageUrl}`);
     return records;
 };
 const extractFormulaSheetListName = (value: string) => {
@@ -849,7 +1318,11 @@ const extractNextLinks = (
             .get()
             .map((href) => (href ? toAbsoluteUrl(href, currentUrl) : null))
             .filter((href): href is string => Boolean(href))
-            .filter((href) => isAllowedPage(href, startHost, scopePathPrefix, ignoredPathFragments))
+            .filter((href) => {
+                // Chỉ lấy các link vietjack
+                if (!href.includes('vietjack.com')) return false;
+                return isAllowedPage(href, startHost, scopePathPrefix, ignoredPathFragments);
+            })
             .forEach((href) => collectedLinks.add(href));
     }
 
@@ -916,7 +1389,10 @@ const crawlPage = async (page: Page, url: string, options: CrawlOptions): Promis
     const html = await page.content();
     const $ = load(html);
     const pageTitle = normalizeWhitespace($('title').first().text()) || url;
-    const formulas = extractFormulas($, pageTitle, url);
+    
+    // THÊM await vì extractFormulas bây giờ là async
+    const formulas = await extractFormulas($, pageTitle, url);
+    
     const nextLinks = extractNextLinks(
         $,
         url,
@@ -932,17 +1408,110 @@ const crawlPage = async (page: Page, url: string, options: CrawlOptions): Promis
         url,
         subjectSlug: getSubjectSlug(url),
         subjectPath: getSubjectPath(url),
-        formulas,
+        formulas, // Đã là ExtractedFormulaRecord[] không phải Promise
         nextLinks,
     };
 };
+// Nếu bạn muốn dùng crawlVietJackPage, cần sửa lại:
+const crawlVietJackPage = async (page: Page, url: string): Promise<PageResult | null> => {
+    try {
+        await page.goto(url, { waitUntil: 'networkidle2' });
+        
+        // Bỏ phần waitForFunction với MathJax vì có thể không cần
+        // Hoặc dùng cách an toàn hơn:
+        try {
+            await page.waitForFunction(
+                () => {
+                    return document.querySelectorAll('span[id^="MathJax-Element-"]').length > 0;
+                },
+                { timeout: 10000 }
+            );
+        } catch {
+            console.log('No MathJax elements found');
+        }
+        
+        const html = await page.content();
+        const $ = load(html);
+        const pageTitle = normalizeWhitespace($('title').first().text()) || url;
+        const formulas = await extractVietJackFormulas($, pageTitle, url);
+        
+        const nextLinks = extractNextLinksFromPage($, url); // Cần định nghĩa hàm này
+        
+        return {
+            title: pageTitle,
+            url,
+            subjectSlug: 'vietjack',
+            subjectPath: '/cong-thuc/',
+            formulas,
+            nextLinks,
+        };
+    } catch (error) {
+        console.error('Error crawling', url, error);
+        return null;
+    }
+};
 
+// Định nghĩa extractNextLinksFromPage nếu cần
+const extractNextLinksFromPage = ($: CheerioAPI, currentUrl: string): string[] => {
+    const links: string[] = [];
+    $('a[href*="/cong-thuc/"]').each((_, element) => {
+        const href = $(element).attr('href');
+        if (href) {
+            const absoluteUrl = toAbsoluteUrl(href, currentUrl);
+            if (absoluteUrl && absoluteUrl.includes('vietjack.com')) {
+                links.push(absoluteUrl);
+            }
+        }
+    });
+    return links;
+};
+const extractVietJackFromText = ($: CheerioAPI, pageTitle: string, pageUrl: string): ExtractedFormulaRecord[] => {
+    const records: ExtractedFormulaRecord[] = [];
+    const subjectSlug = getSubjectSlug(pageUrl);
+    const subjectPath = getSubjectPath(pageUrl);
+    
+    // Tìm tất cả các thẻ span có id bắt đầu bằng MathJax
+    $('span[id^="MathJax-Element-"]').each((_, element) => {
+        // Lấy text hiển thị
+        const displayText = $(element).text().trim();
+        
+        // Lọc các text có dấu = và có vẻ là công thức
+        if (displayText && displayText.includes('=') && displayText.length > 3) {
+            // Thay thế các ký tự đặc biệt
+            let latex = displayText
+                .replace(/log/g, '\\log')
+                .replace(/⋅/g, '\\cdot')
+                .replace(/×/g, '\\times')
+                .replace(/∞/g, '\\infty')
+                .replace(/√/g, '\\sqrt');
+            
+            const normalized = normalizeFormulaInput(latex);
+            if (normalized?.latex) {
+                records.push({
+                    latex: normalized.latex,
+                    pageTitle,
+                    pageUrl,
+                    subjectSlug,
+                    subjectPath,
+                    section: 'Uncategorized',
+                    subsection: '',
+                    formulaName: '',
+                    source: 'vietjack-text',
+                    indexInPage: records.length + 1,
+                });
+            }
+        }
+    });
+    
+    return records;
+};
 const crawlSite = async (options: CrawlOptions) => {
     ensureCleanDirectory(options.outputDir);
 
     const browser = await createBrowser();
     const page = await createPage(browser);
 
+    // Chỉ crawl vietjack URLs
     const queue = Array.from(new Set([options.startUrl, ...(options.seedUrls ?? [])].filter(Boolean)));
     const seen = new Set<string>();
     const pages: PageResult[] = [];
@@ -951,6 +1520,11 @@ const crawlSite = async (options: CrawlOptions) => {
         while (queue.length > 0 && seen.size < options.maxPages) {
             const currentUrl = queue.shift();
             if (!currentUrl || seen.has(currentUrl)) {
+                continue;
+            }
+
+            // Chỉ crawl nếu URL là vietjack
+            if (!currentUrl.includes('vietjack.com')) {
                 continue;
             }
 
@@ -964,28 +1538,20 @@ const crawlSite = async (options: CrawlOptions) => {
             pages.push(pageResult);
 
             for (const nextLink of pageResult.nextLinks) {
+                // Chỉ thêm các link vietjack vào queue
+                if (!nextLink.includes('vietjack.com')) {
+                    continue;
+                }
                 if (seen.has(nextLink) || queue.includes(nextLink)) {
                     continue;
                 }
                 queue.push(nextLink);
             }
         }
-        const formulaSheetPages: PageResult[] = [];
-        const formulaSheetUrls = Array.from(new Set(options.formulaSheetUrls ?? []));
-        for (const formulaUrl of formulaSheetUrls) {
-            const formulaPageTab = await createPage(browser);
-            await formulaPageTab.setCacheEnabled(false);
-            try {
-                const formulaPage = await crawlFormulaSheetPage(formulaPageTab, formulaUrl);
-                if (formulaPage) {
-                    formulaSheetPages.push(formulaPage);
-                }
-            } finally {
-                await formulaPageTab.close();
-            }
-        }
-
-        pages.push(...formulaSheetPages);
+        
+        // Bỏ formulaSheetPages nếu không cần
+        // const formulaSheetPages: PageResult[] = [];
+        // ... 
 
     } finally {
         await browser.close();
@@ -1002,12 +1568,23 @@ const crawlSite = async (options: CrawlOptions) => {
         scopePathPrefix: options.scopePathPrefix,
     });
 };
-
-const startUrl = 'https://www.mathsisfun.com/algebra/exponent-laws.html';
+const isDuplicateContent = (url: string): boolean => {
+    // Loại bỏ các tham số không cần thiết
+    const cleanUrl = url.split('?')[0].split('#')[0];
+    
+    // Các pattern không cần crawl
+    const excludePatterns = [
+        /\/bai-tap\//,
+        /\/hoi-dap\//,
+        /\/de-kiem-tra\//,
+        /\/thi-online\//
+    ];
+    
+    return excludePatterns.some(pattern => pattern.test(cleanUrl));
+};
+const startUrl = 'https://www.vietjack.com/cong-thuc/cac-cong-thuc-cong-tru-nhan-chia-so-huu-ti-sm.jsp';
 const seedUrls: string[] = [
-    'https://www.mathsisfun.com/algebra/index.html',
-    'https://www.mathsisfun.com/algebra/exponent-laws.html',
-    'https://www.mathsisfun.com/algebra/exponents.html',
+    'https://www.vietjack.com/cong-thuc/'
 ];
 const defaultFormulaSheetUrls = [
     'https://formulasheet.com/#q|l|1228',
@@ -1035,21 +1612,27 @@ const envFormulaSheetUrls = (process.env.CRAWL_FORMULASHEET_URLS ?? '')
     .filter(Boolean);
 const formulaSheetUrls = [...defaultFormulaSheetUrls, ...envFormulaSheetUrls];
 void crawlSite({
-    startUrl,
-    seedUrls,
-    formulaSheetUrls,
-    maxPages: Number(process.env.CRAWL_MAX_PAGES ?? '25'),
+    startUrl: 'https://www.vietjack.com/cong-thuc/',
+    seedUrls: [
+        'https://www.vietjack.com/cong-thuc/cac-cong-thuc-cong-tru-nhan-chia-so-huu-ti-sm.jsp',
+        'https://www.vietjack.com/cong-thuc/cac-cong-thuc-luy-thua-voi-so-mu-tu-nhien-sm.jsp',
+        'https://www.vietjack.com/cong-thuc/cong-thuc-tinh-dien-tich-the-tich-hinh-hop-chu-nhat-hinh-sm.jsp',
+        'https://www.vietjack.com/cong-thuc/cong-thuc-tinh-dien-tich-va-the-tich-cua-hinh-lang-sm.jsp',
+        'https://www.vietjack.com/cong-thuc/cong-thuc-toan-lop-7-hoc-ki-1.jsp',
+        'https://www.vietjack.com/cong-thuc/cong-thuc-luong-giac-cua-hai-goc-phu-nhau-bu-nhau-sm.jsp',
+        'https://www.vietjack.com/cong-thuc/cong-thuc-doi-co-so-logarit-t11sm.jsp'
+
+    ],
+    formulaSheetUrls: [], // Bỏ formulaSheetUrls nếu không cần
+    maxPages: Number(process.env.CRAWL_MAX_PAGES ?? '50'),
     outputDir: process.env.CRAWL_OUTPUT_DIR ?? path.join(process.cwd(), 'formulas'),
-    scopePathPrefix: '/',
+    scopePathPrefix: '/cong-thuc/', // Chỉ crawl trong /cong-thuc/
     ignoredPathFragments: [
-        '/wp-',
-        '/feed',
-        '/tag/',
-        '/category/',
-        '/privacy-policy',
-        '/contact',
-        '/about',
-        '/blog',
-        '/comments',
+        '/wp-', '/feed', '/tag/', '/category/',
+        '/privacy-policy', '/contact', '/about',
+        '/blog', '/comments', '/user', '/login',
+        '/signup', '/search', '/pdf', '/download',
+        '/cdn-cgi', '/wp-content', '/author',
+        '/lien-he', '/gioi-thieu', // Thêm các từ khóa vietjack
     ],
 });

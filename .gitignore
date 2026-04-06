@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+
+# Python virtual environments and caches
+venv/
+__pycache__/
+*.py[cod]
+
+# Build artifacts
+dist/
+
+# Local notebooks and logs
+*.ipynb
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+.DS_Store
+
+# Backup/data files not needed in repo
+formulas/datasheet_backup.json
