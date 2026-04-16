@@ -1653,57 +1653,6 @@
     "sympy_canonical_form": "z \\left(x + y\\right) = z{\\left(x + y \\right)}"
   },
   {
-    "id": "alg_distributive_property_subtraction",
-    "instruction": "Tính chất phân phối của phép nhân đối với phép trừ (Đặt nhân tử chung)",
-    "instruction_variants": [
-      "Công thức nhóm nhân tử chung cho hiệu hai tích số",
-      "Biến đổi hiệu các đại lượng có cùng thừa số z",
-      "Distributive property of multiplication over subtraction using x, y, z",
-      "Tính chất phân phối của phép nhân đối với phép trừ (Đặt nhân tử chung)",
-      "Hãy tính chất phân phối của phép nhân đối với phép trừ (Đặt nhân tử chung) và trả về kết quả bằng LaTeX chuẩn.",
-      "Giải bài toán đại số này và chỉ xuất công thức cuối cùng đúng."
-    ],
-    "input": "xz - yz",
-    "steps": [
-      "Xác định hai số hạng là các tích số có chung thừa số z: xz và yz",
-      "Nhận diện phép trừ giữa hai tích số này",
-      "Áp dụng tính chất phân phối để đưa thừa số chung z ra ngoài dấu ngoặc",
-      "Thực hiện phép trừ giữa hai đại lượng x và y bên trong dấu ngoặc",
-      "Viết lại biểu thức dưới dạng tích của hiệu (x - y) và nhân tử chung z: (x - y)z"
-    ],
-    "reasoning": "Khi thực hiện phép trừ giữa hai biểu thức có chung một thừa số z, ta có thể nhóm thừa số đó lại và nhân với hiệu của hai biến số x và y. Đây là quy tắc đặt nhân tử chung cơ bản giúp rút gọn các biểu thức đại số từ dạng hiệu các tích về dạng tích của một hiệu.",
-    "output": "xz - yz = (x - y)z",
-    "canonical_form": "xz - yz = z(x - y)",
-    "equivalent_forms": [
-      "z(x - y) = xz - yz",
-      "zx - zy = z(x - y)",
-      "z \\cdot (x - y) = zx - zy"
-    ],
-    "variables": {
-      "variable_1": "x",
-      "variable_2": "y",
-      "common_factor": "z"
-    },
-    "constraints": [
-      "x, y, z \\in \\mathbb{R}"
-    ],
-    "negative_examples": [
-      "xz - yz = (x - y) - z",
-      "xz - yz = x - y",
-      "xz - yz = z(x + y)",
-      "xz + yz = z(x - y) \\text{ (sai: đổi dấu không đúng)}"
-    ],
-    "type": "algebra",
-    "difficulty": "easy",
-    "tags": [
-      "distributive_property",
-      "common_factor",
-      "subtraction",
-      "factoring"
-    ],
-    "sympy_canonical_form": "z \\left(x - y\\right) = z{\\left(x - y \\right)}"
-  },
-  {
     "id": "alg_multiplication_general_powers",
     "instruction": "Phép nhân hai lũy thừa khác cả cơ số và số mũ",
     "instruction_variants": [
@@ -1908,58 +1857,6 @@
     "sympy_canonical_form": "y = \\frac{1}{z}"
   },
   {
-    "id": "alg_logarithm_definition",
-    "instruction": "Định nghĩa logarit cơ bản",
-    "instruction_variants": [
-      "Mối liên hệ giữa logarit và lũy thừa",
-      "Cách viết biểu thức logarit chuẩn LaTeX",
-      "Definition of logarithm and its exponential form",
-      "Định nghĩa logarit cơ bản",
-      "Hãy định nghĩa logarit cơ bản và trả về kết quả bằng LaTeX chuẩn.",
-      "Giải bài toán đại số này và chỉ xuất công thức cuối cùng đúng."
-    ],
-    "input": "\\log_{x} y = z",
-    "steps": [
-      "Xác định cơ số của logarit là x, số bị lấy logarit là y và giá trị logarit là z",
-      "Thiết lập điều kiện xác định: cơ số x dương và khác 1, số bị lấy logarit y phải dương",
-      "Biểu diễn mối quan hệ tương đương dưới dạng lũy thừa: x nâng lên số mũ z bằng y",
-      "Viết công thức chuẩn hóa: \\(\\log_{x}\\) y = z \\iff \\(x^z\\) = y"
-    ],
-    "reasoning": "Logarit cơ số x của y là số mũ z sao cho x lũy thừa z bằng y. Đây là phép toán ngược của phép nâng lên lũy thừa, đóng vai trò quan trọng trong việc giải các phương trình mũ và xử lý các thang đo đại lượng biến thiên lớn.",
-    "output": "\\log_{x} y = z \\iff x^z = y",
-    "canonical_form": "\\log_{x} y = z",
-    "equivalent_forms": [
-      "x^z = y",
-      "z = \\frac{\\ln y}{\\ln x}",
-      "z = \\log_{x} y"
-    ],
-    "variables": {
-      "base": "x",
-      "argument": "y",
-      "value": "z"
-    },
-    "constraints": [
-      "x > 0",
-      "x \\neq 1",
-      "y > 0"
-    ],
-    "negative_examples": [
-      "\\log_{x} y = x^y",
-      "\\log_{x} y = y^x",
-      "\\log_{x} y = z \\implies z^x = y",
-      "\\log_z(xy) = \\log_z x - \\log_z y \\text{ (sai dấu trong quy tắc log tích)}"
-    ],
-    "type": "algebra",
-    "difficulty": "easy",
-    "tags": [
-      "logarithm",
-      "exponent",
-      "definition",
-      "latex_normalization"
-    ],
-    "sympy_canonical_form": "\\frac{\\log{\\left(y \\right)}}{\\log{\\left(x \\right)}} = z"
-  },
-  {
     "id": "alg_logarithm_product_rule",
     "instruction": "Tính chất logarit của một tích",
     "instruction_variants": [
@@ -2010,108 +1907,6 @@
       "latex_normalization"
     ],
     "sympy_canonical_form": "\\frac{\\log{\\left(x y \\right)}}{\\log{\\left(z \\right)}} = \\frac{\\log{\\left(x \\right)} + \\log{\\left(y \\right)}}{\\log{\\left(z \\right)}}"
-  },
-  {
-    "id": "alg_logarithm_definition",
-    "instruction": "Định nghĩa logarit cơ bản",
-    "instruction_variants": [
-      "Chuyển đổi giữa dạng logarit và dạng lũy thừa",
-      "Cách biểu diễn logarit cơ số z của x",
-      "Definition of logarithm with variables x, y, z",
-      "Định nghĩa logarit cơ bản",
-      "Hãy định nghĩa logarit cơ bản và trả về kết quả bằng LaTeX chuẩn.",
-      "Giải bài toán đại số này và chỉ xuất công thức cuối cùng đúng."
-    ],
-    "input": "\\log_{z} x = y",
-    "steps": [
-      "Xác định cơ số của logarit là z và số bị lấy logarit là x",
-      "Xác định giá trị của logarit là y",
-      "Thiết lập điều kiện xác định cho biểu thức: cơ số z > 0, z \\neq 1 và số bị lấy logarit x > 0",
-      "Chuyển đổi sang biểu thức lũy thừa tương đương: \\(z^y\\) = x"
-    ],
-    "reasoning": "Logarit là phép toán ngược của phép nâng lên lũy thừa. Biểu thức \\(\\log_{z}\\) x = y có nghĩa là y là số mũ mà ta cần nâng cơ số z lên để nhận được giá trị x. Việc chuẩn hóa về hệ biến x, y, z giúp duy trì tính đồng nhất trong toàn bộ cơ sở dữ liệu đại số.",
-    "output": "\\log_{z} x = y \\iff z^y = x",
-    "canonical_form": "\\log_{z} x = y",
-    "equivalent_forms": [
-      "z^y = x",
-      "y = \\log_{z} x",
-      "x = z^y"
-    ],
-    "variables": {
-      "base": "z",
-      "argument": "x",
-      "value": "y"
-    },
-    "constraints": [
-      "z > 0",
-      "z \\neq 1",
-      "x > 0"
-    ],
-    "negative_examples": [
-      "\\log_{z} x = x^y",
-      "z^x = y",
-      "\\log_{z} x = y \\implies y^z = x",
-      "\\log_z(xy) = \\log_z x - \\log_z y \\text{ (sai dấu trong quy tắc log tích)}"
-    ],
-    "type": "algebra",
-    "difficulty": "easy",
-    "tags": [
-      "logarithm",
-      "definition",
-      "exponent",
-      "latex_normalization"
-    ],
-    "sympy_canonical_form": "\\frac{\\log{\\left(x \\right)}}{\\log{\\left(z \\right)}} = y"
-  },
-  {
-    "id": "alg_logarithm_fundamental_identity",
-    "instruction": "Đồng nhất thức cơ bản của logarit",
-    "instruction_variants": [
-      "Công thức lũy thừa với số mũ logarit cùng cơ số",
-      "Mối quan hệ triệt tiêu giữa lũy thừa và logarit",
-      "Fundamental logarithmic identity using x and y",
-      "Đồng nhất thức cơ bản của logarit",
-      "Hãy đồng nhất thức cơ bản của logarit và trả về kết quả bằng LaTeX chuẩn.",
-      "Giải bài toán đại số này và chỉ xuất công thức cuối cùng đúng."
-    ],
-    "input": "x^{\\log_{x} y}",
-    "steps": [
-      "Xác định cơ số của lũy thừa là x",
-      "Xác định số mũ là một biểu thức logarit có cùng cơ số x và đại lượng bị lấy logarit là y",
-      "Áp dụng định nghĩa của logarit: logarit cơ số x của y là số mũ mà x cần được nâng lên để bằng y",
-      "Kết luận giá trị của toàn bộ biểu thức chính bằng đại lượng y: \\(x^{\\log_{x}\\) y} = y"
-    ],
-    "reasoning": "Đồng nhất thức \\($x^{\\log_{x}\\) y} = y$ là hệ quả trực tiếp từ định nghĩa logarit. Nếu ta đặt $z = \\(\\log_{x}\\) y$, thì theo định nghĩa ta có \\($x^z\\) = y$. Khi thay thế $z$ ngược trở lại vào phương trình lũy thừa, ta thu được đẳng thức này. Đây là quy tắc quan trọng để đơn giản hóa các biểu thức chứa cả mũ và logarit.",
-    "output": "x^{\\log_{x} y} = y",
-    "canonical_form": "x^{\\log_{x} y} = y",
-    "equivalent_forms": [
-      "y = x^{\\log_{x} y}",
-      "\\log_{x} (x^{\\log_{x} y}) = \\log_{x} y"
-    ],
-    "variables": {
-      "base": "x",
-      "argument": "y"
-    },
-    "constraints": [
-      "x > 0",
-      "x \\neq 1",
-      "y > 0"
-    ],
-    "negative_examples": [
-      "x^{\\log_{x} y} = x",
-      "x^{\\log_{x} y} = \\log_{x} y",
-      "x^{\\log_{x} y} = xy",
-      "\\log_z(xy) = \\log_z x - \\log_z y \\text{ (sai dấu trong quy tắc log tích)}"
-    ],
-    "type": "algebra",
-    "difficulty": "easy",
-    "tags": [
-      "logarithm",
-      "exponent",
-      "identity",
-      "simplification"
-    ],
-    "sympy_canonical_form": "x^{\\log_{x} y} = y"
   },
   {
     "id": "alg_logarithm_equivalence",
@@ -2372,59 +2167,6 @@
       "domain_of_definition"
     ],
     "sympy_canonical_form": "f{\\left(x \\right)} = \\frac{\\log{\\left(x \\right)}}{\\log{\\left(z \\right)}}"
-  },
-  {
-    "id": "alg_logarithm_product_rule",
-    "instruction": "Tính chất logarit của một tích",
-    "instruction_variants": [
-      "Quy tắc cộng hai logarit cùng cơ số z",
-      "Khai triển logarit của tích x và y",
-      "Product rule for logarithms using x, y, and z",
-      "Tính chất logarit của một tích",
-      "Hãy tính chất logarit của một tích và trả về kết quả bằng LaTeX chuẩn.",
-      "Giải bài toán đại số này và chỉ xuất công thức cuối cùng đúng."
-    ],
-    "input": "\\log_{z} (x \\cdot y)",
-    "steps": [
-      "Xác định biểu thức là logarit cơ số z của một tích giữa hai đại lượng x và y",
-      "Áp dụng quy tắc: logarit của một tích bằng tổng các logarit của từng thừa số thành phần",
-      "Tách biểu thức thành tổng của hai logarit: logarit cơ số z của x và logarit cơ số z của y",
-      "Viết kết quả cuối cùng dưới dạng chuẩn hóa: \\(\\log_{z}\\) x + \\(\\log_{z}\\) y"
-    ],
-    "reasoning": "Tính chất này bắt nguồn từ quy tắc nhân hai lũy thừa cùng cơ số: khi nhân các lũy thừa, ta cộng các số mũ. Vì logarit bản chất là tìm số mũ, nên logarit của một tích sẽ tương đương với tổng các logarit thành phần. Điều này cho phép biến đổi các phép nhân phức tạp thành phép cộng đơn giản hơn.",
-    "output": "\\log_{z} (x \\cdot y) = \\log_{z} x + \\log_{z} y",
-    "canonical_form": "\\log_{z} (xy) = \\log_{z} x + \\log_{z} y",
-    "equivalent_forms": [
-      "\\log_{z} x + \\log_{z} y = \\log_{z} (xy)",
-      "\\log_{z} (x \\cdot y) = \\log_{z} x + \\log_{z} y",
-      "\\log_{z} (xy) = \\sum (\\log_{z} x, \\log_{z} y)"
-    ],
-    "variables": {
-      "base": "z",
-      "factor_1": "x",
-      "factor_2": "y"
-    },
-    "constraints": [
-      "z > 0",
-      "z \\neq 1",
-      "x > 0",
-      "y > 0"
-    ],
-    "negative_examples": [
-      "\\log_{z} (x + y) = \\log_{z} x + \\log_{z} y",
-      "\\log_{z} (xy) = \\log_{z} x \\cdot \\log_{z} y",
-      "\\log_{z} (xy) = \\log_{z} (x^y)",
-      "\\log_{z} (xy) = \\log_{z} x - \\log_{z} y \\text{ (sai: đổi dấu không đúng)}"
-    ],
-    "type": "algebra",
-    "difficulty": "easy",
-    "tags": [
-      "logarithm",
-      "product_rule",
-      "log_identity",
-      "simplification"
-    ],
-    "sympy_canonical_form": "\\frac{\\log{\\left(x y \\right)}}{\\log{\\left(z \\right)}} = \\frac{\\log{\\left(x \\right)} + \\log{\\left(y \\right)}}{\\log{\\left(z \\right)}}"
   },
   {
     "id": "alg_logarithm_quotient_rule",
@@ -3829,55 +3571,6 @@
       "addition_formula",
       "subtraction_formula",
       "cosine"
-    ]
-  },
-  {
-    "id": "trig_sine_addition_subtraction",
-    "instruction": "Công thức cộng và trừ cho hàm số sin",
-    "instruction_variants": [
-      "Khai triển biểu thức sin của một tổng hoặc một hiệu",
-      "Biến đổi sin(x ± y) thành dạng đa thức lượng giác",
-      "Sine addition and subtraction identities for x and y",
-      "Công thức cộng và trừ cho hàm số sin",
-      "Hãy công thức cộng và trừ cho hàm số sin và trả về kết quả bằng LaTeX chuẩn.",
-      "Giải bài toán lượng giác này và chỉ xuất công thức cuối cùng đúng."
-    ],
-    "input": "\\sin(x \\pm y) = \\sin x \\cos y \\pm \\cos x \\sin y",
-    "steps": [
-      "Xác định hai góc độc lập x và y trong biểu thức",
-      "Khai triển vế trái theo quy tắc: sin của góc thứ nhất nhân cos của góc thứ hai",
-      "Kết hợp với tích của cos góc thứ nhất và sin góc thứ hai",
-      "Giữ nguyên dấu: Nếu là tổng (x + y) thì dùng dấu cộng, nếu là hiệu (x - y) thì dùng dấu trừ",
-      "Kết luận hệ thức: \\(\\sin(x\\) \\pm y) = \\(\\sin\\) x \\(\\cos\\) y \\pm \\(\\cos\\) x \\(\\sin\\) y"
-    ],
-    "reasoning": "Đây là một trong những công thức biến đổi lượng giác quan trọng nhất, cho phép tính toán giá trị lượng giác của các góc phức tạp bằng cách chia nhỏ chúng thành tổng hoặc hiệu của các góc đặc biệt (như \\($15^\\circ\\) = \\(45^\\circ\\) - \\(30^\\circ$)\\). Việc chuẩn hóa sang biến x và y giúp mô hình dễ dàng tích hợp vào các bài toán giải tích và phương trình lượng giác.",
-    "output": "\\sin(x \\pm y) = \\sin x \\cos y \\pm \\cos x \\sin y",
-    "canonical_form": "\\sin(x \\pm y) = \\sin x \\cos y \\pm \\cos x \\sin y",
-    "equivalent_forms": [
-      "\\sin(x + y) = \\sin x \\cos y + \\cos x \\sin y",
-      "\\sin(x - y) = \\sin x \\cos y - \\cos x \\sin y",
-      "\\sin(x \\pm y) = \\sin x \\sin(\\frac{\\pi}{2} - y) \\pm \\sin(\\frac{\\pi}{2} - x) \\sin y"
-    ],
-    "variables": {
-      "first_angle": "x",
-      "second_angle": "y"
-    },
-    "constraints": [
-      "x, y \\in \\mathbb{R}"
-    ],
-    "negative_examples": [
-      "\\sin(x + y) = \\sin x + \\sin y",
-      "\\sin(x + y) = \\sin x \\cos y - \\cos x \\sin y \\text{ (sai dấu)}",
-      "\\sin(x \\pm y) = \\cos x \\cos y \\pm \\sin x \\sin y",
-      "\\cos(x \\pm y) = \\sin x \\cos y \\pm \\cos x \\sin y \\text{ (sai: nhầm hàm sin thành cos)}"
-    ],
-    "type": "trigonometry",
-    "difficulty": "medium",
-    "tags": [
-      "trigonometry",
-      "addition_formula",
-      "subtraction_formula",
-      "sine"
     ]
   },
   {
