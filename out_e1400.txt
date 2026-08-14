@@ -1,0 +1,18 @@
+﻿=== ENTRY[1400] - la_inequalities ===
+
+REASONING:
+$mß╗Öt \succeq B$ (PSD condition): $mß╗Öt - B \succeq 0$ (PSD). $mß╗Öt \succeq 0$ khi v├á chß╗ë khi $x^T mß╗Öt x \geq 0$ v├┤ moi $x$ (with $mß╗Öt$ ─Éß╗æi xß╗⌐ng).
+
+NEGATIVE EXAMPLES:
+  - PSD chß╗ë cho diagonal (sai: any symmetric)
+  - Schur t├¡ch for symmetric (sai: any PSD)
+  - Trivial inequalities (sai: SDP)
+
+FIRST INPUT_VARIANT:
+Matrix inequalities: PSD va PD. $A \succeq B$ iff $A - B \succeq 0$ (PSD). Schur t├¡ch $A \odot B \succeq 0$ for PSD $A, B$.
+
+FIRST EXAMPLE OUTPUT:
+A \succeq B \Leftrightarrow A - B \succeq 0, \quad A, B \succeq 0 \Rightarrow A \odot B \succeq 0 \text{ (Schur t├¡ch)
+
+FIRST EXAMPLE SOLUTION (first 400 chars):
+Ap ─æ├║ng cho b├ái to├ín tß╗òng qu├ít ΓåÆ A \succeq B \Leftrightarrow A - B \succeq 0, \quad A, B \succeq 0 \Rightarrow A \odot B \succeq 0 \text{ (Schur t├¡ch)

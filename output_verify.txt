@@ -1,0 +1,88 @@
+﻿New file: 1485 entries
+Old file: 1485 entries
+
+======================================================================
+=== ENTRY[0] - alg_fraction_subtract_same_denominator ===
+======================================================================
+  [instruction_variants[2]] CHANGED:
+    OLD: Subtract two fractions with the same denominator
+    NEW: Trß╗½ hai ph├ón sß╗æ vß╗¢i c├╣ng mß║½u
+
+======================================================================
+=== ENTRY[1] - alg_fraction_multiply ===
+======================================================================
+  [instruction_variants[2]] CHANGED:
+    OLD: Multiply two fractions
+    NEW: Nh├ón hai ph├ón sß╗æ
+
+======================================================================
+=== ENTRY[2] - alg_fraction_divide ===
+======================================================================
+  [instruction_variants[2]] CHANGED:
+    OLD: Divide two fractions
+    NEW: Chia hai ph├ón sß╗æ
+
+======================================================================
+=== ENTRY[50] - alg_summation_constant ===
+======================================================================
+  [instruction_variants[2]] CHANGED:
+    OLD: Summation of a constant expression using x and y
+    NEW: Summation of a hß║▒ng sß╗æ biß╗âu thß╗⌐c using x and y
+
+======================================================================
+=== ENTRY[100] - math_group_inverse_property ===
+======================================================================
+  [instruction_variants[2]] CHANGED:
+    OLD: Inverse element property for every x in Group G
+    NEW: nghß╗ïch ─æß║úo element property for every x in Group G
+
+======================================================================
+=== ENTRY[200] - integral_x_sqrt_x_minus_a ===
+======================================================================
+  [instruction_variants[2]] CHANGED:
+    OLD: Evaluate the integral using standard formula
+    NEW: T├¡nh the t├¡ch ph├ón using standard formula
+
+======================================================================
+=== ENTRY[500] - alg_b99d7d36 ===
+======================================================================
+
+======================================================================
+=== ENTRY[800] - alg_ecf7ddee ===
+======================================================================
+  [example[0].solution] CHANGED:
+    OLD: H╞░ß╗¢ng giß║úi: Nhß║¡n diß╗çn ─æ├óy l├á v├¡ dß╗Ñ cß╗ºa b├ái to├ín "─Éiß╗âm dß╗½ng (critical point) khi gradient bß║▒ng 0". Dß╗» kiß╗çn cß╗Ñ thß╗â: variable = 2. Ta d├╣ng dß║íng chuß║⌐n \na
+    NEW: H╞░ß╗¢ng giß║úi: Nhß║¡n diß╗çn ─æ├óy l├á v├¡ dß╗Ñ cß╗ºa b├ái to├ín "─Éiß╗âm dß╗½ng (critical point) khi gradient bß║▒ng 0". Dß╗» kiß╗çn cß╗Ñ thß╗â: biß║┐n sß╗æ = 2. Ta d├╣ng dß║íng chuß║⌐n \nab
+  [example[1].solution] CHANGED:
+    OLD: H╞░ß╗¢ng giß║úi: Nhß║¡n diß╗çn ─æ├óy l├á v├¡ dß╗Ñ cß╗ºa b├ái to├ín "─Éiß╗âm dß╗½ng (critical point) khi gradient bß║▒ng 0". Dß╗» kiß╗çn cß╗Ñ thß╗â: variable = 3. Ta d├╣ng dß║íng chuß║⌐n \na
+    NEW: H╞░ß╗¢ng giß║úi: Nhß║¡n diß╗çn ─æ├óy l├á v├¡ dß╗Ñ cß╗ºa b├ái to├ín "─Éiß╗âm dß╗½ng (critical point) khi gradient bß║▒ng 0". Dß╗» kiß╗çn cß╗Ñ thß╗â: biß║┐n sß╗æ = 3. Ta d├╣ng dß║íng chuß║⌐n \nab
+
+======================================================================
+=== ENTRY[1000] - linalg_rank_nullity_theorem ===
+======================================================================
+  [constraints] CHANGED:
+    OLD: ['C├íc biß║┐n phß║úi c├│ k├¡ch th╞░ß╗¢c hoß║╖c miß╗ün x├íc ─æß╗ïnh ph├╣ hß╗úp vß╗¢i c├┤ng thß╗⌐c.', 'Kh├┤ng ├íp dß╗Ñng c├┤ng thß╗⌐c khi mß║½u sß╗æ, x├íc suß║Ñt, ph╞░╞íng sai hoß║╖c chuß║⌐n vector 
+    NEW: ['C├íc biß║┐n phß║úi c├│ k├¡ch th╞░ß╗¢c hoß║╖c miß╗ün x├íc ─æß╗ïnh ph├╣ hß╗úp vß╗¢i c├┤ng thß╗⌐c.', 'Kh├┤ng ├íp dß╗Ñng c├┤ng thß╗⌐c khi mß║½u sß╗æ, x├íc suß║Ñt, ph╞░╞íng sai hoß║╖c chuß║⌐n vect╞í b
+  [example[0].solution] CHANGED:
+    OLD: H╞░ß╗¢ng giß║úi: Nhß║¡n diß╗çn ─æ├óy l├á v├¡ dß╗Ñ cß╗ºa b├ái to├ín "─Éß╗ïnh l├╜ hß║íng v├á sß╗æ chiß╗üu kh├┤ng gian nghiß╗çm". Dß╗» kiß╗çn cß╗Ñ thß╗â gß╗ôm biß╗âu thß╗⌐c ─æß║ºu v├áo: A \in \mathbb{R}^{
+    NEW: H╞░ß╗¢ng giß║úi: Nhß║¡n diß╗çn ─æ├óy l├á v├¡ dß╗Ñ cß╗ºa b├ái to├ín "─Éß╗ïnh l├╜ hß║íng v├á sß╗æ chiß╗üu kh├┤ng gian nghiß╗çm". Dß╗» kiß╗çn cß╗Ñ thß╗â gß╗ôm biß╗âu thß╗⌐c ─æß║ºu v├áo: A \in \mathbb{R}^{
+
+======================================================================
+=== ENTRY[1400] - la_inequalities ===
+======================================================================
+  [reasoning] CHANGED:
+    OLD: $mß╗Öt \succeq B$ (PSD condition): $mß╗Öt - B \succeq 0$ (PSD). $mß╗Öt \succeq 0$ khi v├á chß╗ë khi $x^T mß╗Öt x \geq 0$ vo moi $x$ (with $mß╗Öt$ ─Éß╗æi xß╗⌐ng).
+    NEW: $mß╗Öt \succeq B$ (PSD condition): $mß╗Öt - B \succeq 0$ (PSD). $mß╗Öt \succeq 0$ khi v├á chß╗ë khi $x^T mß╗Öt x \geq 0$ v├┤ moi $x$ (with $mß╗Öt$ ─Éß╗æi xß╗⌐ng).
+  [negative_examples] CHANGED:
+    OLD: ['PSD chi cho diagonal (sai: any symmetric)', 'Schur product for symmetric (sai: any PSD)', 'Trivial inequalities (sai: SDP)']
+    NEW: ['PSD chi cho diagonal (sai: any symmetric)', 'Schur t├¡ch for symmetric (sai: any PSD)', 'Trivial inequalities (sai: SDP)']
+  [input_variants[0]] CHANGED:
+    OLD: Matrix inequalities: PSD va PD. $A \succeq B$ iff $A - B \succeq 0$ (PSD). Schur product $A \odot B \succeq 0$ for PSD $A, B$.
+    NEW: Matrix inequalities: PSD va PD. $A \succeq B$ iff $A - B \succeq 0$ (PSD). Schur t├¡ch $A \odot B \succeq 0$ for PSD $A, B$.
+  [example[0].output] CHANGED:
+    OLD: A \succeq B \Leftrightarrow A - B \succeq 0, \quad A, B \succeq 0 \Rightarrow A \odot B \succeq 0 \text{ (Schur product)
+    NEW: A \succeq B \Leftrightarrow A - B \succeq 0, \quad A, B \succeq 0 \Rightarrow A \odot B \succeq 0 \text{ (Schur t├¡ch)
+  [example[0].solution] CHANGED:
+    OLD: Ap dung cho bai toan tong quat ΓåÆ A \succeq B \Leftrightarrow A - B \succeq 0, \quad A, B \succeq 0 \Rightarrow A \odot B \succeq 0 \text{ (Schur produ
+    NEW: Ap dung cho bai toan tong quat ΓåÆ A \succeq B \Leftrightarrow A - B \succeq 0, \quad A, B \succeq 0 \Rightarrow A \odot B \succeq 0 \text{ (Schur t├¡ch)
+

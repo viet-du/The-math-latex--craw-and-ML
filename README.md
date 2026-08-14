@@ -1,76 +1,68 @@
-# The-math-latex--craw-and-ML
+# The math latex crawl and ML
 
-Script hiện tại crawl cac trang cong thuc tren Math Formula Atlas, trich cac bieu thuc toan hoc ve dang LaTeX va gom ket qua vao thu muc `formulas` theo dinh dang de dua vao pipeline ML.
+Project crawl bài toán LaTeX và fine-tune Qwen2.5-Math-1.5B-Instruct với kiến trúc 5-agent cho toán tiếng Việt.
 
-## Chạy
+## Pipeline ACTIVE
 
-```bash
-npm install
-npm start
+```
+DATA/datasheet_final.json
+        │
+        ▼
+scripts/expand_dataset.py
+        │
+        ▼
+DATA/5agent_expanded/        (train/val/test × agent1..agent5)
+        │
+        ▼
+train_model/qwen25_math_5agent_lora_kaggle.py   ← train LoRA 5 adapter
+        │
+        ▼
+train_model/inference_5agent_kaggle.py         ← inference 5-agent
 ```
 
-Lưu ý: Project dùng Puppeteer để render trang động, nên `npm install` sẽ tải Chromium lần đầu.
-Nếu muốn dùng trình duyệt đã cài sẵn, đặt biến môi trường `PUPPETEER_EXECUTABLE_PATH` và `PUPPETEER_SKIP_DOWNLOAD=1`.
+## Cấu trúc thư mục
 
-## Tùy chọn
+- **DATA/** — dữ liệu
+  - `datasheet_final.json` — input gốc (templates + examples)
+  - `5agent_expanded/` — đang dùng để train (output của expand_dataset.py)
+  - `5agent_final/` — backup
+  - `extra_domain_problems.json` — bài toán bổ sung
+- **scripts/**
+  - `expand_dataset.py` — tạo 5agent_expanded từ datasheet
+  - `convert_datasheet_to_agents.py` — convert sang format 5-agent (legacy)
+  - `optimize_dataset.py` — tối ưu dataset
+  - `transform_for_5agent.py` — transform cho pipeline 5-agent
+- **train_model/**
+  - `qwen25_math_5agent_lora_kaggle.py` — train LoRA trên Kaggle
+  - `inference_5agent_kaggle.py` — inference
+  - `inference_vietnamese.py` — inference tiếng Việt
+- **src/** — TypeScript crawlers (export-from-json.ts, index.ts)
+- **src_python_support/** — Python helpers (convert_datasheet.py, enrich_datasheet.py, normalize_sympy.py, dedup.py)
+- **docs/** — tài liệu, hướng dẫn
+- **archive/** — code/logs cũ đã archive
+  - `dead_scripts/` — script không còn dùng
+  - `temp_scripts/` — script tmp_*.py
+  - `logs/` — file .log/.txt cũ
+  - `legacy_code/` — code cũ khác (js, wrap-math.js)
 
-Script ho tro doi URL bat dau, so trang crawl, pham vi subject va thu muc dau ra qua bien moi truong:
+## Tài liệu
 
-```bash
-$env:CRAWL_START_URL='https://mathformulaatlas.com/subjects/algebra/college-algebra/'
-$env:CRAWL_MAX_PAGES='25'
-$env:CRAWL_SCOPE_PATH_PREFIX='/subjects/algebra/'
-$env:CRAWL_OUTPUT_DIR='formulas'
-$env:CRAWL_FORMULASHEET_URLS='https://formulasheet.com/#q|l|1228'
-npm start
-```
+Xem `docs/`:
+- `working_rule.md` — quy tắc làm việc
+- `pipeline_plan_vietnamese_math.md` — kế hoạch pipeline tiếng Việt
+- `HUONG_DAN_SU_DUNG_SAU_FIX.md` — hướng dẫn sau fix
 
-- `CRAWL_SCOPE_PATH_PREFIX`: gioi han crawl trong cung mot nhanh subject. Neu bo trong, script tu suy ra tu `CRAWL_START_URL`.
-- `CRAWL_FORMULASHEET_URLS`: danh sach URL formulasheet (phan cach boi dau phay) de lay LaTeX tu `pre.resultsSrc`.
-## Xuat HTML/PDF tu dataset.json
+## Cleanup gần đây (2026-08-07)
 
-Sau khi crawl xong, co the doc lai `formulas/dataset.json` de xuat HTML/PDF:
+- Đổi tên file docs tiếng Việt bị lỗi font (`HƯỚNG_DẪN_...md` → `HUONG_DAN_...md`)
+- Xóa `venv/` (~1.1 GB) và `.venv/` — không cần thiết, tạo lại bằng `python -m venv venv`
+- Xóa `__pycache__/` (2115 thư mục con)
+- Xóa `logs/` rỗng ở root
+- Cập nhật `.gitignore` để ignore: `.venv`, `archive/`, `.cursor/`, `.agents/`, `.codex/`, `.gemini/`, `*.safetensors`, `checkpoints/`, generated `DATA/qwen_*.jsonl`
+- Lưu ý: KHÔNG xóa `dist/` — vẫn được `npm run build` sử dụng
 
-```bash
-npm run export
-```
+## Cấu trúc inference
 
-Output:
-- `formulas/preview.html`: xem cong thuc va label tren trinh duyet
-- `formulas/preview.pdf`: PDF in tu HTML (dung MathJax qua CDN)
-
-Neu muon chi tao HTML (khong tao PDF), dat:
-
-```bash
-$env:EXPORT_PDF_ENABLED='0'
-npm run export
-```
-
-Co the chi dinh duong dan:
-
-```bash
-$env:EXPORT_INPUT='formulas\\dataset.json'
-$env:EXPORT_OUTPUT_DIR='formulas'
-$env:EXPORT_HTML='formulas\\preview.html'
-$env:EXPORT_PDF='formulas\\preview.pdf'
-npm run export
-``` 
-
-## Kết quả
-
-- `formulas/dataset.tex`: tap cong thuc tong hop voi comment marker co cau truc co the tach record de dua vao parser
-- `formulas/dataset.json`: metadata day du cua lan crawl, danh sach trang va danh sach cong thuc
-- `formulas/dataset.jsonl`: moi dong la mot record cong thuc, hop voi pipeline ML va batch processing
-- `formulas/*.tex`: file theo trang voi ten gon hon nhu `college-algebra.tex`, `linear-algebra.tex`
-
-## Cách trích xuất
-
-Script uu tien doc noi dung trong vung `entry-content` cua bai viet WordPress va tach cac block LaTeX dang `\[ ... \]` tu paragraph hoac list item. Neu mot trang khong co block nay, script se fallback sang cac node toan hoc tong quat nhu `data-tex`, `annotation[encoding="application/x-tex"]`, `script[type^="math/tex"]` hoac text math da render.
-
-Script khong chi lay link trong noi dung bai viet ma con doi them link trong `main` va `body`, sau do loc theo `CRAWL_SCOPE_PATH_PREFIX` de mo rong crawl trong cung subject ma khong tran sang subject khac.
-
-## Dinh dang phu hop cho ML
-
-- Trong `dataset.json`, moi cong thuc co cac truong on dinh nhu `formulaId`, `pageSlug`, `subjectSlug`, `subjectPath`, `section`, `subsection`, `source`, `indexInPage`, `indexGlobal`, `latex`.
-- Trong `dataset.jsonl`, moi dong la mot object JSON doc lap de import vao pandas, Spark, Hugging Face datasets hoac vector pipeline.
-- Trong `dataset.tex`, moi cong thuc duoc bao quanh boi marker comment `% formula_record_start` va `% formula_record_end` de parser co the cat block an toan.
+- `train_model/inference_5agent_kaggle.py` — bản gốc (có HTML, cho Kaggle notebook)
+- `train_model/inference_terminal.py` — bản terminal thuần, không HTML
+- `train_model/inference_vietnamese.py` — bản tiếng Việt

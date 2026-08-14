@@ -1,0 +1,258 @@
+{
+  "DATA/5agent_expanded": {
+    "train": {
+      "agent1": {
+        "total_rows": 1188,
+        "unique_assistant_strings": 1178,
+        "top_string_count": 3,
+        "mode_collapse_pct": 0.25,
+        "placeholder_rows": 42,
+        "placeholder_pct": 3.54
+      },
+      "agent2": {
+        "total_rows": 1188,
+        "unique_assistant_strings": 1057,
+        "top_string_count": 15,
+        "mode_collapse_pct": 1.26,
+        "placeholder_rows": 1,
+        "placeholder_pct": 0.08
+      },
+      "agent3": {
+        "total_rows": 1188,
+        "unique_assistant_strings": 1090,
+        "top_string_count": 19,
+        "mode_collapse_pct": 1.6,
+        "placeholder_rows": 50,
+        "placeholder_pct": 4.21
+      },
+      "agent4": {
+        "total_rows": 1188,
+        "unique_assistant_strings": 1174,
+        "top_string_count": 3,
+        "mode_collapse_pct": 0.25,
+        "placeholder_rows": 18,
+        "placeholder_pct": 1.52
+      },
+      "agent5": {
+        "total_rows": 1188,
+        "unique_assistant_strings": 1072,
+        "top_string_count": 23,
+        "mode_collapse_pct": 1.94,
+        "placeholder_rows": 42,
+        "placeholder_pct": 3.54
+      }
+    },
+    "val": {
+      "agent1": {
+        "total_rows": 148,
+        "unique_assistant_strings": 148,
+        "top_string_count": 1,
+        "mode_collapse_pct": 0.68,
+        "placeholder_rows": 7,
+        "placeholder_pct": 4.73
+      },
+      "agent2": {
+        "total_rows": 148,
+        "unique_assistant_strings": 143,
+        "top_string_count": 3,
+        "mode_collapse_pct": 2.03,
+        "placeholder_rows": 0,
+        "placeholder_pct": 0.0
+      },
+      "agent3": {
+        "total_rows": 148,
+        "unique_assistant_strings": 147,
+        "top_string_count": 2,
+        "mode_collapse_pct": 1.35,
+        "placeholder_rows": 9,
+        "placeholder_pct": 6.08
+      },
+      "agent4": {
+        "total_rows": 148,
+        "unique_assistant_strings": 148,
+        "top_string_count": 1,
+        "mode_collapse_pct": 0.68,
+        "placeholder_rows": 4,
+        "placeholder_pct": 2.7
+      },
+      "agent5": {
+        "total_rows": 148,
+        "unique_assistant_strings": 147,
+        "top_string_count": 2,
+        "mode_collapse_pct": 1.35,
+        "placeholder_rows": 7,
+        "placeholder_pct": 4.73
+      }
+    },
+    "test": {
+      "agent1": {
+        "total_rows": 149,
+        "unique_assistant_strings": 149,
+        "top_string_count": 1,
+        "mode_collapse_pct": 0.67,
+        "placeholder_rows": 9,
+        "placeholder_pct": 6.04
+      },
+      "agent2": {
+        "total_rows": 149,
+        "unique_assistant_strings": 146,
+        "top_string_count": 2,
+        "mode_collapse_pct": 1.34,
+        "placeholder_rows": 0,
+        "placeholder_pct": 0.0
+      },
+      "agent3": {
+        "total_rows": 149,
+        "unique_assistant_strings": 148,
+        "top_string_count": 2,
+        "mode_collapse_pct": 1.34,
+        "placeholder_rows": 10,
+        "placeholder_pct": 6.71
+      },
+      "agent4": {
+        "total_rows": 149,
+        "unique_assistant_strings": 149,
+        "top_string_count": 1,
+        "mode_collapse_pct": 0.67,
+        "placeholder_rows": 6,
+        "placeholder_pct": 4.03
+      },
+      "agent5": {
+        "total_rows": 149,
+        "unique_assistant_strings": 148,
+        "top_string_count": 2,
+        "mode_collapse_pct": 1.34,
+        "placeholder_rows": 9,
+        "placeholder_pct": 6.04
+      }
+    }
+  },
+  "DATA/5agent_final": {
+    "train": {
+      "agent1": {
+        "total_rows": 985,
+        "unique_assistant_strings": 985,
+        "top_string_count": 1,
+        "mode_collapse_pct": 0.1,
+        "placeholder_rows": 1,
+        "placeholder_pct": 0.1
+      },
+      "agent2": {
+        "total_rows": 985,
+        "unique_assistant_strings": 53,
+        "top_string_count": 180,
+        "mode_collapse_pct": 18.27,
+        "placeholder_rows": 0,
+        "placeholder_pct": 0.0
+      },
+      "agent3": {
+        "total_rows": 985,
+        "unique_assistant_strings": 258,
+        "top_string_count": 166,
+        "mode_collapse_pct": 16.85,
+        "placeholder_rows": 16,
+        "placeholder_pct": 1.62
+      },
+      "agent4": {
+        "total_rows": 985,
+        "unique_assistant_strings": 965,
+        "top_string_count": 4,
+        "mode_collapse_pct": 0.41,
+        "placeholder_rows": 16,
+        "placeholder_pct": 1.62
+      },
+      "agent5": {
+        "total_rows": 985,
+        "unique_assistant_strings": 942,
+        "top_string_count": 5,
+        "mode_collapse_pct": 0.51,
+        "placeholder_rows": 0,
+        "placeholder_pct": 0.0
+      }
+    },
+    "val": {
+      "agent1": {
+        "total_rows": 115,
+        "unique_assistant_strings": 115,
+        "top_string_count": 1,
+        "mode_collapse_pct": 0.87,
+        "placeholder_rows": 0,
+        "placeholder_pct": 0.0
+      },
+      "agent2": {
+        "total_rows": 115,
+        "unique_assistant_strings": 34,
+        "top_string_count": 24,
+        "mode_collapse_pct": 20.87,
+        "placeholder_rows": 0,
+        "placeholder_pct": 0.0
+      },
+      "agent3": {
+        "total_rows": 115,
+        "unique_assistant_strings": 43,
+        "top_string_count": 18,
+        "mode_collapse_pct": 15.65,
+        "placeholder_rows": 7,
+        "placeholder_pct": 6.09
+      },
+      "agent4": {
+        "total_rows": 115,
+        "unique_assistant_strings": 115,
+        "top_string_count": 1,
+        "mode_collapse_pct": 0.87,
+        "placeholder_rows": 7,
+        "placeholder_pct": 6.09
+      },
+      "agent5": {
+        "total_rows": 115,
+        "unique_assistant_strings": 114,
+        "top_string_count": 2,
+        "mode_collapse_pct": 1.74,
+        "placeholder_rows": 0,
+        "placeholder_pct": 0.0
+      }
+    },
+    "test": {
+      "agent1": {
+        "total_rows": 142,
+        "unique_assistant_strings": 142,
+        "top_string_count": 1,
+        "mode_collapse_pct": 0.7,
+        "placeholder_rows": 0,
+        "placeholder_pct": 0.0
+      },
+      "agent2": {
+        "total_rows": 142,
+        "unique_assistant_strings": 40,
+        "top_string_count": 22,
+        "mode_collapse_pct": 15.49,
+        "placeholder_rows": 0,
+        "placeholder_pct": 0.0
+      },
+      "agent3": {
+        "total_rows": 142,
+        "unique_assistant_strings": 49,
+        "top_string_count": 28,
+        "mode_collapse_pct": 19.72,
+        "placeholder_rows": 1,
+        "placeholder_pct": 0.7
+      },
+      "agent4": {
+        "total_rows": 142,
+        "unique_assistant_strings": 141,
+        "top_string_count": 2,
+        "mode_collapse_pct": 1.41,
+        "placeholder_rows": 1,
+        "placeholder_pct": 0.7
+      },
+      "agent5": {
+        "total_rows": 142,
+        "unique_assistant_strings": 141,
+        "top_string_count": 2,
+        "mode_collapse_pct": 1.41,
+        "placeholder_rows": 0,
+        "placeholder_pct": 0.0
+      }
+    }
+  }
+}
